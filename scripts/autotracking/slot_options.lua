@@ -14,9 +14,9 @@ function get_slot_options(slot_data)
 		local obj = Tracker:FindObjectForCode('opt_cicada')
 		local setting = slot_data["vanilla_health_cicadas"]
 		if setting == true then
-			obj.CurrentStage = 1
-		else
 			obj.CurrentStage = 0
+		else
+			obj.CurrentStage = 1
 		end
 	end
 
