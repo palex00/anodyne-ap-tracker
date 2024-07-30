@@ -30,6 +30,7 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
+		"codes": "opt_cicada",
         "stages": [
             {
                 "name": "Health Cicadas are Vanilla",
