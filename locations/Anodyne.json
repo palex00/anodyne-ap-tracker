@@ -1,0 +1,2282 @@
+[
+    {
+        "name": "Anodyne",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Apartment",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "1F Couches Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/apartmentfloor1topleft"
+                        ]
+                    },
+                    {
+                        "name": "1F Exterior Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/apartmentfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Ledge Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/apartmentfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Ledge Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/apartmentfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Rat Maze Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/apartmentfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Rat Maze Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump"
+                        ]
+                    },
+                    {
+                        "name": "2F Rat Maze Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/apartmentfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Rat Maze Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/apartmentfloor2"
+                        ]
+                    },
+                    {
+                        "name": "3F Gauntlet Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/apartmentfloor3"
+                        ]
+                    },
+                    {
+                        "name": "3F Gauntlet Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/apartmentfloor3"
+                        ]
+                    },
+                    {
+                        "name": "Boss Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Apartment|4, @Regions/Regions/apartmentfloor3"
+                        ]
+                    },
+                    {
+                        "name": "Health Cicada",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_cicada_shuffle"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Apartment|4, @Regions/Regions/apartmentfloor3"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|apartment"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/apartmentfloor1"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 912,
+                        "y": 1153,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Beach",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/beach"
+                ],
+                "sections": [
+                    {
+                        "name": "Dock Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Health Cicada",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_cicada_shuffle"
+                        ],
+                        "access_rules": [
+                            "$cards|8, $combat"
+                        ]
+                    },
+                    {
+                        "name": "Out-of-bounds Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap"
+                        ]
+                    },
+                    {
+                        "name": "Secret Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|beach"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 608,
+                        "y": 1041,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Temple of the Seeing One",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "After Statue Left Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat,TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
+                        ]
+                    },
+                    {
+                        "name": "After Statue Left Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat,TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
+                        ]
+                    },
+                    {
+                        "name": "After Statue Right Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat,TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
+                        ]
+                    },
+                    {
+                        "name": "Boss Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/bedroomexit"
+                        ]
+                    },
+                    {
+                        "name": "Dark Room Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Dark Room Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Entrance Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Entrance Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Green Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_bigkey_shuffle", "opt_bigkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/bedroomexit"
+                        ]
+                    },
+                    {
+                        "name": "Green Key (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/GreenKey.png",
+                        "chest_opened_img": "images/items/GreenKey_collected.png",
+                        "visibility_rules": [
+                            "opt_bigkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/bedroomexit"
+                        ]
+                    },
+                    {
+                        "name": "Health Cicada",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_cicada_shuffle"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroomexit"
+                        ]
+                    },
+                    {
+                        "name": "Rock-Surrounded Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Shieldy Room Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|TempleoftheSeeingOne|3, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|templeoftheseeingone"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/bedroomexit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 912,
+                        "y": 1217,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blank",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/blankwindmill"
+                ],
+                "sections": [
+                    {
+                        "name": "Card Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 227,
+                        "y": 682,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Cell",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/cell"
+                ],
+                "sections": [
+                    {
+                        "name": "Chaser Gauntlet Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, $post_swap"
+                        ]
+                    },
+                    {
+                        "name": "Health Cicada",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_cicada_shuffle"
+                        ],
+                        "access_rules": [
+                            "$cards|24"
+                        ]
+                    },
+                    {
+                        "name": "Top Left Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$jump"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|cell"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 592,
+                        "y": 817,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Circus",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Arthur Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Arthur Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Boss Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus4"
+                        ]
+                    },
+                    {
+                        "name": "Clowns Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Double Clowns Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump,$smallkey|Circus|4, @Regions/Regions/circus4"
+                        ]
+                    },
+                    {
+                        "name": "Fire Pillar Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus2"
+                        ]
+                    },
+                    {
+                        "name": "Health Cicada",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_cicada_shuffle"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/circus4"
+                        ]
+                    },
+                    {
+                        "name": "Javiera Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus2"
+                        ]
+                    },
+                    {
+                        "name": "Javiera Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus2"
+                        ]
+                    },
+                    {
+                        "name": "Lion Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus3"
+                        ]
+                    },
+                    {
+                        "name": "Lion Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus3"
+                        ]
+                    },
+                    {
+                        "name": "Rat Maze Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Rat Maze Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|circus"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/circus"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 512,
+                        "y": 817,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Cliffs",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Lower Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/cliffpostwindmill"
+                        ]
+                    },
+                    {
+                        "name": "Upper Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/cliffpostwindmill"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|cliffs"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/cliff"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 832,
+                        "y": 881,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Mountain Cavern",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "2F Crowded Ledge Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump,$smallkey|MountainCavern|4, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Entrance Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Entrance Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Four Enemies Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Four Enemies Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Frogs and Dog Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Frogs and Dog Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Frogs and Rotators Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Frogs and Rotators Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "3F Roller Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump,$smallkey|MountainCavern|4, @Regions/Regions/crowdfloor3"
+                        ]
+                    },
+                    {
+                        "name": "Blue Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_bigkey_shuffle", "opt_bigkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/crowdexit"
+                        ]
+                    },
+                    {
+                        "name": "Blue Key (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/BlueKey.png",
+                        "chest_opened_img": "images/items/BlueKey_collected.png",
+                        "visibility_rules": [
+                            "opt_bigkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/crowdexit"
+                        ]
+                    },
+                    {
+                        "name": "Boss Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/crowdexit"
+                        ]
+                    },
+                    {
+                        "name": "Extend Upgrade Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "@Regions/Regions/crowdjumpchallenge"
+                        ],
+                        "access_rules": [
+                            "$jump"
+                        ]
+                    },
+                    {
+                        "name": "Health Cicada",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_cicada_shuffle"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/crowdfloor1"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|mountaincavern"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/crowdexit"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 912,
+                        "y": 881,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Debug",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/debug"
+                ],
+                "sections": [
+                    {
+                        "name": "Jumping Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Lower Prison Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Maze Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$jump"
+                        ]
+                    },
+                    {
+                        "name": "River Puzzles Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump"
+                        ]
+                    },
+                    {
+                        "name": "Upper Prison Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 576,
+                        "y": 560,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Drawer",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/drawer"
+                ],
+                "sections": [
+                    {
+                        "name": "Brown Area Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Game Over Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 721,
+                        "y": 564,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Fields",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/fields"
+                ],
+                "sections": [
+                    {
+                        "name": "Blocked River Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$jump, $post_swap"
+                        ]
+                    },
+                    {
+                        "name": "Cardboard Box",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Gauntlet Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump"
+                        ]
+                    },
+                    {
+                        "name": "Goldman's Cave Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat"
+                        ]
+                    },
+                    {
+                        "name": "Island Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump"
+                        ]
+                    },
+                    {
+                        "name": "Mitra Trade",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "BikingShoes"
+                        ]
+                    },
+                    {
+                        "name": "Near Overworld Secret Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap"
+                        ]
+                    },
+                    {
+                        "name": "Near Terminal Secret Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap"
+                        ]
+                    },
+                    {
+                        "name": "Secluded Glen Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap"
+                        ]
+                    },
+                    {
+                        "name": "Shopkeeper Trade",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "CardboardBox"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|fields"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 720,
+                        "y": 1041,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Deep Forest",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/forest"
+                ],
+                "sections": [
+                    {
+                        "name": "Bunny Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap"
+                        ]
+                    },
+                    {
+                        "name": "Inlet Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|deepforest"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 832,
+                        "y": 1041,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "GO",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Briar",
+						"hosted_item": "briar",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/gotop"
+                        ]
+                    },
+                    {
+                        "name": "Secret Color Puzzle Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap, @Regions/Regions/gobottom"
+                        ]
+                    },
+                    {
+                        "name": "Swap Upgrade Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/gobottom"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|go"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/gobottom"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 672,
+                        "y": 897,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Hotel",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "1F Burst Flowers Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Burst Flowers Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
+                        "name": "2F Backrooms Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/hotelfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Backrooms Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/hotelfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Crevice Left Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$jump, @Regions/Regions/hotelfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Crevice Left Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$jump, @Regions/Regions/hotelfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Crevice Right Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/hotelfloor2right"
+                        ]
+                    },
+                    {
+                        "name": "2F Crevice Right Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/hotelfloor2right"
+                        ]
+                    },
+                    {
+                        "name": "2F Dog Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/hotelfloor2right"
+                        ]
+                    },
+                    {
+                        "name": "3F Dashers Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$smallkey|Hotel|6, @Regions/Regions/hotelfloor3"
+                        ]
+                    },
+                    {
+                        "name": "3F Gasguy Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/hotelfloor3"
+                        ]
+                    },
+                    {
+                        "name": "3F Gasguy Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/hotelfloor3"
+                        ]
+                    },
+                    {
+                        "name": "3F Rotators Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/hotelfloor3"
+                        ]
+                    },
+                    {
+                        "name": "3F Rotators Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/hotelfloor3"
+                        ]
+                    },
+                    {
+                        "name": "4F Annoyers Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/hotelfloor4"
+                        ]
+                    },
+                    {
+                        "name": "4F Annoyers Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/hotelfloor4"
+                        ]
+                    },
+                    {
+                        "name": "4F Dust Blower Maze Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump,$smallkey|Hotel|1, @Regions/Regions/hotelfloor4"
+                        ]
+                    },
+                    {
+                        "name": "Boss Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|6, @Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
+                        "name": "Health Cicada",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$combat,$smallkey|Hotel|6, @Regions/Regions/hotelfloor1"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Roof Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap, @Regions/Regions/hotelroof"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|hotel"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/hotelfloor4"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 912,
+                        "y": 817,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Nexus",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/nexustop"
+                ],
+                "sections": [
+                    {
+                        "name": "Isolated Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap"
+                        ]
+                    },
+					{
+						"name": "Card Goal",
+						"item_count": 1,
+						"visibility_rules": [
+							"opt_goal_cards"
+						],
+						"access_rules": [
+							"$cards|49"
+						]
+					}
+                ],
+                "map_locations": [
+                    {
+                        "map": "DUMMY",
+                        "x": 0,
+                        "y": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            {
+                "name": "Overworld",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "After Temple Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/overworldpostwindmill"
+                        ]
+                    },
+                    {
+                        "name": "Health Cicada",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_cicada_shuffle"
+                        ],
+                        "access_rules": [
+                            "$combat,$cards|4, @Regions/Regions/overworld"
+                        ]
+                    },
+                    {
+                        "name": "Near Gate Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/overworld"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|overworld"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/overworld"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 832,
+                        "y": 1217,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Red Cave",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Boss Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcaveexit"
+                        ]
+                    },
+                    {
+                        "name": "Health Cicada",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_cicada_shuffle"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcavetop"
+                        ]
+                    },
+                    {
+                        "name": "Isaac Dungeon Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveisaac"
+                        ]
+                    },
+                    {
+                        "name": "Left Cave Rapids Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveleft"
+                        ]
+                    },
+                    {
+                        "name": "Left Cave Rapids Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveleft"
+                        ]
+                    },
+                    {
+                        "name": "Left Cave Sticky Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveleft"
+                        ]
+                    },
+                    {
+                        "name": "Left Cave Sticky Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveleft"
+                        ]
+                    },
+                    {
+                        "name": "Left Cave Tentacle",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_redcave_shuffle"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|RedCave|6, @Regions/Regions/redcaveleft"
+                        ]
+                    },
+                    {
+                        "name": "Middle Cave Left Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Middle Cave Left Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Middle Cave Left Tentacle",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_redcave_shuffle"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Middle Cave Middle Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$smallkey|RedCave|6, @Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Middle Cave Right Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Middle Cave Right Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Middle Cave Right Tentacle",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_redcave_shuffle"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|RedCave|6, @Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Red Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_bigkey_shuffle", "opt_bigkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcaveexit"
+                        ]
+                    },
+                    {
+                        "name": "Red Key (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/RedKey.png",
+                        "chest_opened_img": "images/items/RedKey_collected.png",
+                        "visibility_rules": [
+                            "opt_bigkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcaveexit"
+                        ]
+                    },
+                    {
+                        "name": "Right Cave Four Shooter Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcaveright"
+                        ]
+                    },
+                    {
+                        "name": "Right Cave Four Shooter Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcaveright"
+                        ]
+                    },
+                    {
+                        "name": "Right Cave Slasher Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcaveright"
+                        ]
+                    },
+                    {
+                        "name": "Right Cave Slasher Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcaveright"
+                        ]
+                    },
+                    {
+                        "name": "Right Cave Tentacle",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_redcave_shuffle"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveright"
+                        ]
+                    },
+                    {
+                        "name": "Top Cave Slasher Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavetop"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|redcave"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcaveexit"
+                        ]
+                    },
+                    {
+                        "name": "Widen Upgrade Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcavebottom"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 512,
+                        "y": 882,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Red Sea",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/redsea"
+                ],
+                "sections": [
+                    {
+                        "name": "Lonely Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Out-of-bounds Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|redsea"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 592,
+                        "y": 882,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Young Town",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Health Cicada",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_cicada_shuffle"
+                        ],
+                        "access_rules": [
+                            "$combat,$cards|16, @Regions/Regions/suburb"
+                        ]
+                    },
+                    {
+                        "name": "Killers Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$combat,$post_swap, @Regions/Regions/suburb"
+                        ]
+                    },
+                    {
+                        "name": "Stab Reward Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/suburbcardhouse"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|youngtown"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/suburb"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 832,
+                        "y": 1153,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Space",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/space"
+                ],
+                "sections": [
+                    {
+                        "name": "Challenge Area Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$combat,$post_swap"
+                        ]
+                    },
+                    {
+                        "name": "Hidden Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Left Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Right Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|space"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 832,
+                        "y": 817,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Street",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/street"
+                ],
+                "sections": [
+                    {
+                        "name": "Broom Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Key Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                        ],
+                        "access_rules": [
+                            "$combat"
+                        ]
+                    },
+                    {
+                        "name": "Key Chest (Vanilla)",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/SmallKey.png",
+                        "chest_opened_img": "images/items/SmallKey_collected.png",
+                        "visibility_rules": [
+                            "opt_smallkey_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat"
+                        ]
+                    },
+                    {
+                        "name": "Secret Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$post_swap"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 576,
+                        "y": 1217,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Terminal",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/terminal"
+                ],
+                "sections": [
+                    {
+                        "name": "Broken Bridge Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|terminal"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 672,
+                        "y": 977,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Windmill",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Activation",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/windmill"
+                        ]
+                    },
+                    {
+                        "name": "Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/windmill"
+                        ]
+                    },
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|windmill"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/windmillentrance"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 768,
+                        "y": 977,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Boss Rush",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/bossrush"
+                ],
+                "sections": [
+                    {
+                        "name": "Reward Chest",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$postgame_visibility"
+                        ],
+                        "access_rules": [
+                            "$combat"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 832,
+                        "y": 560,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Blue",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/blue"
+                ],
+                "sections": [
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|blue"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 672,
+                        "y": 833,
+                        "size": 30
+                    }
+                ]
+            },
+            {
+                "name": "Happy",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "@Regions/Regions/happy"
+                ],
+                "sections": [
+                    {
+                        "name": "Warp Pad",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$pad_location|happy"
+                        ],
+                        "access_rules": [
+                            ""
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "NEXUS",
+                        "x": 765,
+                        "y": 833,
+                        "size": 30
+                    }
+                ]
+            }
+        ]
+    }
+]

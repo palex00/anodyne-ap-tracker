@@ -1,0 +1,148 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "children": [
+{"name": "", "sections": [{"name": "Apartment - 1F Ledge Chest", "ref": "Apartment/1F Ledge Chest"}], "map_locations": [{"map": "APARTMENT", "x": 24, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Apartment - 1F Rat Maze Chest", "ref": "Apartment/1F Rat Maze Chest"}], "map_locations": [{"map": "APARTMENT", "x": 536, "y": 216, "size": 30}]}
+,{"name": "", "sections": [{"name": "Apartment - 1F Exterior Chest", "ref": "Apartment/1F Exterior Chest"}], "map_locations": [{"map": "APARTMENT", "x": 600, "y": 920, "size": 30}]}
+,{"name": "", "sections": [{"name": "Apartment - 1F Couches Chest", "ref": "Apartment/1F Couches Chest"}], "map_locations": [{"map": "APARTMENT", "x": 136, "y": 72, "size": 30}]}
+,{"name": "", "sections": [{"name": "Apartment - 2F Rat Maze Chest", "ref": "Apartment/2F Rat Maze Chest"}], "map_locations": [{"map": "APARTMENT", "x": 1320, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Apartment - 3F Gauntlet Chest", "ref": "Apartment/3F Gauntlet Chest"}], "map_locations": [{"map": "APARTMENT", "x": 1096, "y": 984, "size": 30}]}
+,{"name": "", "sections": [{"name": "Apartment - Boss Chest", "ref": "Apartment/Boss Chest"}], "map_locations": [{"map": "APARTMENT", "x": 1384, "y": 1176, "size": 30}]}
+,{"name": "", "sections": [{"name": "Beach - Dock Chest", "ref": "Beach/Dock Chest"}], "map_locations": [{"map": "BEACH", "x": 711, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Beach - Secret Chest", "ref": "Beach/Secret Chest"}], "map_locations": [{"map": "BEACH", "x": 376, "y": 56, "size": 30}]}
+,{"name": "", "sections": [{"name": "Beach - Out-of-bounds Chest", "ref": "Beach/Out-of-bounds Chest"}], "map_locations": [{"map": "BEACH", "x": 712, "y": 1080, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - Entrance Chest", "ref": "Temple of the Seeing One/Entrance Chest"}], "map_locations": [{"map": "BEDROOM", "x": 24, "y": 664, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - Shieldy Room Chest", "ref": "Temple of the Seeing One/Shieldy Room Chest"}], "map_locations": [{"map": "BEDROOM", "x": 184, "y": 24, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - Rock-Surrounded Chest", "ref": "Temple of the Seeing One/Rock-Surrounded Chest"}], "map_locations": [{"map": "BEDROOM", "x": 456, "y": 600, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - Boss Chest", "ref": "Temple of the Seeing One/Boss Chest"}], "map_locations": [{"map": "BEDROOM", "x": 552, "y": 40, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - After Statue Left Chest", "ref": "Temple of the Seeing One/After Statue Left Chest"}], "map_locations": [{"map": "BEDROOM", "x": 920, "y": 24, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - After Statue Right Chest", "ref": "Temple of the Seeing One/After Statue Right Chest"}], "map_locations": [{"map": "BEDROOM", "x": 936, "y": 24, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - Dark Room Chest", "ref": "Temple of the Seeing One/Dark Room Chest"}], "map_locations": [{"map": "BEDROOM", "x": 184, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Blank - Card Chest", "ref": "Blank/Card Chest"}], "map_locations": [{"map": "BLANK", "x": 920, "y": 264, "size": 30}]}
+,{"name": "", "sections": [{"name": "Cell - Top Left Chest", "ref": "Cell/Top Left Chest"}], "map_locations": [{"map": "CELL", "x": 104, "y": 56, "size": 30}]}
+,{"name": "", "sections": [{"name": "Cell - Chaser Gauntlet Chest", "ref": "Cell/Chaser Gauntlet Chest"}], "map_locations": [{"map": "CELL", "x": 904, "y": 1352, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Rat Maze Chest", "ref": "Circus/Rat Maze Chest"}], "map_locations": [{"map": "CIRCUS", "x": 360, "y": 824, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Clowns Chest", "ref": "Circus/Clowns Chest"}], "map_locations": [{"map": "CIRCUS", "x": 88, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Fire Pillar Chest", "ref": "Circus/Fire Pillar Chest"}], "map_locations": [{"map": "CIRCUS", "x": 536, "y": 1080, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Arthur Chest", "ref": "Circus/Arthur Chest"}], "map_locations": [{"map": "CIRCUS", "x": 1208, "y": 824, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Javiera Chest", "ref": "Circus/Javiera Chest"}], "map_locations": [{"map": "CIRCUS", "x": 1208, "y": 344, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Lion Chest", "ref": "Circus/Lion Chest"}], "map_locations": [{"map": "CIRCUS", "x": 232, "y": 344, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Double Clowns Chest", "ref": "Circus/Double Clowns Chest"}], "map_locations": [{"map": "CIRCUS", "x": 616, "y": 424, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Boss Chest", "ref": "Circus/Boss Chest"}], "map_locations": [{"map": "CIRCUS", "x": 1192, "y": 24, "size": 30}]}
+,{"name": "", "sections": [{"name": "Cliffs - Upper Chest", "ref": "Cliffs/Upper Chest"}], "map_locations": [{"map": "CLIFFS", "x": 744, "y": 392, "size": 30}]}
+,{"name": "", "sections": [{"name": "Cliffs - Lower Chest", "ref": "Cliffs/Lower Chest"}], "map_locations": [{"map": "CLIFFS", "x": 440, "y": 1224, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - 2F Crowded Ledge Chest", "ref": "Mountain Cavern/2F Crowded Ledge Chest"}], "map_locations": [{"map": "CROWD", "x": 360, "y": 344, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - 2F Four Enemies Chest", "ref": "Mountain Cavern/2F Four Enemies Chest"}], "map_locations": [{"map": "CROWD", "x": 344, "y": 600, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - 2F Entrance Chest", "ref": "Mountain Cavern/2F Entrance Chest"}], "map_locations": [{"map": "CROWD", "x": 504, "y": 984, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - 2F Frogs and Dog Chest", "ref": "Mountain Cavern/2F Frogs and Dog Chest"}], "map_locations": [{"map": "CROWD", "x": 616, "y": 344, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - 3F Roller Chest", "ref": "Mountain Cavern/3F Roller Chest"}], "map_locations": [{"map": "CROWD", "x": 1416, "y": 440, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - Boss Chest", "ref": "Mountain Cavern/Boss Chest"}], "map_locations": [{"map": "CROWD", "x": 1496, "y": 840, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - Extend Upgrade Chest", "ref": "Mountain Cavern/Extend Upgrade Chest"}], "map_locations": [{"map": "CROWD", "x": 1208, "y": 984, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - 2F Frogs and Rotators Chest", "ref": "Mountain Cavern/2F Frogs and Rotators Chest"}], "map_locations": [{"map": "CROWD", "x": 904, "y": 712, "size": 30}]}
+,{"name": "", "sections": [{"name": "Debug - River Puzzles Chest", "ref": "Debug/River Puzzles Chest"}], "map_locations": [{"map": "DEBUG", "x": 728, "y": 600, "size": 30}]}
+,{"name": "", "sections": [{"name": "Debug - Upper Prison Chest", "ref": "Debug/Upper Prison Chest"}], "map_locations": [{"map": "DEBUG", "x": 72, "y": 664, "size": 30}]}
+,{"name": "", "sections": [{"name": "Debug - Lower Prison Chest", "ref": "Debug/Lower Prison Chest"}], "map_locations": [{"map": "DEBUG", "x": 136, "y": 1080, "size": 30}]}
+,{"name": "", "sections": [{"name": "Debug - Jumping Chest", "ref": "Debug/Jumping Chest"}], "map_locations": [{"map": "DEBUG", "x": 872, "y": 56, "size": 30}]}
+,{"name": "", "sections": [{"name": "Debug - Maze Chest", "ref": "Debug/Maze Chest"}], "map_locations": [{"map": "DEBUG", "x": 888, "y": 1496, "size": 30}]}
+,{"name": "", "sections": [{"name": "Drawer - Game Over Chest", "ref": "Drawer/Game Over Chest"}], "map_locations": [{"map": "DRAWER", "x": 440, "y": 200, "size": 30}]}
+,{"name": "", "sections": [{"name": "Drawer - Brown Area Chest", "ref": "Drawer/Brown Area Chest"}], "map_locations": [{"map": "DRAWER", "x": 776, "y": 1240, "size": 30}]}
+,{"name": "", "sections": [{"name": "Fields - Island Chest", "ref": "Fields/Island Chest"}], "map_locations": [{"map": "FIELDS", "x": 1032, "y": 1464, "size": 30}]}
+,{"name": "", "sections": [{"name": "Fields - Gauntlet Chest", "ref": "Fields/Gauntlet Chest"}], "map_locations": [{"map": "FIELDS", "x": 536, "y": 1352, "size": 30}]}
+,{"name": "", "sections": [{"name": "Fields - Goldman's Cave Chest", "ref": "Fields/Goldman's Cave Chest"}], "map_locations": [{"map": "FIELDS", "x": 1368, "y": 24, "size": 30}]}
+,{"name": "", "sections": [{"name": "Fields - Blocked River Chest", "ref": "Fields/Blocked River Chest"}], "map_locations": [{"map": "FIELDS", "x": 1864, "y": 1512, "size": 30}]}
+,{"name": "", "sections": [{"name": "Fields - Cardboard Box", "ref": "Fields/Cardboard Box"}], "map_locations": [{"map": "FIELDS", "x": 1160, "y": 440, "size": 30}]}
+,{"name": "", "sections": [{"name": "Fields - Shopkeeper Trade", "ref": "Fields/Shopkeeper Trade"}], "map_locations": [{"map": "FIELDS", "x": 1192, "y": 712, "size": 30}]}
+,{"name": "", "sections": [{"name": "Fields - Mitra Trade", "ref": "Fields/Mitra Trade"}], "map_locations": [{"map": "FIELDS", "x": 904, "y": 712, "size": 30}]}
+,{"name": "", "sections": [{"name": "Fields - Near Overworld Secret Chest", "ref": "Fields/Near Overworld Secret Chest"}], "map_locations": [{"map": "FIELDS", "x": 744, "y": 264, "size": 30}]}
+,{"name": "", "sections": [{"name": "Fields - Secluded Glen Chest", "ref": "Fields/Secluded Glen Chest"}], "map_locations": [{"map": "FIELDS", "x": 1736, "y": 1176, "size": 30}]}
+,{"name": "", "sections": [{"name": "Fields - Near Terminal Secret Chest", "ref": "Fields/Near Terminal Secret Chest"}], "map_locations": [{"map": "FIELDS", "x": 536, "y": 232, "size": 30}]}
+,{"name": "", "sections": [{"name": "Deep Forest - Inlet Chest", "ref": "Deep Forest/Inlet Chest"}], "map_locations": [{"map": "FOREST", "x": 536, "y": 392, "size": 30}]}
+,{"name": "", "sections": [{"name": "Deep Forest - Bunny Chest", "ref": "Deep Forest/Bunny Chest"}], "map_locations": [{"map": "FOREST", "x": 88, "y": 88, "size": 30}]}
+,{"name": "", "sections": [{"name": "GO - Swap Upgrade Chest", "ref": "GO/Swap Upgrade Chest"}], "map_locations": [{"map": "GO", "x": 401, "y": 760, "size": 30}]}
+,{"name": "", "sections": [{"name": "GO - Defeat Briar", "ref": "GO/Defeat Briar"}], "map_locations": [{"map": "GO", "x": 400, "y": 240, "size": 30}]}
+,{"name": "", "sections": [{"name": "GO - Secret Color Puzzle Chest", "ref": "GO/Secret Color Puzzle Chest"}], "map_locations": [{"map": "GO", "x": 139, "y": 664, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 4F Annoyers Chest", "ref": "Hotel/4F Annoyers Chest"}], "map_locations": [{"map": "HOTEL", "x": 776, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 4F Dust Blower Maze Chest", "ref": "Hotel/4F Dust Blower Maze Chest"}], "map_locations": [{"map": "HOTEL", "x": 616, "y": 984, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 3F Dashers Chest", "ref": "Hotel/3F Dashers Chest"}], "map_locations": [{"map": "HOTEL", "x": 296, "y": 1304, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 3F Gasguy Chest", "ref": "Hotel/3F Gasguy Chest"}], "map_locations": [{"map": "HOTEL", "x": 616, "y": 1784, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 3F Rotators Chest", "ref": "Hotel/3F Rotators Chest"}], "map_locations": [{"map": "HOTEL", "x": 616, "y": 1624, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 2F Dog Chest", "ref": "Hotel/2F Dog Chest"}], "map_locations": [{"map": "HOTEL", "x": 1576, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 2F Crevice Right Chest", "ref": "Hotel/2F Crevice Right Chest"}], "map_locations": [{"map": "HOTEL", "x": 1416, "y": 344, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 2F Backrooms Chest", "ref": "Hotel/2F Backrooms Chest"}], "map_locations": [{"map": "HOTEL", "x": 1032, "y": 552, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 1F Burst Flowers Chest", "ref": "Hotel/1F Burst Flowers Chest"}], "map_locations": [{"map": "HOTEL", "x": 1144, "y": 984, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 2F Crevice Left Chest", "ref": "Hotel/2F Crevice Left Chest"}], "map_locations": [{"map": "HOTEL", "x": 1336, "y": 376, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - Boss Chest", "ref": "Hotel/Boss Chest"}], "map_locations": [{"map": "HOTEL", "x": 1352, "y": 1832, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - Roof Chest", "ref": "Hotel/Roof Chest"}], "map_locations": [{"map": "HOTEL", "x": 936, "y": 88, "size": 30}]}
+,{"name": "", "sections": [{"name": "Nexus - Isolated Chest", "ref": "Nexus/Isolated Chest"}], "map_locations": [{"map": "NEXUS", "x": 840, "y": 408, "size": 30}]}
+,{"name": "", "sections": [{"name": "Card Goal", "ref": "Nexus/Card Goal"}], "map_locations": [{"map": "NEXUS", "x": 720, "y": 352, "size": 30}]}
+,{"name": "", "sections": [{"name": "Overworld - Near Gate Chest", "ref": "Anodyne/Overworld/Near Gate Chest"}], "map_locations": [{"map": "OVERWORLD", "x": 184, "y": 1544, "size": 30}]}
+,{"name": "", "sections": [{"name": "Overworld - After Temple Chest", "ref": "Anodyne/Overworld/After Temple Chest"}], "map_locations": [{"map": "OVERWORLD", "x": 920, "y": 1240, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Top Cave Slasher Chest", "ref": "Red Cave/Top Cave Slasher Chest"}], "map_locations": [{"map": "REDCAVE", "x": 24, "y": 24, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Middle Cave Right Chest", "ref": "Red Cave/Middle Cave Right Chest"}], "map_locations": [{"map": "REDCAVE", "x": 600, "y": 184, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Middle Cave Left Chest", "ref": "Red Cave/Middle Cave Left Chest"}], "map_locations": [{"map": "REDCAVE", "x": 520, "y": 184, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Middle Cave Middle Chest", "ref": "Red Cave/Middle Cave Middle Chest"}], "map_locations": [{"map": "REDCAVE", "x": 552, "y": 184, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Boss Chest", "ref": "Red Cave/Boss Chest"}], "map_locations": [{"map": "REDCAVE", "x": 984, "y": 264, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Left Cave Rapids Chest", "ref": "Red Cave/Left Cave Rapids Chest"}], "map_locations": [{"map": "REDCAVE", "x": 40, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Right Cave Slasher Chest", "ref": "Red Cave/Right Cave Slasher Chest"}], "map_locations": [{"map": "REDCAVE", "x": 1032, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Right Cave Four Shooter Chest", "ref": "Red Cave/Right Cave Four Shooter Chest"}], "map_locations": [{"map": "REDCAVE", "x": 936, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Left Cave Sticky Chest", "ref": "Red Cave/Left Cave Sticky Chest"}], "map_locations": [{"map": "REDCAVE", "x": 280, "y": 520, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Widen Upgrade Chest", "ref": "Red Cave/Widen Upgrade Chest"}], "map_locations": [{"map": "REDCAVE", "x": 776, "y": 984, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Isaac Dungeon Chest", "ref": "Red Cave/Isaac Dungeon Chest"}], "map_locations": [{"map": "REDCAVE", "x": 392, "y": 1464, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Sea - Lonely Chest", "ref": "Red Sea/Lonely Chest"}], "map_locations": [{"map": "REDSEA", "x": 392, "y": 440, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Sea - Out-of-bounds Chest", "ref": "Red Sea/Out-of-bounds Chest"}], "map_locations": [{"map": "REDSEA", "x": 40, "y": 1032, "size": 30}]}
+,{"name": "", "sections": [{"name": "Young Town - Stab Reward Chest", "ref": "Young Town/Stab Reward Chest"}], "map_locations": [{"map": "SUBURB", "x": 264, "y": 1192, "size": 30}]}
+,{"name": "", "sections": [{"name": "Young Town - Killers Chest", "ref": "Young Town/Killers Chest"}], "map_locations": [{"map": "SUBURB", "x": 392, "y": 1240, "size": 30}]}
+,{"name": "", "sections": [{"name": "Space - Left Chest", "ref": "Space/Left Chest"}], "map_locations": [{"map": "SPACE", "x": 88, "y": 56, "size": 30}]}
+,{"name": "", "sections": [{"name": "Space - Right Chest", "ref": "Space/Right Chest"}], "map_locations": [{"map": "SPACE", "x": 1528, "y": 40, "size": 30}]}
+,{"name": "", "sections": [{"name": "Space - Challenge Area Chest", "ref": "Space/Challenge Area Chest"}], "map_locations": [{"map": "SPACE", "x": 880, "y": 1210, "size": 30}]}
+,{"name": "", "sections": [{"name": "Space - Hidden Chest", "ref": "Space/Hidden Chest"}], "map_locations": [{"map": "SPACE", "x": 504, "y": 24, "size": 30}]}
+,{"name": "", "sections": [{"name": "Street - Key Chest", "ref": "Street/Key Chest"}], "map_locations": [{"map": "STREET", "x": 24, "y": 664, "size": 30}]}
+,{"name": "", "sections": [{"name": "Street - Broom Chest", "ref": "Street/Broom Chest"}], "map_locations": [{"map": "STREET", "x": 776, "y": 680, "size": 30}]}
+,{"name": "", "sections": [{"name": "Street - Secret Chest", "ref": "Street/Secret Chest"}], "map_locations": [{"map": "STREET", "x": 280, "y": 1016, "size": 30}]}
+,{"name": "", "sections": [{"name": "Terminal - Broken Bridge Chest", "ref": "Terminal/Broken Bridge Chest"}], "map_locations": [{"map": "TERMINAL", "x": 744, "y": 392, "size": 30}]}
+,{"name": "", "sections": [{"name": "Windmill - Chest", "ref": "Windmill/Chest"}], "map_locations": [{"map": "WINDMILL", "x": 184, "y": 840, "size": 30}]}
+,{"name": "", "sections": [{"name": "Windmill - Activation", "ref": "Windmill/Activation"}], "map_locations": [{"map": "WINDMILL", "x": 200, "y": 376, "size": 30}]}
+,{"name": "", "sections": [{"name": "Boss Rush - Reward Chest", "ref": "Boss Rush/Reward Chest"}], "map_locations": [{"map": "BOSSRUSH", "x": 376, "y": 104, "size": 30}]}
+,{"name": "", "sections": [{"name": "Apartment - Health Cicada", "ref": "Apartment/Health Cicada"}], "map_locations": [{"map": "APARTMENT", "x": 1192, "y": 1032, "size": 30}]}
+,{"name": "", "sections": [{"name": "Beach - Health Cicada", "ref": "Beach/Health Cicada"}], "map_locations": [{"map": "BEACH", "x": 232, "y": 408, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - Health Cicada", "ref": "Temple of the Seeing One/Health Cicada"}], "map_locations": [{"map": "BEDROOM", "x": 376, "y": 72, "size": 30}]}
+,{"name": "", "sections": [{"name": "Cell - Health Cicada", "ref": "Cell/Health Cicada"}], "map_locations": [{"map": "CELL", "x": 1000, "y": 1000, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Health Cicada", "ref": "Circus/Health Cicada"}], "map_locations": [{"map": "CIRCUS", "x": 712, "y": 184, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - Health Cicada", "ref": "Mountain Cavern/Health Cicada"}], "map_locations": [{"map": "CROWD", "x": 1512, "y": 1016, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - Health Cicada", "ref": "Hotel/Health Cicada"}], "map_locations": [{"map": "HOTEL", "x": 1352, "y": 1688, "size": 30}]}
+,{"name": "", "sections": [{"name": "Overworld - Health Cicada", "ref": "Anodyne/Anodyne/Overworld/Health Cicada"}], "map_locations": [{"map": "OVERWORLD", "x": 264, "y": 904, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Health Cicada", "ref": "Red Cave/Health Cicada"}], "map_locations": [{"map": "REDCAVE", "x": 1048, "y": 72, "size": 30}]}
+,{"name": "", "sections": [{"name": "Young Town - Health Cicada", "ref": "Young Town/Health Cicada"}], "map_locations": [{"map": "SUBURB", "x": 680, "y": 408, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - Green Key", "ref": "Temple of the Seeing One/Green Key"}], "map_locations": [{"map": "BEDROOM", "x": 600, "y": 104, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Red Key", "ref": "Red Cave/Red Key"}], "map_locations": [{"map": "REDCAVE", "x": 1096, "y": 296, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - Blue Key", "ref": "Mountain Cavern/Blue Key"}], "map_locations": [{"map": "CROWD", "x": 1544, "y": 872, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Middle Cave Left Tentacle", "ref": "Red Cave/Middle Cave Left Tentacle"}], "map_locations": [{"map": "REDCAVE", "x": 232, "y": 216, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Middle Cave Right Tentacle", "ref": "Red Cave/Middle Cave Right Tentacle"}], "map_locations": [{"map": "REDCAVE", "x": 840, "y": 200, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Left Cave Tentacle", "ref": "Red Cave/Left Cave Tentacle"}], "map_locations": [{"map": "REDCAVE", "x": 200, "y": 664, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Right Cave Tentacle", "ref": "Red Cave/Right Cave Tentacle"}], "map_locations": [{"map": "REDCAVE", "x": 872, "y": 680, "size": 30}]}
+,{"name": "", "sections": [{"name": "Apartment - Warp Pad", "ref": "Apartment/Warp Pad"}], "map_locations": [{"map": "APARTMENT", "x": 360, "y": 760, "size": 30}]}
+,{"name": "", "sections": [{"name": "Beach - Warp Pad", "ref": "Beach/Warp Pad"}], "map_locations": [{"map": "BEACH", "x": 1031, "y": 392, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - Warp Pad", "ref": "Temple of the Seeing One/Warp Pad"}], "map_locations": [{"map": "BEDROOM", "x": 664, "y": 24, "size": 30}]}
+,{"name": "", "sections": [{"name": "Blue - Warp Pad", "ref": "Blue/Warp Pad"}], "map_locations": [{"map": "BLUE", "x": 120, "y": 120, "size": 30}]}
+,{"name": "", "sections": [{"name": "Cell - Warp Pad", "ref": "Cell/Warp Pad"}], "map_locations": [{"map": "CELL", "x": 552, "y": 520, "size": 30}]}
+,{"name": "", "sections": [{"name": "Cliffs - Warp Pad", "ref": "Cliffs/Warp Pad"}], "map_locations": [{"map": "CLIFFS", "x": 536, "y": 680, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Warp Pad", "ref": "Circus/Warp Pad"}], "map_locations": [{"map": "CIRCUS", "x": 744, "y": 1368, "size": 30}]}
+,{"name": "", "sections": [{"name": "Fields - Warp Pad", "ref": "Fields/Warp Pad"}], "map_locations": [{"map": "FIELDS", "x": 1032, "y": 568, "size": 30}]}
+,{"name": "", "sections": [{"name": "Deep Forest - Warp Pad", "ref": "Deep Forest/Warp Pad"}], "map_locations": [{"map": "FOREST", "x": 232, "y": 1032, "size": 30}]}
+,{"name": "", "sections": [{"name": "GO - Warp Pad", "ref": "GO/Warp Pad"}], "map_locations": [{"map": "GO", "x": 392, "y": 712, "size": 30}]}
+,{"name": "", "sections": [{"name": "Happy - Warp Pad", "ref": "Happy/Warp Pad"}], "map_locations": [{"map": "HAPPY", "x": 184, "y": 408, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - Warp Pad", "ref": "Hotel/Warp Pad"}], "map_locations": [{"map": "HOTEL", "x": 440, "y": 872, "size": 30}]}
+,{"name": "", "sections": [{"name": "Overworld - Warp Pad", "ref": "Anodyne/Overworld/Warp Pad"}], "map_locations": [{"map": "OVERWORLD", "x": 824, "y": 1048, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Warp Pad", "ref": "Red Cave/Warp Pad"}], "map_locations": [{"map": "REDCAVE", "x": 1032, "y": 360, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Sea - Warp Pad", "ref": "Red Sea/Warp Pad"}], "map_locations": [{"map": "REDSEA", "x": 552, "y": 376, "size": 30}]}
+,{"name": "", "sections": [{"name": "Young Town - Warp Pad", "ref": "Young Town/Warp Pad"}], "map_locations": [{"map": "SUBURB", "x": 392, "y": 536, "size": 30}]}
+,{"name": "", "sections": [{"name": "Space - Warp Pad", "ref": "Space/Warp Pad"}], "map_locations": [{"map": "SPACE", "x": 872, "y": 392, "size": 30}]}
+,{"name": "", "sections": [{"name": "Terminal - Warp Pad", "ref": "Terminal/Warp Pad"}], "map_locations": [{"map": "TERMINAL", "x": 440, "y": 728, "size": 30}]}
+,{"name": "", "sections": [{"name": "Windmill - Warp Pad", "ref": "Windmill/Warp Pad"}], "map_locations": [{"map": "WINDMILL", "x": 264, "y": 1032, "size": 30}]}
+        ]
+    }
+]

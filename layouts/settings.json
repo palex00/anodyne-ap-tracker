@@ -1,0 +1,53 @@
+{
+  "setting_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "center",
+        "item_size": "32,40",
+        "rows": [
+          [
+            "opt_smallkey",
+            "opt_cicada",
+            "opt_bigkey",
+            "opt_redcave",
+            "opt_windmill",
+            "opt_nexus",
+			"opt_goal",
+			"opt_endgamecardreq",
+			"opt_postgame",
+			"opt_bunny"
+          ],
+          [
+            "nexus_apartment",
+            "nexus_beach",
+			"nexus_templeoftheseeingone",
+            "nexus_blue",
+            "nexus_cell",
+            "nexus_circus",
+			"nexus_cliffs",
+			"nexus_mountaincavern",
+			"nexus_fields",
+			"nexus_deepforest"
+          ],
+          [
+            "nexus_go",
+            "nexus_happy",
+            "nexus_hotel",
+            "nexus_overworld",
+            "nexus_redcave",
+            "nexus_redsea",
+			"nexus_youngtown",
+			"nexus_space",
+			"nexus_terminal",
+			"nexus_windmill"
+          ]
+        ]
+      }
+    ]
+  }
+}
