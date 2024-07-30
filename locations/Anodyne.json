@@ -1447,10 +1447,10 @@
                         "name": "Health Cicada",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$combat,$smallkey|Hotel|6, @Regions/Regions/hotelfloor1"
+                            "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$combat,$smallkey|Hotel|6, @Regions/Regions/hotelfloor1"
                         ]
                     },
                     {
