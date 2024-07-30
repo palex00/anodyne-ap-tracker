@@ -10,7 +10,7 @@ function get_slot_options(slot_data)
 		end
 	end
 
-    if slot_data["vanilla_health_cicadas"] then
+    if slot_data["vanilla_health_cicadas"] ~= nil then
 		local obj = Tracker:FindObjectForCode('opt_cicada')
 		local setting = slot_data["vanilla_health_cicadas"]
 		if setting == true then
