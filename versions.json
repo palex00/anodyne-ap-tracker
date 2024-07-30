@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.2",
+			"download_url": "https://github.com/palex00/anodyne-ap-tracker/releases/download/0.0.2/anodyne-ap-tracker.0.0.2.zip",
+			"sha256": "1b0ccc66ef5f05922515f62d4f7a5ef5f773a1154bcc7d8dad945a5891461a1c",
+			"changelog": ["Bugfixes"]
+		},
+		{
 			"package_version": "0.0.1",
 			"download_url": "https://github.com/palex00/anodyne-ap-tracker/releases/download/0.0.1/anodyne-ap-tracker.zip",
 			"sha256": "cda39f9da7f666a7412799f1070a51c9fbb724a0177fa7f585fc27d9a3f4a661",
@@ -8,3 +14,11 @@
 		}
 	]
 }
+
+
+
+
+
+
+
+https://github.com/palex00/anodyne-ap-tracker/releases/download/0.0.2/anodyne-ap-tracker.0.0.2.zip
