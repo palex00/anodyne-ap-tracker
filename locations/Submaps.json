@@ -143,6 +143,40 @@
 ,{"name": "", "sections": [{"name": "Space - Warp Pad", "ref": "Space/Warp Pad"}], "map_locations": [{"map": "SPACE", "x": 872, "y": 392, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Terminal - Warp Pad", "ref": "Terminal/Warp Pad"}], "map_locations": [{"map": "TERMINAL", "x": 440, "y": 728, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Windmill - Warp Pad", "ref": "Windmill/Warp Pad"}], "map_locations": [{"map": "WINDMILL", "x": 264, "y": 1032, "size": 30}]}
+
+,{"name": "", "sections": [{"name": "Apartment - 1F Ledge Chest (Vanilla)", "ref": "Apartment/1F Ledge Chest (Vanilla)"}], "map_locations": [{"map": "APARTMENT", "x": 24, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Apartment - 1F Rat Maze Chest (Vanilla)", "ref": "Apartment/1F Rat Maze Chest (Vanilla)"}], "map_locations": [{"map": "APARTMENT", "x": 536, "y": 216, "size": 30}]}
+,{"name": "", "sections": [{"name": "Apartment - 2F Rat Maze Chest (Vanilla)", "ref": "Apartment/2F Rat Maze Chest (Vanilla)"}], "map_locations": [{"map": "APARTMENT", "x": 1320, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Apartment - 3F Gauntlet Chest (Vanilla)", "ref": "Apartment/3F Gauntlet Chest (Vanilla)"}], "map_locations": [{"map": "APARTMENT", "x": 1096, "y": 984, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - Entrance Chest (Vanilla)", "ref": "Temple of the Seeing One/Entrance Chest (Vanilla)"}], "map_locations": [{"map": "BEDROOM", "x": 24, "y": 664, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - After Statue Left Chest (Vanilla)", "ref": "Temple of the Seeing One/After Statue Left Chest (Vanilla)"}], "map_locations": [{"map": "BEDROOM", "x": 920, "y": 24, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - Dark Room Chest (Vanilla)", "ref": "Temple of the Seeing One/Dark Room Chest (Vanilla)"}], "map_locations": [{"map": "BEDROOM", "x": 184, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Rat Maze Chest (Vanilla)", "ref": "Circus/Rat Maze Chest (Vanilla)"}], "map_locations": [{"map": "CIRCUS", "x": 360, "y": 824, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Arthur Chest (Vanilla)", "ref": "Circus/Arthur Chest (Vanilla)"}], "map_locations": [{"map": "CIRCUS", "x": 1208, "y": 824, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Javiera Chest (Vanilla)", "ref": "Circus/Javiera Chest (Vanilla)"}], "map_locations": [{"map": "CIRCUS", "x": 1208, "y": 344, "size": 30}]}
+,{"name": "", "sections": [{"name": "Circus - Lion Chest (Vanilla)", "ref": "Circus/Lion Chest (Vanilla)"}], "map_locations": [{"map": "CIRCUS", "x": 232, "y": 344, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - 2F Four Enemies Chest (Vanilla)", "ref": "Mountain Cavern/2F Four Enemies Chest (Vanilla)"}], "map_locations": [{"map": "CROWD", "x": 344, "y": 600, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - 2F Entrance Chest (Vanilla)", "ref": "Mountain Cavern/2F Entrance Chest (Vanilla)"}], "map_locations": [{"map": "CROWD", "x": 504, "y": 984, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - 2F Frogs and Dog Chest (Vanilla)", "ref": "Mountain Cavern/2F Frogs and Dog Chest (Vanilla)"}], "map_locations": [{"map": "CROWD", "x": 616, "y": 344, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - 2F Frogs and Rotators Chest (Vanilla)", "ref": "Mountain Cavern/2F Frogs and Rotators Chest (Vanilla)"}], "map_locations": [{"map": "CROWD", "x": 904, "y": 712, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 4F Annoyers Chest (Vanilla)", "ref": "Hotel/4F Annoyers Chest (Vanilla)"}], "map_locations": [{"map": "HOTEL", "x": 776, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 3F Gasguy Chest (Vanilla)", "ref": "Hotel/3F Gasguy Chest (Vanilla)"}], "map_locations": [{"map": "HOTEL", "x": 616, "y": 1784, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 3F Rotators Chest (Vanilla)", "ref": "Hotel/3F Rotators Chest (Vanilla)"}], "map_locations": [{"map": "HOTEL", "x": 616, "y": 1624, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 2F Crevice Right Chest (Vanilla)", "ref": "Hotel/2F Crevice Right Chest (Vanilla)"}], "map_locations": [{"map": "HOTEL", "x": 1416, "y": 344, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 2F Backrooms Chest (Vanilla)", "ref": "Hotel/2F Backrooms Chest (Vanilla)"}], "map_locations": [{"map": "HOTEL", "x": 1032, "y": 552, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 1F Burst Flowers Chest (Vanilla)", "ref": "Hotel/1F Burst Flowers Chest (Vanilla)"}], "map_locations": [{"map": "HOTEL", "x": 1144, "y": 984, "size": 30}]}
+,{"name": "", "sections": [{"name": "Hotel - 2F Crevice Left Chest (Vanilla)", "ref": "Hotel/2F Crevice Left Chest (Vanilla)"}], "map_locations": [{"map": "HOTEL", "x": 1336, "y": 376, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Middle Cave Right Chest (Vanilla)", "ref": "Red Cave/Middle Cave Right Chest (Vanilla)"}], "map_locations": [{"map": "REDCAVE", "x": 600, "y": 184, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Middle Cave Left Chest (Vanilla)", "ref": "Red Cave/Middle Cave Left Chest (Vanilla)"}], "map_locations": [{"map": "REDCAVE", "x": 520, "y": 184, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Left Cave Rapids Chest (Vanilla)", "ref": "Red Cave/Left Cave Rapids Chest (Vanilla)"}], "map_locations": [{"map": "REDCAVE", "x": 40, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Right Cave Slasher Chest (Vanilla)", "ref": "Red Cave/Right Cave Slasher Chest (Vanilla)"}], "map_locations": [{"map": "REDCAVE", "x": 1032, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Right Cave Four Shooter Chest (Vanilla)", "ref": "Red Cave/Right Cave Four Shooter Chest (Vanilla)"}], "map_locations": [{"map": "REDCAVE", "x": 936, "y": 504, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Left Cave Sticky Chest (Vanilla)", "ref": "Red Cave/Left Cave Sticky Chest (Vanilla)"}], "map_locations": [{"map": "REDCAVE", "x": 280, "y": 520, "size": 30}]}
+,{"name": "", "sections": [{"name": "Street - Key Chest (Vanilla)", "ref": "Street/Key Chest (Vanilla)"}], "map_locations": [{"map": "STREET", "x": 24, "y": 664, "size": 30}]}
+,{"name": "", "sections": [{"name": "Temple of the Seeing One - Green Key (Vanilla)", "ref": "Temple of the Seeing One/Green Key (Vanilla)"}], "map_locations": [{"map": "BEDROOM", "x": 600, "y": 104, "size": 30}]}
+,{"name": "", "sections": [{"name": "Red Cave - Red Key (Vanilla)", "ref": "Red Cave/Red Key (Vanilla)"}], "map_locations": [{"map": "REDCAVE", "x": 1096, "y": 296, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - Blue Key (Vanilla)", "ref": "Mountain Cavern/Blue Key (Vanilla)"}], "map_locations": [{"map": "CROWD", "x": 1544, "y": 872, "size": 30}]}
+,{"name": "", "sections": [{"name": "Mountain Cavern - Warp Pad", "ref": "Mountain Cavern/Warp Pad"}], "map_locations": [{"map": "CROWD", "x": 1520, "y": 745, "size": 30}]}
         ]
     }
 ]
