@@ -114,7 +114,7 @@
 ,{"name": "", "sections": [{"name": "Circus - Health Cicada", "ref": "Circus/Health Cicada"}], "map_locations": [{"map": "CIRCUS", "x": 712, "y": 184, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Mountain Cavern - Health Cicada", "ref": "Mountain Cavern/Health Cicada"}], "map_locations": [{"map": "CROWD", "x": 1512, "y": 1016, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Hotel - Health Cicada", "ref": "Hotel/Health Cicada"}], "map_locations": [{"map": "HOTEL", "x": 1352, "y": 1688, "size": 30}]}
-,{"name": "", "sections": [{"name": "Overworld - Health Cicada", "ref": "Anodyne/Anodyne/Overworld/Health Cicada"}], "map_locations": [{"map": "OVERWORLD", "x": 264, "y": 904, "size": 30}]}
+,{"name": "", "sections": [{"name": "Overworld - Health Cicada", "ref": "Anodyne/Overworld/Health Cicada"}], "map_locations": [{"map": "OVERWORLD", "x": 264, "y": 904, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Red Cave - Health Cicada", "ref": "Red Cave/Health Cicada"}], "map_locations": [{"map": "REDCAVE", "x": 1048, "y": 72, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Young Town - Health Cicada", "ref": "Young Town/Health Cicada"}], "map_locations": [{"map": "SUBURB", "x": 680, "y": 408, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Temple of the Seeing One - Green Key", "ref": "Temple of the Seeing One/Green Key"}], "map_locations": [{"map": "BEDROOM", "x": 600, "y": 104, "size": 30}]}
