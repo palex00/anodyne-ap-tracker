@@ -861,7 +861,7 @@
                             "@Regions/Regions/crowdjumpchallenge"
                         ],
                         "access_rules": [
-                            "$jump"
+                            "$jump, $combat"
                         ]
                     },
                     {
