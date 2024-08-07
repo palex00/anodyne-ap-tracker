@@ -19,6 +19,16 @@ function get_slot_options(slot_data)
 			obj.CurrentStage = 1
 		end
 	end
+	
+    if slot_data["randomize_color_puzzle"] ~= nil then
+		local obj = Tracker:FindObjectForCode('opt_puzzle')
+		local setting = slot_data["randomize_color_puzzle"]
+		if setting == true then
+			obj.CurrentStage = 0
+		else
+			obj.CurrentStage = 1
+		end
+	end
 
     if slot_data["split_windmill"] then
 		local obj = Tracker:FindObjectForCode('opt_windmill')
