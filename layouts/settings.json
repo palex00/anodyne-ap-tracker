@@ -20,7 +20,8 @@
 			"opt_goal",
 			"opt_endgamecardreq",
 			"opt_postgame",
-			"opt_bunny"
+			"opt_bunny",
+			"opt_puzzle"
           ],
           [
             "nexus_apartment",
