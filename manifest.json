@@ -2,7 +2,7 @@
 {
     "name": "Anodyne Archipelago Tracker",
     "game_name": "Anodyne",
-    "package_version": "0.0.4",
+    "package_version": "0.1.0",
     "package_uid": "anodyne_ap",
     "author": "palex00",
     "variants": {
