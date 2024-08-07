@@ -222,6 +222,26 @@
         ]
     },
     {
+        "name": "GO Puzzle Randomization",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "GO Puzzle is Randomized",
+                "img": "images/items/gopuzzle.png",
+                "codes": "opt_puzzle,opt_puzzle_true"
+            },
+            {
+                "name": "Why would you do this?",
+                "img": "images/items/gopuzzle.png",
+                "img_mods": "@disabled",
+                "codes": "opt_puzzle,opt_puzzle_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "APARTMENT Nexus Gate unlocked from beginning",
         "type": "toggle",
 		"img": "images/items/NexusGate(Apartment).png",
