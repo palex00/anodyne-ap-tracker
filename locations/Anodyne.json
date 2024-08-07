@@ -132,7 +132,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Apartment|4, @Regions/Regions/apartmentfloor3"
+                            "[$combat,$smallkey|Apartment|4], $smallkey|Apartment|2, @Regions/Regions/apartmentfloor3"
                         ]
                     },
                     {
@@ -142,7 +142,7 @@
                             "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Apartment|4, @Regions/Regions/apartmentfloor3"
+                            "$combat,[$smallkey|Apartment|4],$smallkey|Apartment|2, @Regions/Regions/apartmentfloor3"
                         ]
                     },
                     {
@@ -378,7 +378,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|TempleoftheSeeingOne|3, @Regions/Regions/bedroom"
+                            "$combat,$smallkey|TempleoftheSeeingOne|1,[$smallkey|TempleoftheSeeingOne|3], @Regions/Regions/bedroom"
                         ]
                     },
                     {
@@ -721,7 +721,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump,$smallkey|MountainCavern|4, @Regions/Regions/crowdfloor2"
+                            "$combat, $jump, [$smallkey|MountainCavern|4], $smallkey|MountainCavern|1, @Regions/Regions/crowdfloor2"
                         ]
                     },
                     {
@@ -819,7 +819,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump,$smallkey|MountainCavern|4, @Regions/Regions/crowdfloor3"
+                            "$combat, $jump, [$smallkey|MountainCavern|4], $jump,$smallkey|MountainCavern|3, @Regions/Regions/crowdfloor3"
                         ]
                     },
                     {
@@ -1144,7 +1144,7 @@
                         "name": "Bunny Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$postgame_visibility"
+                            "$postgame_visibility, opt_bunny_true"
                         ],
                         "access_rules": [
                             "$post_swap"
@@ -1256,7 +1256,7 @@
                             "opt_smallkey_shuffle", "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/hotelfloor1"
+                            "@Regions/Regions/hotelfloor1, $smallkey|Hotel|3"
                         ]
                     },
                     {
@@ -1354,7 +1354,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$smallkey|Hotel|6, @Regions/Regions/hotelfloor3"
+                            "[$smallkey|Hotel|6], $smallkey|Hotel|2, @Regions/Regions/hotelfloor3"
                         ]
                     },
                     {
@@ -1440,7 +1440,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|6, @Regions/Regions/hotelfloor1"
+                            "$combat, $smallkey|Hotel|4, [$smallkey|Hotel|6], @Regions/Regions/hotelfloor1"
                         ]
                     },
                     {
@@ -1450,7 +1450,7 @@
                             "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|6, @Regions/Regions/hotelfloor1"
+                            "$combat, $smallkey|Hotel|4, [$smallkey|Hotel|6], @Regions/Regions/hotelfloor1"
                         ]
                     },
                     {
@@ -1671,7 +1671,7 @@
                             "opt_redcave_shuffle"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|RedCave|6, @Regions/Regions/redcaveleft"
+                            "$combat, $smallkey|RedCave|2, [$smallkey|RedCave|6], @Regions/Regions/redcaveleft"
                         ]
                     },
                     {
@@ -1713,7 +1713,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$smallkey|RedCave|6, @Regions/Regions/redcavecenter"
+                            "[$smallkey|RedCave|6], $smallkey|RedCave|2, @Regions/Regions/redcavecenter"
                         ]
                     },
                     {
@@ -1745,7 +1745,7 @@
                             "opt_redcave_shuffle"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|RedCave|6, @Regions/Regions/redcavecenter"
+                            "$combat, @Regions/Regions/redcavecenter"
                         ]
                     },
                     {
@@ -1821,7 +1821,7 @@
                             "opt_redcave_shuffle"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/redcaveright"
+                            "$combat, @Regions/Regions/redcaveright, [$smallkey|RedCave|6], $smallkey|RedCave|2"
                         ]
                     },
                     {
