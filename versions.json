@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.1.1",
+			"download_url": "https://github.com/palex00/anodyne-ap-tracker/releases/download/0.1.1/anodyne-ap-tracker-0.1.1.zip",
+			"sha256": "28BFC557DE35E60C4994B36DC95811568E2333D68CEC750F80EC994449CED2F3",
+			"changelog": ["0.1.5 apworld compatibility & bugfixes"]
+		},
+		{
 			"package_version": "0.1.0",
 			"download_url": "https://github.com/palex00/anodyne-ap-tracker/releases/download/0.1.0/anodyne-ap-0.1.0.zip",
 			"sha256": "69CD015737E1BB474A9C85AB70EA38BEAB269BFDE5E916BFE4A8E28E49B0A868",
