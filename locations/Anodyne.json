@@ -132,7 +132,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "[$combat,$smallkey|Apartment|4], $smallkey|Apartment|2, @Regions/Regions/apartmentfloor3"
+                            "$combat,[$smallkey|Apartment|4], $smallkey|Apartment|2, @Regions/Regions/apartmentfloor3"
                         ]
                     },
                     {
@@ -211,7 +211,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$post_swap"
+                            "$combat, $cards|8, $post_swap"
                         ]
                     },
                     {
@@ -1224,7 +1224,7 @@
                         "name": "Warp Pad",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$pad_location|go"
+                            "$pad_location|go, opt_nexus_shuffle"
                         ],
                         "access_rules": [
                             "@Regions/Regions/gobottom"
@@ -2232,7 +2232,7 @@
                         "name": "Warp Pad",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$pad_location|blue"
+                            "$pad_location|blue, opt_nexus_shuffle"
                         ],
                         "access_rules": [
                             ""
@@ -2261,7 +2261,7 @@
                         "name": "Warp Pad",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$pad_location|happy"
+                            "$pad_location|happy, opt_nexus_shuffle"
                         ],
                         "access_rules": [
                             ""
