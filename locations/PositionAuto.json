@@ -1,8 +1,8 @@
 [
     {
         "name": "APARTMENT-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
 
@@ -82,8 +82,8 @@
     }
     , {
         "name": "BEACH-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["BEACH-0"], "access_rules": ["{}"], "sections": [{"name": "BEACH-0"}], "map_locations": [{"map": "BEACH", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -168,8 +168,8 @@
     }
     , {
         "name": "BEDROOM-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["BEDROOM-0"], "access_rules": ["{}"], "sections": [{"name": "BEDROOM-0"}], "map_locations": [{"map": "BEDROOM", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -212,8 +212,8 @@
     }
     , {
         "name": "BLANK-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["BLANK-0"], "access_rules": ["{}"], "sections": [{"name": "BLANK-0"}], "map_locations": [{"map": "BLANK", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -269,8 +269,8 @@
     }
     , {
         "name": "BLUE-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["BLUE-0"], "access_rules": ["{}"], "sections": [{"name": "BLUE-0"}], "map_locations": [{"map": "BLUE", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -303,8 +303,8 @@
     }
     , {
         "name": "CELL-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["CELL-0"], "access_rules": ["{}"], "sections": [{"name": "CELL-0"}], "map_locations": [{"map": "CELL", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -384,8 +384,8 @@
     }
     , {
         "name": "CIRCUS-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["CIRCUS-0"], "access_rules": ["{}"], "sections": [{"name": "CIRCUS-0"}], "map_locations": [{"map": "CIRCUS", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -474,8 +474,8 @@
     }
     , {
         "name": "CLIFFS-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["CLIFFS-0"], "access_rules": ["{}"], "sections": [{"name": "CLIFFS-0"}], "map_locations": [{"map": "CLIFFS", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -555,8 +555,8 @@
     }
     , {
         "name": "CROWD-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["CROWD-0"], "access_rules": ["{}"], "sections": [{"name": "CROWD-0"}], "map_locations": [{"map": "CROWD", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -644,8 +644,8 @@
     }
     , {
         "name": "DEBUG-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["DEBUG-0"], "access_rules": ["{}"], "sections": [{"name": "DEBUG-0"}], "map_locations": [{"map": "DEBUG", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -713,8 +713,8 @@
     }
     , {
         "name": "DRAWER-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["DRAWER-0"], "access_rules": ["{}"], "sections": [{"name": "DRAWER-0"}], "map_locations": [{"map": "DRAWER", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -788,8 +788,8 @@
     }
     , {
         "name": "FIELDS-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["FIELDS-0"], "access_rules": ["{}"], "sections": [{"name": "FIELDS-0"}], "map_locations": [{"map": "FIELDS", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -941,8 +941,8 @@
     }
     , {
         "name": "FOREST-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["FOREST-0"], "access_rules": ["{}"], "sections": [{"name": "FOREST-0"}], "map_locations": [{"map": "FOREST", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1013,8 +1013,8 @@
     }
     , {
         "name": "GO-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["GO-0"], "access_rules": ["{}"], "sections": [{"name": "GO-0"}], "map_locations": [{"map": "GO", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1052,8 +1052,8 @@
     }
     , {
         "name": "HAPPY-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["HAPPY-0"], "access_rules": ["{}"], "sections": [{"name": "HAPPY-0"}], "map_locations": [{"map": "HAPPY", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1076,8 +1076,8 @@
     }
     , {
         "name": "HOTEL-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["HOTEL-0"], "access_rules": ["{}"], "sections": [{"name": "HOTEL-0"}], "map_locations": [{"map": "HOTEL", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1229,8 +1229,8 @@
     }
     , {
         "name": "NEXUS-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["NEXUS-0"], "access_rules": ["{}"], "sections": [{"name": "NEXUS-0"}], "map_locations": [{"map": "NEXUS", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1338,8 +1338,8 @@
     }
     , {
         "name": "OVERWORLD-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["OVERWORLD-0"], "access_rules": ["{}"], "sections": [{"name": "OVERWORLD-0"}], "map_locations": [{"map": "OVERWORLD", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1447,8 +1447,8 @@
     }
     , {
         "name": "REDCAVE-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["REDCAVE-0"], "access_rules": ["{}"], "sections": [{"name": "REDCAVE-0"}], "map_locations": [{"map": "REDCAVE", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1526,8 +1526,8 @@
     }
     , {
         "name": "REDSEA-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["REDSEA-0"], "access_rules": ["{}"], "sections": [{"name": "REDSEA-0"}], "map_locations": [{"map": "REDSEA", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1584,8 +1584,8 @@
     }
     , {
         "name": "SPACE-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["SPACE-0"], "access_rules": ["{}"], "sections": [{"name": "SPACE-0"}], "map_locations": [{"map": "SPACE", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1681,8 +1681,8 @@
     }
     , {
         "name": "STREET-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["STREET-0"], "access_rules": ["{}"], "sections": [{"name": "STREET-0"}], "map_locations": [{"map": "STREET", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1725,8 +1725,8 @@
     }
     , {
         "name": "SUBURB-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["SUBURB-0"], "access_rules": ["{}"], "sections": [{"name": "SUBURB-0"}], "map_locations": [{"map": "SUBURB", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1782,8 +1782,8 @@
     }
     , {
         "name": "TERMINAL-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["TERMINAL-0"], "access_rules": ["{}"], "sections": [{"name": "TERMINAL-0"}], "map_locations": [{"map": "TERMINAL", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
@@ -1816,8 +1816,8 @@
     }
     , {
         "name": "WINDMILL-POSITION",
-        "chest_unopened_img": "/images/items/life_cicada.png",
-        "chest_opened_img": "/images/items/life_cicada.png",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
         "overlay_background": "#000000",
         "children": [
  {"name": "You're here​", "visibility_rules": ["WINDMILL-0"], "access_rules": ["{}"], "sections": [{"name": "WINDMILL-0"}], "map_locations": [{"map": "WINDMILL", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
