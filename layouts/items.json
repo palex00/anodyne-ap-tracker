@@ -119,7 +119,10 @@
                                 "SmallKey(MountainCavern)",
                                 "SmallKey(Hotel)",
                                 "SmallKey(RedCave)",
-                                "SmallKey(Street)"
+                                "SmallKey(Street)",
+								"",
+								"",
+								"tracking"
                             ],
                             [
                                 "CardboardBox",
