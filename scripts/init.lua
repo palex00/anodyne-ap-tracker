@@ -2,6 +2,7 @@
             local variant = Tracker.ActiveVariantUID
 
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/locationobjects.json")
 Tracker:AddItems("items/options.json")
 
 
@@ -27,6 +28,7 @@ Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLocations("locations/Regions.json")
 Tracker:AddLocations("locations/Anodyne.json")
 Tracker:AddLocations("locations/Submaps.json")
+Tracker:AddLocations("locations/PositionAuto.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
