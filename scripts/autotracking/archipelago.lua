@@ -225,8 +225,8 @@ function updateMap(mapName, mapIndex)
         tabName = "Overview"
     elseif mapName == "REDSEA" then
         tabName = "RED SEA"
-    elseif mapName == "RED CAVE" then
-        tabName = "REDCAVE"
+    elseif mapName == "REDCAVE" then
+        tabName = "RED CAVE"
     else
         -- Handle unexpected mapNames or set a default tab name if needed
         tabName = mapName
