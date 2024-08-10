@@ -78,7 +78,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat, $jump"
+                            "$combat, $jump, @Regions/Regions/apartmentfloor1"
                         ]
                     },
                     {
