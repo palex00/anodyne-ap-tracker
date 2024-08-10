@@ -202,3 +202,61 @@ end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
     Archipelago:AddLocationHandler("location handler", onLocation)
 end
+
+
+-- Auto Tabbing
+function onBounce(json)
+    local data = json["data"]
+    if data then
+--        if data["type"] == "MapUpdate" then
+            updateMap(data["mapName"], data["mapIndex"])
+--        end
+    end
+end
+
+
+local currentCode
+
+function updateMap(mapName, mapIndex)
+    local tabName
+
+    -- Convert mapName to corresponding tab name
+    if mapName == "NEXUS" then
+        tabName = "Overview"
+    elseif mapName == "REDSEA" then
+        tabName = "RED SEA"
+    elseif mapName == "RED CAVE" then
+        tabName = "REDCAVE"
+    else
+        -- Handle unexpected mapNames or set a default tab name if needed
+        tabName = mapName
+    end
+  
+    local newCode = mapName .. "-" .. mapIndex
+    local currentObject = currentCode and Tracker:FindObjectForCode(currentCode)
+    local newObject = Tracker:FindObjectForCode(newCode)
+
+    -- Deactivate the previously enabled code if it exists and is active
+    if currentObject and currentObject.Active then
+        currentObject.Active = false
+    end
+		
+    if has("tracking_enabled") then
+
+        -- Activate the new code if it exists
+        if newObject then
+            newObject.Active = true
+        end
+        
+        -- Update the currently enabled code
+        currentCode = newCode
+
+        -- Activate the tab (this line might be redundant if tab activation is handled by the code)
+        Tracker:UiHint("ActivateTab", tabName)
+    end
+end
+
+
+
+
+Archipelago:AddBouncedHandler("bounce handler", onBounce)
