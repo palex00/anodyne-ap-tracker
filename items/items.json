@@ -704,6 +704,25 @@
                         "codes": "NexusGate(windmill)"
                     },
                     
-            {
-            }
+                    {
+                        "name": "Location-Tracking",
+                        "type": "progressive",
+						"allow_disabled": false,
+                        "loop": false,
+                        "stages": [
+                            {
+								"name": "Location-Tracking: Enabled",
+                                "img": "/images/items/young.png",
+                                "codes": "tracking, tracking_enabled"
+                            },
+                            {
+                                "name": "Location-Tracking: Disabled",
+                                "img": "/images/items/young.png",
+                                "img_mods": "@disabled",
+                                "codes": "tracking, tracking_disabled",
+								"inherit_codes": false
+                            }
+                        ],
+                        "codes": "tracking"
+                    }
         ]
