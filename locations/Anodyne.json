@@ -1088,7 +1088,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$post_swap"
+                            "$post_swap, @Regions/Regions/terminal"
                         ]
                     },
                     {
@@ -1607,7 +1607,7 @@
                             "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/redcavetop"
+                            "@Regions/Regions/redcavetop, $combat"
                         ]
                     },
                     {
