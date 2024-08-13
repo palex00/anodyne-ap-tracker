@@ -134,7 +134,7 @@
 ,{"name": "", "sections": [{"name": "Fields - Warp Pad", "ref": "Fields/Warp Pad"}], "map_locations": [{"map": "FIELDS", "x": 1032, "y": 568, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Deep Forest - Warp Pad", "ref": "Deep Forest/Warp Pad"}], "map_locations": [{"map": "FOREST", "x": 232, "y": 1032, "size": 30}]}
 ,{"name": "", "sections": [{"name": "GO - Warp Pad", "ref": "GO/Warp Pad"}], "map_locations": [{"map": "GO", "x": 392, "y": 712, "size": 30}]}
-,{"name": "", "sections": [{"name": "Happy - Warp Pad", "ref": "Happy/Warp Pad"}], "map_locations": [{"map": "HAPPY", "x": 184, "y": 408, "size": 30}]}
+,{"name": "", "sections": [{"name": "Happy - Warp Pad", "ref": "Happy/Warp Pad"}], "map_locations": [{"map": "HAPPY", "x": 256, "y": 424, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Hotel - Warp Pad", "ref": "Hotel/Warp Pad"}], "map_locations": [{"map": "HOTEL", "x": 440, "y": 872, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Overworld - Warp Pad", "ref": "Anodyne/Overworld/Warp Pad"}], "map_locations": [{"map": "OVERWORLD", "x": 824, "y": 1048, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Red Cave - Warp Pad", "ref": "Red Cave/Warp Pad"}], "map_locations": [{"map": "REDCAVE", "x": 1032, "y": 360, "size": 30}]}
