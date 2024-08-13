@@ -7,26 +7,26 @@
                 "sections": [
 {"name": "apartmentfloor1","access_rules": ["$pad_access|apartment","@Regions/Regions/apartmentfloor2topleft, $smallkey|Apartment|4", "@Regions/Regions/apartmentfloor2", "@Regions/Regions/suburb, $jump"]}
 ,{"name": "apartmentfloor1topleft","access_rules": ["@Regions/Regions/apartmentfloor2topleft, $combat"]}
-,{"name": "apartmentfloor2","access_rules": ["@Regions/Regions/apartmentfloor1", "@Regions/Regions/apartmentfloor3, $smallkey|Apartment|3"]}
+,{"name": "apartmentfloor2","access_rules": ["@Regions/Regions/apartmentfloor1", "@Regions/Regions/apartmentfloor3, [$smallkey|Apartment|3], $smallkey|Apartment|1"]}
 ,{"name": "apartmentfloor2topleft","access_rules": ["@Regions/Regions/apartmentfloor1topleft, $combat", "@Regions/Regions/apartmentfloor1, [$smallkey|Apartment|4], $smallkey|Apartment|1"]}
 ,{"name": "apartmentfloor3","access_rules": ["@Regions/Regions/apartmentfloor2, [$smallkey|Apartment|3], $smallkey|Apartment|1"]}
 ,{"name": "beach","access_rules": ["$pad_access|beach","@Regions/Regions/fields", "@Regions/Regions/redsea"]}
 ,{"name": "bedroom","access_rules": ["@Regions/Regions/bedroomexit", "@Regions/Regions/overworld"]}
 ,{"name": "bedroomdrawer","access_rules": ["@Regions/Regions/drawer, $post_swap", "@Regions/Regions/overworld, $post_swap, $cards|4, $combat"]}
-,{"name": "bedroomexit","access_rules": ["$pad_access|templeoftheseeingone","@Regions/Regions/bedroom, $combat, $smallkey|TempleOfTheSeeingOne|1, [$templebossaccess]", "@Regions/Regions/overworldpostwindmill, TempleoftheSeeingOneStatue, [$smallkey|TempleoftheSeeingOne|3], $smallkey|TempleoftheSeeingOne|3, $combat"]}
+,{"name": "bedroomexit","access_rules": ["$pad_access|templeoftheseeingone","@Regions/Regions/bedroom, $combat, $smallkey|TempleOfTheSeeingOne|1, [$templebossaccess]", "@Regions/Regions/overworldpostwindmill, $TempleoftheSeeingOneStatue, [$smallkey|TempleoftheSeeingOne|3], $smallkey|TempleoftheSeeingOne|3, $combat"]}
 ,{"name": "blankending","access_rules": ["@Regions/Regions/nexustop, $cards|49"]}
 ,{"name": "blankstart","access_rules": [""]}
 ,{"name": "blankwindmill","access_rules": ["@Regions/Regions/drawerdark, $cards|47", "@Regions/Regions/fields, $post_swap"]}
 ,{"name": "blue","access_rules": ["$pad_access|blue","@Regions/Regions/gotop"]}
 ,{"name": "bossrush","access_rules": ["@Regions/Regions/nexustop"]}
-,{"name": "cell","access_rules": ["$pad_access|cell","@Regions/Regions/circus", "@Regions/Regions/redcaveexit, RedCaveStatue"]}
+,{"name": "cell","access_rules": ["$pad_access|cell","@Regions/Regions/circus", "@Regions/Regions/redcaveexit, $RedCaveStatue"]}
 ,{"name": "circus","access_rules": ["$pad_access|circus","@Regions/Regions/cell"]}
 ,{"name": "circus2","access_rules": ["@Regions/Regions/circus, $smallkey|Circus|1, $combat, $jump"]}
 ,{"name": "circus3","access_rules": ["@Regions/Regions/circus2, $smallkey|Circus|2"]}
 ,{"name": "circus4","access_rules": ["@Regions/Regions/circus3, $smallkey|Circus|3"]}
 ,{"name": "cliff","access_rules": ["$pad_access|cliffs","@Regions/Regions/crowdfloor2", "@Regions/Regions/crowdjumpchallenge", "@Regions/Regions/forest"]}
-,{"name": "cliffpostwindmill","access_rules": ["@Regions/Regions/crowdexit, MountainCavernStatue", "@Regions/Regions/space"]}
-,{"name": "crowdexit","access_rules": ["$pad_access|mountaincavern","@Regions/Regions/cliffpostwindmill, MountainCavernStatue", "@Regions/Regions/crowdfloor1, $combat, $jump"]}
+,{"name": "cliffpostwindmill","access_rules": ["@Regions/Regions/crowdexit, $MountainCavernStatue", "@Regions/Regions/space"]}
+,{"name": "crowdexit","access_rules": ["$pad_access|mountaincavern","@Regions/Regions/cliffpostwindmill, $MountainCavernStatue", "@Regions/Regions/crowdfloor1, $combat, $jump"]}
 ,{"name": "crowdfloor1","access_rules": ["@Regions/Regions/crowdexit, $combat", "@Regions/Regions/crowdfloor3, $combat, [$smallkey|MountainCavern|3], $smallkey|MountainCavern|2"]}
 ,{"name": "crowdfloor2","access_rules": ["@Regions/Regions/cliff", "@Regions/Regions/crowdexit", "@Regions/Regions/crowdfloor1", "@Regions/Regions/crowdfloor3"]}
 ,{"name": "crowdfloor3","access_rules": ["@Regions/Regions/crowdfloor2"]}
@@ -48,10 +48,10 @@
 ,{"name": "nexusbottom","access_rules": ["@Regions/Regions/blankstart", "@Regions/Regions/street"]}
 ,{"name": "nexustop","access_rules": ["@Regions/Regions/blankending, $cards|49", "@Regions/Regions/bossrush", "@Regions/Regions/debug", "@Regions/Regions/drawerdark"]}
 ,{"name": "overworld","access_rules": ["$pad_access|overworld","@Regions/Regions/bedroomdrawer, $post_swap", "@Regions/Regions/bedroom", "@Regions/Regions/fields, $greenkey", "@Regions/Regions/overworldpostwindmill", "@Regions/Regions/street, $combat, $smallkey|Street|1"]}
-,{"name": "overworldpostwindmill","access_rules": ["@Regions/Regions/bedroomexit, TempleoftheSeeingOneStatue, $smallkey|TempleoftheSeeingOne|3, $combat", "@Regions/Regions/suburb"]}
+,{"name": "overworldpostwindmill","access_rules": ["@Regions/Regions/bedroomexit, $TempleoftheSeeingOneStatue, $smallkey|TempleoftheSeeingOne|3, $combat", "@Regions/Regions/suburb"]}
 ,{"name": "redcavebottom","access_rules": ["@Regions/Regions/redsea"]}
 ,{"name": "redcavecenter","access_rules": ["@Regions/Regions/redsea"]}
-,{"name": "redcaveexit","access_rules": ["$pad_access|redcave","@Regions/Regions/cell, RedCaveStatue", "@Regions/Regions/redcavetop, $combat"]}
+,{"name": "redcaveexit","access_rules": ["$pad_access|redcave","@Regions/Regions/cell, $RedCaveStatue", "@Regions/Regions/redcavetop, $combat"]}
 ,{"name": "redcaveisaac","access_rules": ["@Regions/Regions/redsea"]}
 ,{"name": "redcaveleft","access_rules": ["@Regions/Regions/redsea, ProgressiveRedCave:1, $combat", "@Regions/Regions/redsea, opt_redcave_vanilla, $combat"]}
 ,{"name": "redcaveright","access_rules": ["@Regions/Regions/redsea, ProgressiveRedCave:2, $combat", "@Regions/Regions/redsea, opt_redcave_vanilla, $combat, [$smallkey|RedCave|6], $smallkey|RedCave|2"]}

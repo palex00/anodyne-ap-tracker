@@ -96,6 +96,17 @@ function get_slot_options(slot_data)
 			obj.CurrentStage = stage
 		end
 	end
+	
+    if slot_data["unlock_gates"] ~= nil then
+		local obj = Tracker:FindObjectForCode("opt_smallkey")
+		local stage = slot_data["unlock_gates"]
+		if stage == true then
+			obj.CurrentStage = 1
+		end
+		if stage == false then
+			obj.CurrentStage = 2
+		end
+	end
 
     if slot_data["postgame_mode"] then
 		local obj = Tracker:FindObjectForCode("opt_postgame")

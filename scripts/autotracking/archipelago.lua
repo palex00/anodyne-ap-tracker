@@ -215,6 +215,19 @@ function onBounce(json)
 end
 
 
+function TempleoftheSeeingOneStatue()
+   return (has("statues") and has("opt_windmill_vanilla")) or has("TempleoftheSeeingOneStatue")
+end
+
+function RedCaveStatue()
+   return (has("statues") and has("opt_windmill_vanilla")) or has("RedCaveStatue")
+end
+
+function MountainCavernStatue()
+   return (has("statues") and has("opt_windmill_vanilla")) or has("MountainCavernStatue")
+end
+
+
 local currentCode
 
 function updateMap(mapName, mapIndex)
@@ -227,6 +240,8 @@ function updateMap(mapName, mapIndex)
         tabName = "RED SEA"
     elseif mapName == "REDCAVE" then
         tabName = "RED CAVE"
+    elseif mapName == "CLIFF" then
+        tabName = "CLIFFS"
     else
         -- Handle unexpected mapNames or set a default tab name if needed
         tabName = mapName

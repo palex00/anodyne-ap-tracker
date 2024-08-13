@@ -30,15 +30,6 @@
                 }
             },
             {
-                "title": "TEMPLE",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "BEDROOM"
-                    ]
-                }
-            },
-            {
                 "title": "BLANK",
                 "content": {
                     "type": "map",
@@ -53,6 +44,15 @@
                     "type": "map",
                     "maps": [
                         "BLUE"
+                    ]
+                }
+            },
+            {
+                "title": "CAVERN",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "CROWD"
                     ]
                 }
             },
@@ -80,15 +80,6 @@
                     "type": "map",
                     "maps": [
                         "CLIFFS"
-                    ]
-                }
-            },
-            {
-                "title": "CAVERN",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "CROWD"
                     ]
                 }
             },
@@ -201,11 +192,11 @@
                 }
             },
             {
-                "title": "TOWN",
+                "title": "TEMPLE",
                 "content": {
                     "type": "map",
                     "maps": [
-                        "SUBURB"
+                        "BEDROOM"
                     ]
                 }
             },
@@ -215,6 +206,15 @@
                     "type": "map",
                     "maps": [
                         "TERMINAL"
+                    ]
+                }
+            },
+            {
+                "title": "TOWN",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "SUBURB"
                     ]
                 }
             },

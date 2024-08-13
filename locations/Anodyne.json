@@ -250,7 +250,7 @@
                             "opt_smallkey_shuffle", "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
-                            "$combat,TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
+                            "$combat,$TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
                         ]
                     },
                     {
@@ -262,7 +262,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat,TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
+                            "$combat,$TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
                         ]
                     },
                     {
@@ -272,7 +272,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat,TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
+                            "$combat,$TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
                         ]
                     },
                     {
@@ -2154,7 +2154,18 @@
                         "name": "Activation",
                         "item_count": 1,
                         "visibility_rules": [
-                            ""
+                            "opt_windmill_off"
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/windmill"
+                        ]
+                    },
+                    {
+                        "name": "Activation (Event)",
+                        "item_count": 1,
+						"hosted_item": "statues",
+                        "visibility_rules": [
+                            "opt_windmill_vanilla"
                         ],
                         "access_rules": [
                             "@Regions/Regions/windmill"
@@ -2163,6 +2174,8 @@
                     {
                         "name": "Chest",
                         "item_count": 1,
+						"hosted_item": "statues",
+						"clear_as_group": true,
                         "visibility_rules": [
                             ""
                         ],

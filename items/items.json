@@ -724,5 +724,11 @@
                             }
                         ],
                         "codes": "tracking"
-                    }
+                    },
+					{
+						"name": "statues",
+						"type": "toggle",
+						"img": "/images/items/empty.png",
+						"codes": "statues"
+					}
         ]

@@ -177,6 +177,77 @@
 ,{"name": "", "sections": [{"name": "Red Cave - Red Key (Vanilla)", "ref": "Red Cave/Red Key (Vanilla)"}], "map_locations": [{"map": "REDCAVE", "x": 1096, "y": 296, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Mountain Cavern - Blue Key (Vanilla)", "ref": "Mountain Cavern/Blue Key (Vanilla)"}], "map_locations": [{"map": "CROWD", "x": 1544, "y": 872, "size": 30}]}
 ,{"name": "", "sections": [{"name": "Mountain Cavern - Warp Pad", "ref": "Mountain Cavern/Warp Pad"}], "map_locations": [{"map": "CROWD", "x": 1520, "y": 745, "size": 30}]}
+
+// Red Cave Top
+,{"name": "Red Cave Top", "sections":[
+{"name": "Red Cave - Top Cave Slasher Chest", "ref": "Red Cave/Top Cave Slasher Chest"}
+,{"name": "Red Cave - Boss Chest", "ref": "Red Cave/Boss Chest"}
+,{"name": "Red Cave - Red Key", "ref": "Red Cave/Red Key"}
+,{"name": "Red Cave - Warp Pad", "ref": "Red Cave/Warp Pad"}
+],"map_locations": [{"map": "REDSEA", "x": 560, "y": 576, "size": 30}]}
+
+
+// Red Cave Left
+,{"name": "Red Cave Left", "sections":[
+{"name": "Red Cave - Left Cave Rapids Chest", "ref": "Red Cave/Left Cave Rapids Chest"}
+,{"name": "Red Cave - Left Cave Sticky Chest", "ref": "Red Cave/Left Cave Sticky Chest"}
+,{"name": "Red Cave - Left Cave Rapids Chest (Vanilla)", "ref": "Red Cave/Left Cave Rapids Chest (Vanilla)"}
+,{"name": "Red Cave - Left Cave Sticky Chest (Vanilla)", "ref": "Red Cave/Left Cave Sticky Chest (Vanilla)"}
+],"map_locations": [{"map": "REDSEA", "x": 400, "y": 736, "size": 30}]}
+
+
+// Red Cave Right
+,{"name": "Red Cave Right", "sections":[
+{"name": "Red Cave - Right Cave Slasher Chest", "ref": "Red Cave/Right Cave Slasher Chest"}
+,{"name": "Red Cave - Right Cave Four Shooter Chest", "ref": "Red Cave/Right Cave Four Shooter Chest"}
+,{"name": "Red Cave - Right Cave Slasher Chest (Vanilla)", "ref": "Red Cave/Right Cave Slasher Chest (Vanilla)"}
+,{"name": "Red Cave - Right Cave Four Shooter Chest (Vanilla)", "ref": "Red Cave/Right Cave Four Shooter Chest (Vanilla)"}
+],"map_locations": [{"map": "REDSEA", "x": 720, "y": 736, "size": 30}]}
+
+
+// Red Cave Bottom
+,{"name": "Red Cave Bottom", "sections":[
+{"name": "Red Cave - Widen Upgrade Chest", "ref": "Red Cave/Widen Upgrade Chest"}
+],"map_locations": [{"map": "REDSEA", "x": 560, "y": 880, "size": 30}]}
+
+
+
+// Red Cave Middle
+,{"name": "Red Cave Middle", "sections":[
+{"name": "Red Cave - Middle Cave Right Chest", "ref": "Red Cave/Middle Cave Right Chest"}
+,{"name": "Red Cave - Middle Cave Left Chest", "ref": "Red Cave/Middle Cave Left Chest"}
+,{"name": "Red Cave - Middle Cave Middle Chest", "ref": "Red Cave/Middle Cave Middle Chest"}
+,{"name": "Red Cave - Middle Cave Right Chest (Vanilla)", "ref": "Red Cave/Middle Cave Right Chest (Vanilla)"}
+,{"name": "Red Cave - Middle Cave Left Chest (Vanilla)", "ref": "Red Cave/Middle Cave Left Chest (Vanilla)"}
+],"map_locations": [{"map": "REDSEA", "x": 560, "y": 736, "size": 30}]}
+
+// Isaac
+,{"name": "Red Cave Isaac", "sections":[
+{"name": "Red Cave - Isaac Dungeon Chest", "ref": "Red Cave/Isaac Dungeon Chest"}
+],"map_locations": [{"map": "REDSEA", "x": 64, "y": 687, "size": 30}]}
+
+
+// Mountain Cavern Side
+,{"name": "Mountain Cavern Side Entrance", "sections": [{"name": "Mountain Cavern - Extend Upgrade Chest", "ref": "Mountain Cavern/Extend Upgrade Chest"}], "map_locations": [{"map": "CLIFFS", "x": 424, "y": 728, "size": 30}]}
+
+// Mountain Cavern Main
+,{"name": "Mountain Cavern", "sections":[
+{"name": "Mountain Cavern - 2F Crowded Ledge Chest", "ref": "Mountain Cavern/2F Crowded Ledge Chest"}
+,{"name": "Mountain Cavern - 2F Four Enemies Chest", "ref": "Mountain Cavern/2F Four Enemies Chest"}
+,{"name": "Mountain Cavern - 2F Entrance Chest", "ref": "Mountain Cavern/2F Entrance Chest"}
+,{"name": "Mountain Cavern - 2F Frogs and Dog Chest", "ref": "Mountain Cavern/2F Frogs and Dog Chest"}
+,{"name": "Mountain Cavern - 3F Roller Chest", "ref": "Mountain Cavern/3F Roller Chest"}
+,{"name": "Mountain Cavern - Boss Chest", "ref": "Mountain Cavern/Boss Chest"}
+,{"name": "Mountain Cavern - Extend Upgrade Chest", "ref": "Mountain Cavern/Extend Upgrade Chest"}
+,{"name": "Mountain Cavern - 2F Frogs and Rotators Chest", "ref": "Mountain Cavern/2F Frogs and Rotators Chest"}
+,{"name": "Mountain Cavern - Health Cicada", "ref": "Mountain Cavern/Health Cicada"}
+,{"name": "Mountain Cavern - 2F Four Enemies Chest (Vanilla)", "ref": "Mountain Cavern/2F Four Enemies Chest (Vanilla)"}
+,{"name": "Mountain Cavern - 2F Entrance Chest (Vanilla)", "ref": "Mountain Cavern/2F Entrance Chest (Vanilla)"}
+,{"name": "Mountain Cavern - 2F Frogs and Dog Chest (Vanilla)", "ref": "Mountain Cavern/2F Frogs and Dog Chest (Vanilla)"}
+,{"name": "Mountain Cavern - 2F Frogs and Rotators Chest (Vanilla)", "ref": "Mountain Cavern/2F Frogs and Rotators Chest (Vanilla)"}
+,{"name": "Mountain Cavern - Blue Key", "ref": "Mountain Cavern/Blue Key"}
+],"map_locations": [{"map": "CLIFFS", "x": 736, "y": 824, "size": 30}]}
+
         ]
     }
 ]

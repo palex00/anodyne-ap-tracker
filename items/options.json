@@ -104,7 +104,7 @@
                 "codes": "opt_windmill,opt_windmill_vanilla"
             },
             {
-                "name": "Windmill is off",
+                "name": "Windmill is Split",
                 "img": "images/items/windmill.png",
                 "img_mods": "@disabled",
                 "codes": "opt_windmill,opt_windmill_off",
