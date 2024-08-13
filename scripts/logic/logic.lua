@@ -111,3 +111,11 @@ function templebossaccess()
 		return smallkey("templeoftheseeingone", 2)
 	end
 end
+
+function scoutable()
+    return AccessibilityLevel.Inspect
+end
+
+function dummy()
+	return false
+end
