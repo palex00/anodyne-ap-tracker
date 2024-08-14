@@ -154,5 +154,39 @@ if slot_data["nexus_gates_unlocked"] then
     end
 end
 
+if slot_data["nexus_gates_unlocked"] then
+    local nexus_gates_mapping = {
+        ["Apartment floor 1"] = "NexusGate(apartment)",
+        ["Beach"] = "NexusGate(beach)",
+        ["Bedroom exit"] = "NexusGate(templeoftheseeingone)",
+        ["Blue"] = "NexusGate(blue)",
+        ["Cell"] = "NexusGate(cell)",
+        ["Circus"] = "NexusGate(circus)",
+        ["Cliff"] = "NexusGate(cliffs)",
+        ["Crowd exit"] = "NexusGate(mountaincavern)",
+        ["Fields"] = "NexusGate(fields)",
+        ["Forest"] = "NexusGate(deepforest)",
+        ["Go bottom"] = "NexusGate(go)",
+        ["Happy"] = "NexusGate(happy)",
+        ["Hotel floor 4"] = "NexusGate(hotel)",
+        ["Overworld"] = "NexusGate(overworld)",
+        ["Red Cave exit"] = "NexusGate(redcave)",
+        ["Red Sea"] = "NexusGate(redsea)",
+        ["Suburb"] = "NexusGate(youngtown)",
+        ["Space"] = "NexusGate(space)",
+        ["Terminal"] = "NexusGate(terminal)",
+        ["Windmill entrance"] = "NexusGate(windmill)"
+    }
+
+    for _, key in ipairs(slot_data["nexus_gates_unlocked"]) do
+        local obj_code = nexus_gates_mapping[key]
+        if obj_code then
+            local obj = Tracker:FindObjectForCode(obj_code)
+            if obj then
+                obj.Active = true
+            end
+        end
+    end
+end
 
 end
