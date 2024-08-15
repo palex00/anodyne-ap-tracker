@@ -55,7 +55,7 @@
 ,{"name": "redcaveisaac","access_rules": ["@Regions/Regions/redsea"]}
 ,{"name": "redcaveleft","access_rules": ["@Regions/Regions/redsea, ProgressiveRedCave:1, $combat", "@Regions/Regions/redsea, opt_redcave_vanilla, $combat"]}
 ,{"name": "redcaveright","access_rules": ["@Regions/Regions/redsea, ProgressiveRedCave:2, $combat", "@Regions/Regions/redsea, opt_redcave_vanilla, $combat, [$smallkey|RedCave|6], $smallkey|RedCave|2"]}
-,{"name": "redcavetop","access_rules": ["@Regions/Regions/redcaveexit", "@Regions/Regions/redsea, ProgressiveRedCave:3, $smallkey|RedCave|6", "@Regions/Regions/redsea, opt_redcave_vanilla, $smallkey|RedCave|6"]}
+,{"name": "redcavetop","access_rules": ["@Regions/Regions/redcaveexit", "@Regions/Regions/redsea, ProgressiveRedCave:3", "@Regions/Regions/redsea, opt_redcave_vanilla, $smallkey|RedCave|6"]}
 ,{"name": "redsea","access_rules": ["$pad_access|redsea","@Regions/Regions/beach, $combat", "@Regions/Regions/redcavebottom", "@Regions/Regions/redcavecenter", "@Regions/Regions/redcaveisaac", "@Regions/Regions/redcaveleft", "@Regions/Regions/redcaveright", "@Regions/Regions/redcavetop"]}
 ,{"name": "space","access_rules": ["$pad_access|space","@Regions/Regions/cliffpostwindmill", "@Regions/Regions/hotelroof"]}
 ,{"name": "street","access_rules": ["@Regions/Regions/nexusbottom"]}
