@@ -93,8 +93,17 @@ function onClear(slot_data)
     get_slot_options(slot_data)
 end
 
+function swapareatoggle()
+    if post_swap() == true and not Tracker:FindObjectForCode('swaptoggle').Active then
+        Tracker:FindObjectForCode('swapareas').CurrentStage = 1
+        Tracker:FindObjectForCode('swaptoggle').Active = true
+		ScriptHost:RemoveWatchForCode("SwapableAreas", "*")
+    end
+end
+
 -- called when an item gets collected
 function onItem(index, item_id, item_name, player_number)
+
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called onItem: %s, %s, %s, %s, %s", index, item_id, item_name, player_number, CUR_INDEX))
     end
@@ -153,13 +162,6 @@ function onItem(index, item_id, item_name, player_number)
             GLOBAL_ITEMS[v[1]] = 1
         end
     end
---    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
---        print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
---        print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
---    end
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here for local item tracking
-    end
 end
 
 -- called when a location gets cleared
@@ -208,9 +210,9 @@ end
 function onBounce(json)
     local data = json["data"]
     if data then
---        if data["type"] == "MapUpdate" then
+        if data["type"] == "MapUpdate" then
             updateMap(data["mapName"], data["mapIndex"])
---        end
+        end
     end
 end
 
@@ -266,8 +268,34 @@ function updateMap(mapName, mapIndex)
         -- Update the currently enabled code
         currentCode = newCode
 
-        -- Activate the tab (this line might be redundant if tab activation is handled by the code)
-        Tracker:UiHint("ActivateTab", tabName)
+-- Activate the tab based on conditions
+if tabName == "Overview" then
+    Tracker:UiHint("ActivateTab", tabName)
+
+elseif tabName == "DEBUG" or tabName == "BLANK" or tabName == "DRAWER" then
+    Tracker:UiHint("ActivateTab", "Post-Game")
+    Tracker:UiHint("ActivateTab", tabName)
+
+elseif tabName == "BEACH" or tabName == "CELL" or tabName == "FIELDS" or tabName == "GO" or 
+       tabName == "HOTEL" or tabName == "OVERWORLD" or tabName == "RED SEA" or 
+       tabName == "SPACE" or tabName == "STREET" or tabName == "TEMPLE" or 
+       tabName == "TOWN" or tabName == "WINDMILL" then
+
+    if Tracker:FindObjectForCode('swapareas').CurrentStage == 1 then
+        Tracker:UiHint("ActivateTab", "The Land (Broomed)")
+    else
+        Tracker:UiHint("ActivateTab", "The Land")
+    end
+    
+    Tracker:UiHint("ActivateTab", tabName)
+
+else
+    -- Default behavior: Activate "The Land" and then the tab
+    Tracker:UiHint("ActivateTab", "The Land")
+    Tracker:UiHint("ActivateTab", tabName)
+end
+
+
     end
 end
 
