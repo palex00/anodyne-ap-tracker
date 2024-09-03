@@ -14,11 +14,7 @@ function cards(AMOUNT)
     AMOUNT = tonumber(AMOUNT)
     local req = AMOUNT
     local count = 0
-    for _, item in pairs(CARDS) do
-        if has(item) then
-            count = count + 1
-        end
-    end
+	local count = Tracker:FindObjectForCode("cards").AcquiredCount
     return count >= req
 end
 
@@ -75,11 +71,7 @@ end
 
 function endgameaccess()
     local count = 0
-    for _, item in pairs(CARDS) do
-        if has(item) then
-            count = count + 1
-        end
-    end
+	local count = Tracker:FindObjectForCode("cards").AcquiredCount
     local endgamereq = Tracker:FindObjectForCode('opt_endgamecardreq').AcquiredCount
     return count >= endgamereq
 end

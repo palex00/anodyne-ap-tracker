@@ -4,6 +4,10 @@
                         "codes": "briar"
                     },
                     {
+                        "type": "toggle",
+                        "codes": "swaptoggle"
+                    },
+                    {
                         "name": "Broom",
                         "type": "toggle",
                         "img": "/images/items/Broom.png",
@@ -39,346 +43,14 @@
                     },
                     
                     {
-                        "name": "Card (Edward)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Edward).png",
-                        "codes": "Card(Edward)"
-                    },
-                    
-                    {
-                        "name": "Card (Annoyer)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Annoyer).png",
-                        "codes": "Card(Annoyer)"
-                    },
-                    
-                    {
-                        "name": "Card (Seer)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Seer).png",
-                        "codes": "Card(Seer)"
-                    },
-                    
-                    {
-                        "name": "Card (Shieldy)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Shieldy).png",
-                        "codes": "Card(Shieldy)"
-                    },
-                    
-                    {
-                        "name": "Card (Slime)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Slime).png",
-                        "codes": "Card(Slime)"
-                    },
-                    
-                    {
-                        "name": "Card (PewLaser)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(PewLaser).png",
-                        "codes": "Card(PewLaser)"
-                    },
-                    
-                    {
-                        "name": "Card (Suburbian)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Suburbian).png",
-                        "codes": "Card(Suburbian)"
-                    },
-                    
-                    {
-                        "name": "Card (Watcher)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Watcher).png",
-                        "codes": "Card(Watcher)"
-                    },
-                    
-                    {
-                        "name": "Card (Silverfish)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Silverfish).png",
-                        "codes": "Card(Silverfish)"
-                    },
-                    
-                    {
-                        "name": "Card (GasGuy)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(GasGuy).png",
-                        "codes": "Card(GasGuy)"
-                    },
-                    
-                    {
-                        "name": "Card (Mitra)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Mitra).png",
-                        "codes": "Card(Mitra)"
-                    },
-                    
-                    {
-                        "name": "Card (Miao)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Miao).png",
-                        "codes": "Card(Miao)"
-                    },
-                    
-                    {
-                        "name": "Card (Windmill)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Windmill).png",
-                        "codes": "Card(Windmill)"
-                    },
-                    
-                    {
-                        "name": "Card (Mushroom)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Mushroom).png",
-                        "codes": "Card(Mushroom)"
-                    },
-                    
-                    {
-                        "name": "Card (Dog)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Dog).png",
-                        "codes": "Card(Dog)"
-                    },
-                    
-                    {
-                        "name": "Card (Rock)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Rock).png",
-                        "codes": "Card(Rock)"
-                    },
-                    
-                    {
-                        "name": "Card (Fisherman)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Fisherman).png",
-                        "codes": "Card(Fisherman)"
-                    },
-                    
-                    {
-                        "name": "Card (Walker)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Walker).png",
-                        "codes": "Card(Walker)"
-                    },
-                    
-                    {
-                        "name": "Card (Mover)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Mover).png",
-                        "codes": "Card(Mover)"
-                    },
-                    
-                    {
-                        "name": "Card (Slasher)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Slasher).png",
-                        "codes": "Card(Slasher)"
-                    },
-                    
-                    {
-                        "name": "Card (Rogue)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Rogue).png",
-                        "codes": "Card(Rogue)"
-                    },
-                    
-                    {
-                        "name": "Card (Chaser)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Chaser).png",
-                        "codes": "Card(Chaser)"
-                    },
-                    
-                    {
-                        "name": "Card (FirePillar)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(FirePillar).png",
-                        "codes": "Card(FirePillar)"
-                    },
-                    
-                    {
-                        "name": "Card (Contorts)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Contorts).png",
-                        "codes": "Card(Contorts)"
-                    },
-                    
-                    {
-                        "name": "Card (Lion)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Lion).png",
-                        "codes": "Card(Lion)"
-                    },
-                    
-                    {
-                        "name": "Card (ArthurandJaviera)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(ArthurandJaviera).png",
-                        "codes": "Card(ArthurandJaviera)"
-                    },
-                    
-                    {
-                        "name": "Card (Frog)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Frog).png",
-                        "codes": "Card(Frog)"
-                    },
-                    
-                    {
-                        "name": "Card (Person)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Person).png",
-                        "codes": "Card(Person)"
-                    },
-                    
-                    {
-                        "name": "Card (Wall)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Wall).png",
-                        "codes": "Card(Wall)"
-                    },
-                    
-                    {
-                        "name": "Card (BlueCubeKing)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(BlueCubeKing).png",
-                        "codes": "Card(BlueCubeKing)"
-                    },
-                    
-                    {
-                        "name": "Card (OrangeCubeKing)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(OrangeCubeKing).png",
-                        "codes": "Card(OrangeCubeKing)"
-                    },
-                    
-                    {
-                        "name": "Card (DustMaid)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(DustMaid).png",
-                        "codes": "Card(DustMaid)"
-                    },
-                    
-                    {
-                        "name": "Card (Dasher)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Dasher).png",
-                        "codes": "Card(Dasher)"
-                    },
-                    
-                    {
-                        "name": "Card (BurstPlant)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(BurstPlant).png",
-                        "codes": "Card(BurstPlant)"
-                    },
-                    
-                    {
-                        "name": "Card (Manager)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Manager).png",
-                        "codes": "Card(Manager)"
-                    },
-                    
-                    {
-                        "name": "Card (Sage)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Sage).png",
-                        "codes": "Card(Sage)"
-                    },
-                    
-                    {
-                        "name": "Card (Young)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Young).png",
-                        "codes": "Card(Young)"
-                    },
-                    
-                    {
-                        "name": "Card (CarvedRock)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(CarvedRock).png",
-                        "codes": "Card(CarvedRock)"
-                    },
-                    
-                    {
-                        "name": "Card (CityMan)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(CityMan).png",
-                        "codes": "Card(CityMan)"
-                    },
-                    
-                    {
-                        "name": "Card (Intra)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Intra).png",
-                        "codes": "Card(Intra)"
-                    },
-                    
-                    {
-                        "name": "Card (Torch)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Torch).png",
-                        "codes": "Card(Torch)"
-                    },
-                    
-                    {
-                        "name": "Card (TriangleNPC)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(TriangleNPC).png",
-                        "codes": "Card(TriangleNPC)"
-                    },
-                    
-                    {
-                        "name": "Card (Killer)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Killer).png",
-                        "codes": "Card(Killer)"
-                    },
-                    
-                    {
-                        "name": "Card (Goldman)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Goldman).png",
-                        "codes": "Card(Goldman)"
-                    },
-                    
-                    {
-                        "name": "Card (Broom)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Broom).png",
-                        "codes": "Card(Broom)"
-                    },
-                    
-                    {
-                        "name": "Card (Rank)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Rank).png",
-                        "codes": "Card(Rank)"
-                    },
-                    
-                    {
-                        "name": "Card (Follower)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Follower).png",
-                        "codes": "Card(Follower)"
-                    },
-                    
-                    {
-                        "name": "Card (RockCreature)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(RockCreature).png",
-                        "codes": "Card(RockCreature)"
-                    },
-                    
-                    {
-                        "name": "Card (Null)",
-                        "type": "toggle",
-                        "img": "/images/cards/Card(Null).png",
-                        "codes": "Card(Null)"
+                        "name": "Card Count",
+                        "type": "consumable",
+						"allow_disabled": true,
+						"min_quantity": 0,
+						"max_quantity": 49,
+						"overlay_background": "#000000",
+                        "img": "/images/items/cards.png",
+                        "codes": "cards"
                     },
                     {
                         "name": "Small Key (Apartment)",
@@ -724,6 +396,27 @@
                             }
                         ],
                         "codes": "tracking"
+                    },
+                    {
+                        "name": "Show Swappable Areas on Maps",
+                        "type": "progressive",
+						"allow_disabled": false,
+                        "loop": false,
+                        "stages": [
+                            {
+								"name": "Show Swappable Areas on Maps: Disabled",
+                                "img": "/images/items/swapareas.png",
+                                "img_mods": "@disabled",
+                                "codes": "swapareas, swapareas_disabled"
+                            },
+                            {
+                                "name": "Show Swappable Areas on Maps: Enabled",
+                                "img": "/images/items/swapareas.png",
+                                "codes": "swapareas, swapareas_enabled",
+								"inherit_codes": false
+                            }
+                        ],
+                        "codes": "swapareas"
                     },
 					{
 						"name": "statues",

@@ -148,5 +148,77 @@
         "location_size": 30,
         "location_border_thickness": 1,
         "img": "images/maps/WINDMILL.png"
+    },
+    {
+        "name": "Z_BEACH",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_BEACH.png"
+    },
+    {
+        "name": "Z_BEDROOM",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_BEDROOM.png"
+    },
+    {
+        "name": "Z_CELL",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_CELL.png"
+    },
+    {
+        "name": "Z_FIELDS",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_FIELDS.png"
+    },
+    {
+        "name": "Z_GO",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_GO.png"
+    },
+    {
+        "name": "Z_HOTEL",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_HOTEL.png"
+    },
+    {
+        "name": "Z_OVERWORLD",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_OVERWORLD.png"
+    },
+    {
+        "name": "Z_REDSEA",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_REDSEA.png"
+    },
+    {
+        "name": "Z_SPACE",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_SPACE.png"
+    },
+    {
+        "name": "Z_STREET",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_STREET.png"
+    },
+    {
+        "name": "Z_SUBURB",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_SUBURB.png"
+    },
+    {
+        "name": "Z_WINDMILL",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/Z_WINDMILL.png"
     }
 ]
