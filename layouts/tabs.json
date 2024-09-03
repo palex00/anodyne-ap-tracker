@@ -12,218 +12,353 @@
                 }
             },
             {
-                "title": "APARTMENT",
+                "title": "The Land",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "APARTMENT"
+                    "type": "tabbed",
+                    "dock": "top",
+                    "tabs": [
+                        {
+                            "title": "APARTMENT",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "APARTMENT"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "BEACH",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "BEACH"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "BLUE",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "BLUE"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "CAVERN",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "CROWD"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "CELL",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "CELL"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "CIRCUS",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "CIRCUS"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "CLIFFS",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "CLIFFS"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "FIELDS",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "FIELDS"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "FOREST",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "FOREST"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "GO",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "GO"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "HAPPY",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "HAPPY"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "HOTEL",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "HOTEL"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "OVERWORLD",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "OVERWORLD"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "RED CAVE",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "REDCAVE"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "RED SEA",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "REDSEA"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "SPACE",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SPACE"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "STREET",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "STREET"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "TEMPLE",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "BEDROOM"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "TERMINAL",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "TERMINAL"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "TOWN",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SUBURB"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "WINDMILL",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "WINDMILL"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
-                "title": "BEACH",
+                "title": "The Land (Broomed)",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "BEACH"
+                    "type": "tabbed",
+                    "dock": "top",
+                    "tabs": [
+                        {
+                            "title": "BEACH",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_BEACH"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "CELL",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_CELL"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "FIELDS",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_FIELDS"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "GO",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_GO"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "HOTEL",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_HOTEL"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "OVERWORLD",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_OVERWORLD"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "RED SEA",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_REDSEA"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "SPACE",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_SPACE"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "STREET",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_STREET"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "TEMPLE",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_BEDROOM"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "TOWN",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_SUBURB"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "WINDMILL",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_WINDMILL"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
             {
-                "title": "BLANK",
+                "title": "Post-Game",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "BLANK"
-                    ]
-                }
-            },
-            {
-                "title": "BLUE",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "BLUE"
-                    ]
-                }
-            },
-            {
-                "title": "CAVERN",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "CROWD"
-                    ]
-                }
-            },
-            {
-                "title": "CELL",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "CELL"
-                    ]
-                }
-            },
-            {
-                "title": "CIRCUS",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "CIRCUS"
-                    ]
-                }
-            },
-            {
-                "title": "CLIFFS",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "CLIFFS"
-                    ]
-                }
-            },
-            {
-                "title": "DEBUG",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "DEBUG"
-                    ]
-                }
-            },
-            {
-                "title": "DRAWER",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "DRAWER"
-                    ]
-                }
-            },
-            {
-                "title": "FIELDS",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "FIELDS"
-                    ]
-                }
-            },
-            {
-                "title": "FOREST",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "FOREST"
-                    ]
-                }
-            },
-            {
-                "title": "GO",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "GO"
-                    ]
-                }
-            },
-            {
-                "title": "HAPPY",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "HAPPY"
-                    ]
-                }
-            },
-            {
-                "title": "HOTEL",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "HOTEL"
-                    ]
-                }
-            },
-            {
-                "title": "OVERWORLD",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "OVERWORLD"
-                    ]
-                }
-            },
-            {
-                "title": "RED CAVE",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "REDCAVE"
-                    ]
-                }
-            },
-            {
-                "title": "RED SEA",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "REDSEA"
-                    ]
-                }
-            },
-            {
-                "title": "SPACE",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "SPACE"
-                    ]
-                }
-            },
-            {
-                "title": "STREET",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "STREET"
-                    ]
-                }
-            },
-            {
-                "title": "TEMPLE",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "BEDROOM"
-                    ]
-                }
-            },
-            {
-                "title": "TERMINAL",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "TERMINAL"
-                    ]
-                }
-            },
-            {
-                "title": "TOWN",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "SUBURB"
-                    ]
-                }
-            },
-            {
-                "title": "WINDMILL",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "WINDMILL"
+                    "type": "tabbed",
+                    "dock": "top",
+                    "tabs": [
+                        {
+                            "title": "BLANK",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "BLANK"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "DEBUG",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "DEBUG"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "DRAWER",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "DRAWER"
+                                ]
+                            }
+                        }
                     ]
                 }
             }
