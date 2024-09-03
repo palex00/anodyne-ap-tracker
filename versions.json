@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.3.0",
+			"download_url": "https://github.com/palex00/anodyne-ap-tracker/archive/refs/tags/0.3.0.zip",
+			"sha256": "5C563EF8323D86935EC27112CDFB55C1D5B3899DB45A27863036C20AD827686D",
+			"changelog": ["The LOVE Update"]
+		},
+		{
 			"package_version": "0.2.1",
 			"download_url": "https://github.com/palex00/anodyne-ap-tracker/releases/download/0.2.1/anodyne-ap-tracker-0.2.1.zip",
 			"sha256": "73F6D52B3FAB60FFE4A9B921753049B57C5B5FACFE4F553069EE3A438E037A0D",
