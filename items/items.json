@@ -137,6 +137,48 @@
                         "codes": "SmallKey(Street)"
                     },
                     {
+                        "name": "Key Ring (Apartment)",
+                        "type": "toggle",
+                        "img": "/images/items/keyring.png",
+                        "codes": "keyring(Apartment)"
+                    },
+                    {
+                        "name": "Key Ring (Temple of the Seeing One)",
+                        "type": "toggle",
+                        "img": "/images/items/keyring.png",
+                        "codes": "keyring(TempleoftheSeeingOne)"
+                    },
+                    {
+                        "name": "Key Ring (Circus)",
+                        "type": "toggle",
+                        "img": "/images/items/keyring.png",
+                        "codes": "keyring(Circus)"
+                    },
+                    {
+                        "name": "Key Ring (Mountain Cavern)",
+                        "type": "toggle",
+                        "img": "/images/items/keyring.png",
+                        "codes": "keyring(MountainCavern)"
+                    },
+                    {
+                        "name": "Key Ring (Hotel)",
+                        "type": "toggle",
+                        "img": "/images/items/keyring.png",
+                        "codes": "keyring(Hotel)"
+                    },
+                    {
+                        "name": "Key Ring (Red Cave)",
+                        "type": "toggle",
+                        "img": "/images/items/keyring.png",
+                        "codes": "keyring(RedCave)"
+                    },
+                    {
+                        "name": "Key Ring (Street)",
+                        "type": "toggle",
+                        "img": "/images/items/keyring.png",
+                        "codes": "keyring(Street)"
+                    },
+                    {
                         "name": "Green Key",
                         "type": "toggle",
                         "img": "/images/items/GreenKey.png",
@@ -423,5 +465,11 @@
 						"type": "toggle",
 						"img": "/images/items/empty.png",
 						"codes": "statues"
+					},
+					{
+						"name": "bosses",
+						"type": "consumable",
+						"img": "/images/items/empty.png",
+						"codes": "bosses"
 					}
         ]

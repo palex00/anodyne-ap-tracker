@@ -262,6 +262,83 @@
 ,{"name": "Young Town​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Killers Chest", "ref": "Young Town/Killers Chest"}], "map_locations": [{"map": "Z_SUBURB", "x": 392, "y": 1240, "size": 30}]}
 ,{"name": "Young Town​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Stab Reward Chest", "ref": "Young Town/Stab Reward Chest"}], "map_locations": [{"map": "Z_SUBURB", "x": 264, "y": 1192, "size": 30}]}
 ,{"name": "Young Town​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Warp Pad", "ref": "Young Town/Warp Pad"}], "map_locations": [{"map": "Z_SUBURB", "x": 400, "y": 544, "size": 30}]}
+// Dust Swap
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Goldman's Cave Dust 1", "ref": "Fields/Goldman's Cave Dust 1"}], "map_locations": [{"map": "Z_FIELDS", "x": 1304, "y": 104, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Goldman's Cave Dust 2", "ref": "Fields/Goldman's Cave Dust 2"}], "map_locations": [{"map": "Z_FIELDS", "x": 1320, "y": 120, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Goldman's Cave Dust 3", "ref": "Fields/Goldman's Cave Dust 3"}], "map_locations": [{"map": "Z_FIELDS", "x": 1336, "y": 72, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Goldman's Cave Dust 4", "ref": "Fields/Goldman's Cave Dust 4"}], "map_locations": [{"map": "Z_FIELDS", "x": 1384, "y": 72, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Goldman's Cave Dust 5", "ref": "Fields/Goldman's Cave Dust 5"}], "map_locations": [{"map": "Z_FIELDS", "x": 1400, "y": 72, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Goldman's Cave Dust 6", "ref": "Fields/Goldman's Cave Dust 6"}], "map_locations": [{"map": "Z_FIELDS", "x": 1400, "y": 88, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Goldman's Cave Dust 7", "ref": "Fields/Goldman's Cave Dust 7"}], "map_locations": [{"map": "Z_FIELDS", "x": 1304, "y": 120, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Goldman's Cave Dust 8", "ref": "Fields/Goldman's Cave Dust 8"}], "map_locations": [{"map": "Z_FIELDS", "x": 1368, "y": 104, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Goldman's Cave Dust 9", "ref": "Fields/Goldman's Cave Dust 9"}], "map_locations": [{"map": "Z_FIELDS", "x": 1400, "y": 120, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Lake After Spikes Dust", "ref": "Fields/Lake After Spikes Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 1208, "y": 1032, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "North River Dust", "ref": "Fields/North River Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 1032, "y": 248, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Lake After Holes Floating Dust", "ref": "Fields/Lake After Holes Floating Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 1160, "y": 1704, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "South East of Gauntlet Dust", "ref": "Fields/South East of Gauntlet Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 1416, "y": 1528, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Lake Near Windmill Dust", "ref": "Fields/Lake Near Windmill Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 1352, "y": 1320, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "North of Lake Rapids Dust", "ref": "Fields/North of Lake Rapids Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 936, "y": 824, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "North East of Lake Dust", "ref": "Fields/North East of Lake Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 1176, "y": 840, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Before Annoyer Maze Dust", "ref": "Fields/Before Annoyer Maze Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 1304, "y": 568, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Mitra House Dust", "ref": "Fields/Mitra House Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 872, "y": 664, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Near Red Gate Dust", "ref": "Fields/Near Red Gate Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 680, "y": 824, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "After Red Gate Dust", "ref": "Fields/After Red Gate Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 504, "y": 616, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Near Terminal Dust", "ref": "Fields/Near Terminal Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 184, "y": 280, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "North West of Lake Dust", "ref": "Fields/North West of Lake Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 424, "y": 840, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Near Beach Dust", "ref": "Fields/Near Beach Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 248, "y": 920, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "South West Corner Dust", "ref": "Fields/South West Corner Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 216, "y": 1688, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "South East of Gauntlet Dust", "ref": "Fields/South East of Gauntlet Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 568, "y": 1480, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Before Gauntlet Dust", "ref": "Fields/Before Gauntlet Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 216, "y": 1320, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Island Chest Dust", "ref": "Fields/Island Chest Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 1000, "y": 1512, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Island Start Dust", "ref": "Fields/Island Start Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 856, "y": 1496, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Post Whirlpool Dust", "ref": "Fields/Post Whirlpool Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 1096, "y": 1224, "size": 30}]}
+,{"name": "Fields​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Olive Dust", "ref": "Fields/Olive Dust"}], "map_locations": [{"map": "Z_FIELDS", "x": 1048, "y": 1256, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "1F Floating Dustmaid Dust", "ref": "Hotel/1F Floating Dustmaid Dust"}], "map_locations": [{"map": "Z_HOTEL", "x": 1368, "y": 872, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "3F Hallway Dustmaid Dust 2", "ref": "Hotel/3F Hallway Dustmaid Dust 2"}], "map_locations": [{"map": "Z_HOTEL", "x": 360, "y": 1368, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "3F Hallway Dustmaid Dust 1", "ref": "Hotel/3F Hallway Dustmaid Dust 1"}], "map_locations": [{"map": "Z_HOTEL", "x": 440, "y": 1400, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "4F Moving Platform Crossroad 1", "ref": "Hotel/4F Moving Platform Crossroad 1"}], "map_locations": [{"map": "Z_HOTEL", "x": 424, "y": 632, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "1F Boss Dust", "ref": "Hotel/1F Boss Dust"}], "map_locations": [{"map": "Z_HOTEL", "x": 1320, "y": 1464, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "1F Gasguy Dust", "ref": "Hotel/1F Gasguy Dust"}], "map_locations": [{"map": "Z_HOTEL", "x": 1368, "y": 1032, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "1F Dustmaid and Steampipe Dust 3", "ref": "Hotel/1F Dustmaid and Steampipe Dust 3"}], "map_locations": [{"map": "Z_HOTEL", "x": 1512, "y": 1032, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "1F Dustmaid and Steampipe Dust 2", "ref": "Hotel/1F Dustmaid and Steampipe Dust 2"}], "map_locations": [{"map": "Z_HOTEL", "x": 1464, "y": 1016, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "1F Dustmaid and Steampipe Dust 1", "ref": "Hotel/1F Dustmaid and Steampipe Dust 1"}], "map_locations": [{"map": "Z_HOTEL", "x": 1496, "y": 984, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "1F Dustmaid and Steampipe Dust 4", "ref": "Hotel/1F Dustmaid and Steampipe Dust 4"}], "map_locations": [{"map": "Z_HOTEL", "x": 1464, "y": 1048, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "2F Steampipe Dust 2", "ref": "Hotel/2F Steampipe Dust 2"}], "map_locations": [{"map": "Z_HOTEL", "x": 1032, "y": 40, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "2F Steampipe Dust 1", "ref": "Hotel/2F Steampipe Dust 1"}], "map_locations": [{"map": "Z_HOTEL", "x": 1080, "y": 40, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "1F Locked Dust", "ref": "Hotel/1F Locked Dust"}], "map_locations": [{"map": "Z_HOTEL", "x": 1096, "y": 1144, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "2F Dustmaid and Steampipe Dust 3", "ref": "Hotel/2F Dustmaid and Steampipe Dust 3"}], "map_locations": [{"map": "Z_HOTEL", "x": 1048, "y": 456, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "2F Dustmaid and Steampipe Dust 1", "ref": "Hotel/2F Dustmaid and Steampipe Dust 1"}], "map_locations": [{"map": "Z_HOTEL", "x": 1032, "y": 344, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "2F Dustmaid and Steampipe Dust 2", "ref": "Hotel/2F Dustmaid and Steampipe Dust 2"}], "map_locations": [{"map": "Z_HOTEL", "x": 1048, "y": 376, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "2F Dustmaid Hallway Dust", "ref": "Hotel/2F Dustmaid Hallway Dust"}], "map_locations": [{"map": "Z_HOTEL", "x": 1480, "y": 584, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "3F Stream Dustmaid Dust", "ref": "Hotel/3F Stream Dustmaid Dust"}], "map_locations": [{"map": "Z_HOTEL", "x": 248, "y": 1640, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "3F Bedroom Dust", "ref": "Hotel/3F Bedroom Dust"}], "map_locations": [{"map": "Z_HOTEL", "x": 616, "y": 1576, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "4F Slime Dust 2", "ref": "Hotel/4F Slime Dust 2"}], "map_locations": [{"map": "Z_HOTEL", "x": 776, "y": 936, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "4F Slime Dust 1", "ref": "Hotel/4F Slime Dust 1"}], "map_locations": [{"map": "Z_HOTEL", "x": 680, "y": 824, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "4F Moving Platform Crossroad 2", "ref": "Hotel/4F Moving Platform Crossroad 2"}], "map_locations": [{"map": "Z_HOTEL", "x": 456, "y": 504, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "4F Dustmaid Dust", "ref": "Hotel/4F Dustmaid Dust"}], "map_locations": [{"map": "Z_HOTEL", "x": 616, "y": 664, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "4F Near Elevator Dust", "ref": "Hotel/4F Near Elevator Dust"}], "map_locations": [{"map": "Z_HOTEL", "x": 376, "y": 776, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "4F Spring Puzzle Dust", "ref": "Hotel/4F Spring Puzzle Dust"}], "map_locations": [{"map": "Z_HOTEL", "x": 568, "y": 1064, "size": 30}]}
+,{"name": "Hotel​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "4F Moving Platform Puzzle Dust", "ref": "Hotel/4F Moving Platform Puzzle Dust"}], "map_locations": [{"map": "Z_HOTEL", "x": 264, "y": 984, "size": 30}]}
+,{"name": "Space​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Challenge Area Dustmaid Dust 1", "ref": "Space/Challenge Area Dustmaid Dust 1"}], "map_locations": [{"map": "Z_SPACE", "x": 552, "y": 872, "size": 30}]}
+,{"name": "Space​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Challenge Area Dustmaid Dust 2", "ref": "Space/Challenge Area Dustmaid Dust 2"}], "map_locations": [{"map": "Z_SPACE", "x": 568, "y": 872, "size": 30}]}
+,{"name": "Space​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Challenge Area Lion Dust 1", "ref": "Space/Challenge Area Lion Dust 1"}], "map_locations": [{"map": "Z_SPACE", "x": 1144, "y": 856, "size": 30}]}
+,{"name": "Space​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Challenge Area Lion Dust 2", "ref": "Space/Challenge Area Lion Dust 2"}], "map_locations": [{"map": "Z_SPACE", "x": 1144, "y": 888, "size": 30}]}
+,{"name": "Street​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "After Bridge Dust 1", "ref": "Street/After Bridge Dust 1"}], "map_locations": [{"map": "Z_STREET", "x": 442, "y": 216, "size": 30}]}
+,{"name": "Street​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "After Bridge Dust 2", "ref": "Street/After Bridge Dust 2"}], "map_locations": [{"map": "Z_STREET", "x": 410, "y": 232, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​", "sections": [{"name": "Laser Room Dust 1", "ref": "Temple of the Seeing One/Laser Room Dust 1"}], "map_locations": [{"map": "Z_BEDROOM", "x": 408, "y": 536, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​", "sections": [{"name": "Laser Room Dust 2", "ref": "Temple of the Seeing One/Laser Room Dust 2"}], "map_locations": [{"map": "Z_BEDROOM", "x": 392, "y": 568, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​", "sections": [{"name": "Room With Holes Dust 1", "ref": "Temple of the Seeing One/Room With Holes Dust 1"}], "map_locations": [{"map": "Z_BEDROOM", "x": 200, "y": 344, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Room With Holes Dust 2", "ref": "Temple of the Seeing One/Room With Holes Dust 2"}], "map_locations": [{"map": "Z_BEDROOM", "x": 296, "y": 360, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Past Shieldy Puzzle Dust 1", "ref": "Temple of the Seeing One/Past Shieldy Puzzle Dust 1"}], "map_locations": [{"map": "Z_BEDROOM", "x": 264, "y": 280, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Before Boss Dust 1", "ref": "Temple of the Seeing One/Before Boss Dust 1"}], "map_locations": [{"map": "Z_BEDROOM", "x": 392, "y": 216, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Past Shieldy Puzzle Dust 2", "ref": "Temple of the Seeing One/Past Shieldy Puzzle Dust 2"}], "map_locations": [{"map": "Z_BEDROOM", "x": 188, "y": 294, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Shieldy Room Dust 1", "ref": "Temple of the Seeing One/Shieldy Room Dust 1"}], "map_locations": [{"map": "Z_BEDROOM", "x": 286, "y": 137, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Shieldy Room Dust 2", "ref": "Temple of the Seeing One/Shieldy Room Dust 2"}], "map_locations": [{"map": "Z_BEDROOM", "x": 295, "y": 76, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Laser Room Dust 3", "ref": "Temple of the Seeing One/Laser Room Dust 3"}], "map_locations": [{"map": "Z_BEDROOM", "x": 402, "y": 569, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Entrance Dust 1", "ref": "Temple of the Seeing One/Entrance Dust 1"}], "map_locations": [{"map": "Z_BEDROOM", "x": 360, "y": 680, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Entrance Dust 2", "ref": "Temple of the Seeing One/Entrance Dust 2"}], "map_locations": [{"map": "Z_BEDROOM", "x": 440, "y": 680, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Before Boss Dust 2", "ref": "Temple of the Seeing One/Before Boss Dust 2"}], "map_locations": [{"map": "Z_BEDROOM", "x": 373, "y": 297, "size": 30}]}
+,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "sections": [{"name": "Laser Room Dust 4", "ref": "Temple of the Seeing One/Laser Room Dust 4"}], "map_locations": [{"map": "Z_BEDROOM", "x": 454, "y": 508, "size": 30}]}
 
 
 // Red Cave Top
@@ -270,6 +347,13 @@
 ,{"name": "Red Cave - Boss Chest", "ref": "Red Cave/Boss Chest"}
 ,{"name": "Red Cave - Red Key", "ref": "Red Cave/Red Key"}
 ,{"name": "Red Cave - Warp Pad", "ref": "Red Cave/Warp Pad"}
+,{"name": "Red Cave - Top Cave Boss Dust 1", "ref": "Red Cave/Top Cave Boss Dust 1"}
+,{"name": "Red Cave - Top Cave Boss Dust 2", "ref": "Red Cave/Top Cave Boss Dust 2"}
+,{"name": "Red Cave - Top Cave Before Boss Dust", "ref": "Red Cave/Top Cave Before Boss Dust"}
+,{"name": "Red Cave - Top Cave Slasher Dust", "ref": "Red Cave/Top Cave Slasher Dust"}
+,{"name": "Red Cave - Top Cave Before Slasher Dust", "ref": "Red Cave/Top Cave Before Slasher Dust"}
+,{"name": "Red Cave - Top Cave Boss Dust 3", "ref": "Red Cave/Top Cave Boss Dust 3"}
+,{"name": "Red Cave - Top Cave Boss Dust 4", "ref": "Red Cave/Top Cave Boss Dust 4"}
 ],"map_locations": [{"map": "REDSEA", "x": 560, "y": 576, "size": 30}]}
 
 
@@ -279,6 +363,8 @@
 ,{"name": "Red Cave - Left Cave Sticky Chest", "ref": "Red Cave/Left Cave Sticky Chest"}
 ,{"name": "Red Cave - Left Cave Rapids Chest (Vanilla)", "ref": "Red Cave/Left Cave Rapids Chest (Vanilla)"}
 ,{"name": "Red Cave - Left Cave Sticky Chest (Vanilla)", "ref": "Red Cave/Left Cave Sticky Chest (Vanilla)"}
+,{"name": "Red Cave - Left Cave Whirlpool Dust 1", "ref": "Red Cave/Left Cave Whirlpool Dust 1"}
+,{"name": "Red Cave - Left Cave Whirlpool Dust 2", "ref": "Red Cave/Left Cave Whirlpool Dust 2"}
 ],"map_locations": [{"map": "REDSEA", "x": 400, "y": 736, "size": 30}]}
 
 
@@ -288,6 +374,9 @@
 ,{"name": "Red Cave - Right Cave Four Shooter Chest", "ref": "Red Cave/Right Cave Four Shooter Chest"}
 ,{"name": "Red Cave - Right Cave Slasher Chest (Vanilla)", "ref": "Red Cave/Right Cave Slasher Chest (Vanilla)"}
 ,{"name": "Red Cave - Right Cave Four Shooter Chest (Vanilla)", "ref": "Red Cave/Right Cave Four Shooter Chest (Vanilla)"}
+,{"name": "Red Cave - Right Cave Before Slasher Dust", "ref": "Red Cave/Right Cave Before Slasher Dust"}
+,{"name": "Red Cave - Right Cave Whirlpool Dust 1", "ref": "Red Cave/Right Cave Whirlpool Dust 1"}
+,{"name": "Red Cave - Right Cave Whirlpool Dust 2", "ref": "Red Cave/Right Cave Whirlpool Dust 2"}
 ],"map_locations": [{"map": "REDSEA", "x": 720, "y": 736, "size": 30}]}
 
 
@@ -305,6 +394,8 @@
 ,{"name": "Red Cave - Middle Cave Middle Chest", "ref": "Red Cave/Middle Cave Middle Chest"}
 ,{"name": "Red Cave - Middle Cave Right Chest (Vanilla)", "ref": "Red Cave/Middle Cave Right Chest (Vanilla)"}
 ,{"name": "Red Cave - Middle Cave Left Chest (Vanilla)", "ref": "Red Cave/Middle Cave Left Chest (Vanilla)"}
+,{"name": "Red Cave - Middle Cave Left Dust 1", "ref": "Red Cave/Middle Cave Left Dust 1"}
+,{"name": "Red Cave - Middle Cave Left Dust 2", "ref": "Red Cave/Middle Cave Left Dust 2"}
 ],"map_locations": [{"map": "REDSEA", "x": 560, "y": 736, "size": 30}]}
 
 // Isaac
@@ -331,6 +422,19 @@
 ,{"name": "Mountain Cavern - 2F Frogs and Dog Chest (Vanilla)", "ref": "Mountain Cavern/2F Frogs and Dog Chest (Vanilla)"}
 ,{"name": "Mountain Cavern - 2F Frogs and Rotators Chest (Vanilla)", "ref": "Mountain Cavern/2F Frogs and Rotators Chest (Vanilla)"}
 ,{"name": "Mountain Cavern - Blue Key", "ref": "Mountain Cavern/Blue Key"}
+,{"name": "Mountain Cavern - 3F Top Center Moving Platform Dust", "ref": "Mountain Cavern/3F Top Center Moving Platform Dust"}
+,{"name": "Mountain Cavern - 3F Top Right Moving Platform Dust", "ref": "Mountain Cavern/3F Top Right Moving Platform Dust"}
+,{"name": "Mountain Cavern - 3F Roller Dust", "ref": "Mountain Cavern/3F Roller Dust"}
+,{"name": "Mountain Cavern - 2F Frogs and Annoyers Dust", "ref": "Mountain Cavern/2F Frogs and Annoyers Dust"}
+,{"name": "Mountain Cavern - 2F Rotators and Annoyers Dust 1", "ref": "Mountain Cavern/2F Rotators and Annoyers Dust 1"}
+,{"name": "Mountain Cavern - 2F Rotators and Annoyers Dust 2", "ref": "Mountain Cavern/2F Rotators and Annoyers Dust 2"}
+,{"name": "Mountain Cavern - 2F Circular Hole Dust 1", "ref": "Mountain Cavern/2F Circular Hole Dust 1"}
+,{"name": "Mountain Cavern - 2F Circular Hole Dust 2", "ref": "Mountain Cavern/2F Circular Hole Dust 2"}
+,{"name": "Mountain Cavern - 2F Crossing Moving Platforms Dust 1", "ref": "Mountain Cavern/2F Crossing Moving Platforms Dust 1"}
+,{"name": "Mountain Cavern - 2F Crossing Moving Platforms Dust 2", "ref": "Mountain Cavern/2F Crossing Moving Platforms Dust 2"}
+,{"name": "Mountain Cavern - 2F Moving Platform Crossroad Dust 1", "ref": "Mountain Cavern/2F Moving Platform Crossroad Dust 1"}
+,{"name": "Mountain Cavern - 2F Moving Platform Crossroad Dust 2", "ref": "Mountain Cavern/2F Moving Platform Crossroad Dust 2"}
+,{"name": "Mountain Cavern - 2F Moving Platform Crossroad Dust 3", "ref": "Mountain Cavern/2F Moving Platform Crossroad Dust 3"}
 ],"map_locations": [{"map": "CLIFFS", "x": 736, "y": 824, "size": 30}]}
 
         ]

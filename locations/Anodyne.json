@@ -41,7 +41,8 @@
                         "name": "1F Ledge Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/apartmentfloor1"
@@ -63,7 +64,8 @@
                         "name": "1F Rat Maze Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/apartmentfloor1"
@@ -82,10 +84,119 @@
                         ]
                     },
                     {
+                        "name": "1F Shortcut Room Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/apartmentfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Couches Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/apartmentfloor1topleft"
+                        ]
+                    },
+                    {
+                        "name": "1F Shortcut Room Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/apartmentfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Rat Maze Chest Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/apartmentfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Rat Maze Chest Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/apartmentfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Rat Maze Chest Dust 3",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/apartmentfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Entrance Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/apartmentfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Flooded Room Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/apartmentfloor2"
+                        ]
+                    },
+                    {
+                        "name": "1F Flooded Library Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/apartmentfloor1"
+                        ]
+                    },
+                    {
                         "name": "2F Rat Maze Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/apartmentfloor2"
@@ -104,10 +215,47 @@
                         ]
                     },
                     {
+                        "name": "2F Switch Pillar Rat Maze Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/apartmentfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Dash Trap Rat Maze Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/apartmentfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Flooded Room Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/apartmentfloor2"
+                        ]
+                    },
+                    {
                         "name": "3F Gauntlet Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/apartmentfloor3"
@@ -191,7 +339,7 @@
                             "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            "$cards|8, $combat"
+                            "$gate|beachgauntlet, $combat"
                         ]
                     },
                     {
@@ -211,7 +359,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$combat, $cards|8, $post_swap"
+                            "$combat, $gate|beachgauntlet, $post_swap"
                         ]
                     },
                     {
@@ -247,7 +395,8 @@
                         "name": "After Statue Left Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat,$TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
@@ -289,7 +438,8 @@
                         "name": "Dark Room Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/bedroom"
@@ -311,7 +461,8 @@
                         "name": "Entrance Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "@Regions/Regions/bedroom"
@@ -333,7 +484,8 @@
                         "name": "Green Key",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_bigkey_shuffle", "opt_bigkey_unlocked"
+                            "opt_bigkey_shuffle",
+                            "opt_bigkey_unlocked"
                         ],
                         "access_rules": [
                             "@Regions/Regions/bedroomexit"
@@ -389,6 +541,174 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/bedroomexit"
+                        ]
+                    },
+                    {
+                        "name": "Laser Room Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Laser Room Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Room With Holes Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Room With Holes Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Past Shieldy Puzzle Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Before Boss Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Past Shieldy Puzzle Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Shieldy Room Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Shieldy Room Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Laser Room Dust 3",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Entrance Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Entrance Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Before Boss Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Laser Room Dust 4",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/bedroom"
                         ]
                     }
                 ],
@@ -456,7 +776,7 @@
                             "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            "$cards|24"
+                            "$gate|cell"
                         ]
                     },
                     {
@@ -502,7 +822,8 @@
                         "name": "Arthur Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/circus"
@@ -574,7 +895,8 @@
                         "name": "Javiera Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/circus2"
@@ -596,7 +918,8 @@
                         "name": "Lion Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/circus3"
@@ -618,7 +941,8 @@
                         "name": "Rat Maze Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/circus"
@@ -644,6 +968,246 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Dash Trap Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Fire Pillars in Water Dust 3",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus3"
+                        ]
+                    },
+                    {
+                        "name": "Lion Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus3"
+                        ]
+                    },
+                    {
+                        "name": "Lion Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus3"
+                        ]
+                    },
+                    {
+                        "name": "Fire Pillars in Water Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus3"
+                        ]
+                    },
+                    {
+                        "name": "Fire Pillars in Water Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus3"
+                        ]
+                    },
+                    {
+                        "name": "Fire Pillars in Water Dust 4",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus3"
+                        ]
+                    },
+                    {
+                        "name": "Dog Room Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Javiera Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus2"
+                        ]
+                    },
+                    {
+                        "name": "Javiera Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus2"
+                        ]
+                    },
+                    {
+                        "name": "Slime and Fire Pillar Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus2"
+                        ]
+                    },
+                    {
+                        "name": "Small Contort Room Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus3"
+                        ]
+                    },
+                    {
+                        "name": "Save Point Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus3"
+                        ]
+                    },
+                    {
+                        "name": "Clown Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Clown Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Spike Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Dash Pad over Hole Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Lion and Dash Pad Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Spike Roller in Water Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Entrance Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/circus"
                         ]
                     }
                 ],
@@ -728,7 +1292,8 @@
                         "name": "2F Entrance Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/crowdfloor2"
@@ -750,7 +1315,8 @@
                         "name": "2F Four Enemies Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/crowdfloor2"
@@ -772,7 +1338,8 @@
                         "name": "2F Frogs and Dog Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/crowdfloor2"
@@ -794,7 +1361,8 @@
                         "name": "2F Frogs and Rotators Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/crowdfloor2"
@@ -826,7 +1394,8 @@
                         "name": "Blue Key",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_bigkey_shuffle", "opt_bigkey_unlocked"
+                            "opt_bigkey_shuffle",
+                            "opt_bigkey_unlocked"
                         ],
                         "access_rules": [
                             "@Regions/Regions/crowdexit"
@@ -883,6 +1452,162 @@
                         "access_rules": [
                             "@Regions/Regions/crowdexit"
                         ]
+                    },
+                    {
+                        "name": "3F Top Center Moving Platform Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor3"
+                        ]
+                    },
+                    {
+                        "name": "3F Top Right Moving Platform Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor3"
+                        ]
+                    },
+                    {
+                        "name": "3F Roller Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor3"
+                        ]
+                    },
+                    {
+                        "name": "2F Frogs and Annoyers Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Rotators and Annoyers Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Rotators and Annoyers Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Circular Hole Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Circular Hole Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Crossing Moving Platforms Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Crossing Moving Platforms Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Moving Platform Crossroad Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Moving Platform Crossroad Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Moving Platform Crossroad Dust 3",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/crowdfloor2"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -899,6 +1624,9 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
+                "visibility_rules": [
+                    "$postgame_visibility"
+                ],
                 "access_rules": [
                     "@Regions/Regions/debug"
                 ],
@@ -951,6 +1679,54 @@
                         ],
                         "access_rules": [
                             ""
+                        ]
+                    },
+                    {
+                        "name": "Moving Platform Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/debug"
+                        ]
+                    },
+                    {
+                        "name": "Whirlpool Room Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/debug"
+                        ]
+                    },
+                    {
+                        "name": "Whirlpool Room Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/debug"
+                        ]
+                    },
+                    {
+                        "name": "Sound Test Console Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/debug"
                         ]
                     }
                 ],
@@ -1038,7 +1814,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -1058,7 +1834,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -1078,7 +1854,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$post_swap"
+                            "@Regions/Regions/fieldsnorthsecretarea"
                         ]
                     },
                     {
@@ -1088,7 +1864,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$post_swap, @Regions/Regions/terminal"
+                            "$hiddenpath, @Regions/Regions/terminal"
                         ]
                     },
                     {
@@ -1098,7 +1874,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$post_swap"
+                            "$hiddenpath"
                         ]
                     },
                     {
@@ -1119,6 +1895,366 @@
                         ],
                         "access_rules": [
                             ""
+                        ]
+                    },
+                    {
+                        "name": "Goldman's Cave Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Goldman's Cave Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Goldman's Cave Dust 3",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Goldman's Cave Dust 4",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Goldman's Cave Dust 5",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Goldman's Cave Dust 6",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Goldman's Cave Dust 7",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Goldman's Cave Dust 8",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Goldman's Cave Dust 9",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Lake After Spikes Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "North River Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Lake After Holes Floating Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "South East of Lake Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "Lake Near Windmill Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "North of Lake Rapids Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "North East of Lake Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "Before Annoyer Maze Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Mitra House Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "Near Red Gate Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fields"
+                        ]
+                    },
+                    {
+                        "name": "After Red Gate Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fieldspastgate"
+                        ]
+                    },
+                    {
+                        "name": "Near Terminal Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "North West of Lake Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "Near Beach Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "South West Corner Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "South East of Gauntlet Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "Before Gauntlet Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "Island Chest Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "Island Start Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "Post Whirlpool Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
+                        ]
+                    },
+                    {
+                        "name": "Olive Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/fieldslake"
                         ]
                     }
                 ],
@@ -1169,6 +2305,102 @@
                         "access_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Relaxation Pond Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/forest"
+                        ]
+                    },
+                    {
+                        "name": "Near Cliff Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/forest"
+                        ]
+                    },
+                    {
+                        "name": "Floating Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/forest"
+                        ]
+                    },
+                    {
+                        "name": "Thorax Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/forest"
+                        ]
+                    },
+                    {
+                        "name": "Carved Rock Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/forest"
+                        ]
+                    },
+                    {
+                        "name": "Tiny Island Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/forest"
+                        ]
+                    },
+                    {
+                        "name": "Inlet Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/forest"
+                        ]
+                    },
+                    {
+                        "name": "Before Inlet Chest Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/forest"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1191,7 +2423,7 @@
                 "sections": [
                     {
                         "name": "Defeat Briar",
-						"hosted_item": "briar",
+                        "hosted_item": "briar",
                         "item_count": 1,
                         "visibility_rules": [
                             ""
@@ -1253,7 +2485,8 @@
                         "name": "1F Burst Flowers Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "@Regions/Regions/hotelfloor1, $smallkey|Hotel|3"
@@ -1275,7 +2508,8 @@
                         "name": "2F Backrooms Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/hotelfloor2"
@@ -1297,7 +2531,8 @@
                         "name": "2F Crevice Left Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$jump, @Regions/Regions/hotelfloor2"
@@ -1319,7 +2554,8 @@
                         "name": "2F Crevice Right Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "@Regions/Regions/hotelfloor2right"
@@ -1361,7 +2597,8 @@
                         "name": "3F Gasguy Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/hotelfloor3"
@@ -1383,7 +2620,8 @@
                         "name": "3F Rotators Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/hotelfloor3"
@@ -1405,7 +2643,8 @@
                         "name": "4F Annoyers Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/hotelfloor4"
@@ -1472,6 +2711,318 @@
                         "access_rules": [
                             "@Regions/Regions/hotelfloor4"
                         ]
+                    },
+                    {
+                        "name": "1F Floating Dustmaid Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
+                        "name": "3F Hallway Dustmaid Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|1, $jump, @Regions/Regions/hotelfloor3"
+                        ]
+                    },
+                    {
+                        "name": "3F Hallway Dustmaid Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel, $jump, @Regions/Regions/hotelfloor3"
+                        ]
+                    },
+                    {
+                        "name": "4F Moving Platform Crossroad 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                        ]
+                    },
+                    {
+                        "name": "1F Boss Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Gasguy Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Dustmaid and Steampipe Dust 3",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Dustmaid and Steampipe Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Dustmaid and Steampipe Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
+                        "name": "1F Dustmaid and Steampipe Dust 4",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
+                        "name": "2F Steampipe Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/hotelfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Steampipe Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/hotelfloor2"
+                        ]
+                    },
+                    {
+                        "name": "1F Locked Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|6, @Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
+                        "name": "2F Dustmaid and Steampipe Dust 3",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Dustmaid and Steampipe Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Dustmaid and Steampipe Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
+                        ]
+                    },
+                    {
+                        "name": "2F Dustmaid Hallway Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
+                        ]
+                    },
+                    {
+                        "name": "3F Stream Dustmaid Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor3"
+                        ]
+                    },
+                    {
+                        "name": "3F Bedroom Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor3"
+                        ]
+                    },
+                    {
+                        "name": "4F Slime Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                        ]
+                    },
+                    {
+                        "name": "4F Slime Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                        ]
+                    },
+                    {
+                        "name": "4F Moving Platform Crossroad 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                        ]
+                    },
+                    {
+                        "name": "4F Dustmaid Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                        ]
+                    },
+                    {
+                        "name": "4F Near Elevator Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                        ]
+                    },
+                    {
+                        "name": "4F Spring Puzzle Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|1, $jump, @Regions/Regions/hotelfloor4"
+                        ]
+                    },
+                    {
+                        "name": "4F Moving Platform Puzzle Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Hotel|1, $jump, @Regions/Regions/hotelfloor4"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -1502,16 +3053,16 @@
                             "$post_swap"
                         ]
                     },
-					{
-						"name": "Card Goal",
-						"item_count": 1,
-						"visibility_rules": [
-							"opt_goal_cards"
-						],
-						"access_rules": [
-							"$cards|49"
-						]
-					}
+                    {
+                        "name": "Card Goal",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_goal_cards"
+                        ],
+                        "access_rules": [
+                            "$gate|nexusnorthfinal"
+                        ]
+                    }
                 ],
                 "map_locations": [
                     {
@@ -1548,7 +3099,7 @@
                             "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            "$combat,$cards|4, @Regions/Regions/overworld"
+                            "$combat,$gate|overworldgauntlet, @Regions/Regions/overworld"
                         ]
                     },
                     {
@@ -1624,7 +3175,8 @@
                         "name": "Left Cave Rapids Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/redcaveleft"
@@ -1646,7 +3198,8 @@
                         "name": "Left Cave Sticky Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/redcaveleft"
@@ -1678,7 +3231,8 @@
                         "name": "Middle Cave Left Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/redcavecenter"
@@ -1720,7 +3274,8 @@
                         "name": "Middle Cave Right Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "@Regions/Regions/redcavecenter"
@@ -1752,7 +3307,8 @@
                         "name": "Red Key",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_bigkey_shuffle", "opt_bigkey_unlocked"
+                            "opt_bigkey_shuffle",
+                            "opt_bigkey_unlocked"
                         ],
                         "access_rules": [
                             "@Regions/Regions/redcaveexit"
@@ -1774,7 +3330,8 @@
                         "name": "Right Cave Four Shooter Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "@Regions/Regions/redcaveright"
@@ -1796,7 +3353,8 @@
                         "name": "Right Cave Slasher Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "@Regions/Regions/redcaveright"
@@ -1852,6 +3410,174 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/redcavebottom"
+                        ]
+                    },
+                    {
+                        "name": "Top Cave Boss Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavetop"
+                        ]
+                    },
+                    {
+                        "name": "Top Cave Boss Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavetop"
+                        ]
+                    },
+                    {
+                        "name": "Top Cave Before Boss Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavetop"
+                        ]
+                    },
+                    {
+                        "name": "Top Cave Slasher Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavetop"
+                        ]
+                    },
+                    {
+                        "name": "Top Cave Before Slasher Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavetop"
+                        ]
+                    },
+                    {
+                        "name": "Top Cave Boss Dust 3",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavetop"
+                        ]
+                    },
+                    {
+                        "name": "Top Cave Boss Dust 4",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavetop"
+                        ]
+                    },
+                    {
+                        "name": "Middle Cave Left Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Middle Cave Left Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Right Cave Before Slasher Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveright"
+                        ]
+                    },
+                    {
+                        "name": "Right Cave Whirlpool Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveright"
+                        ]
+                    },
+                    {
+                        "name": "Left Cave Whirlpool Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveleft"
+                        ]
+                    },
+                    {
+                        "name": "Left Cave Whirlpool Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveleft"
+                        ]
+                    },
+                    {
+                        "name": "Right Cave Whirlpool Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveright"
                         ]
                     }
                 ],
@@ -1929,7 +3655,7 @@
                             "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            "$combat,$cards|16, @Regions/Regions/suburb"
+                            "$combat,$gate|suburb, @Regions/Regions/suburb"
                         ]
                     },
                     {
@@ -1988,7 +3714,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$combat,$post_swap"
+                            "$combat,$post_swap,$jump"
                         ]
                     },
                     {
@@ -2030,6 +3756,54 @@
                         "access_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Challenge Area Dustmaid Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$post_swap, $jump, @Regions/Regions/spacegauntlet"
+                        ]
+                    },
+                    {
+                        "name": "Challenge Area Dustmaid Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$post_swap, $jump, @Regions/Regions/spacegauntlet"
+                        ]
+                    },
+                    {
+                        "name": "Challenge Area Lion Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/spacegauntlet"
+                        ]
+                    },
+                    {
+                        "name": "Challenge Area Lion Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/spacegauntlet"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -2064,7 +3838,8 @@
                         "name": "Key Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "opt_smallkey_shuffle", "opt_smallkey_unlocked"
+                            "opt_smallkey_shuffle",
+                            "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
                             "$combat"
@@ -2090,6 +3865,30 @@
                         ],
                         "access_rules": [
                             "$post_swap"
+                        ]
+                    },
+                    {
+                        "name": "After Bridge Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Street|1, $combat, @Regions/Regions/street"
+                        ]
+                    },
+                    {
+                        "name": "After Bridge Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$smallkey|Street|1, $combat, @Regions/Regions/street"
                         ]
                     }
                 ],
@@ -2163,7 +3962,7 @@
                     {
                         "name": "Activation (Event)",
                         "item_count": 1,
-						"hosted_item": "statues",
+                        "hosted_item": "statues",
                         "visibility_rules": [
                             "opt_windmill_vanilla"
                         ],
@@ -2174,8 +3973,8 @@
                     {
                         "name": "Chest",
                         "item_count": 1,
-						"hosted_item": "statues",
-						"clear_as_group": true,
+                        "hosted_item": "statues",
+                        "clear_as_group": true,
                         "visibility_rules": [
                             ""
                         ],
@@ -2208,6 +4007,9 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
+                "visibility_rules": [
+                    "$postgame_visibility"
+                ],
                 "access_rules": [
                     "@Regions/Regions/bossrush"
                 ],
@@ -2220,6 +4022,90 @@
                         ],
                         "access_rules": [
                             "$combat"
+                        ]
+                    },
+                    {
+                        "name": "Before Red Boss Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$post_swap, $combat, @Regions/Regions/bossrush"
+                        ]
+                    },
+                    {
+                        "name": "Red Boss Dust 1",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$post_swap, $combat, @Regions/Regions/bossrush"
+                        ]
+                    },
+                    {
+                        "name": "Red Boss Dust 2",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$post_swap, $combat, @Regions/Regions/bossrush"
+                        ]
+                    },
+                    {
+                        "name": "Red Boss Dust 3",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$post_swap, $combat, @Regions/Regions/bossrush"
+                        ]
+                    },
+                    {
+                        "name": "Red Boss Dust 4",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$post_swap, $combat, @Regions/Regions/bossrush"
+                        ]
+                    },
+                    {
+                        "name": "Manager Phase 1 Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$post_swap, $combat, @Regions/Regions/bossrush"
+                        ]
+                    },
+                    {
+                        "name": "Manager Phase 2 Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat,$post_swap, $combat, @Regions/Regions/bossrush"
                         ]
                     }
                 ],
@@ -2250,6 +4136,18 @@
                         "access_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Laser Room Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/blue"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -2278,6 +4176,30 @@
                         ],
                         "access_rules": [
                             ""
+                        ]
+                    },
+                    {
+                        "name": "Final Room Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/happy"
+                        ]
+                    },
+                    {
+                        "name": "Dustmaid Dust",
+                        "item_count": 1,
+                        "chest_unopened_img": "/images/items/dust.png",
+                        "chest_opened_img": "/images/items/dust_collected.png",
+                        "visibility_rules": [
+                            "opt_dustsanity_on"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/happy"
                         ]
                     }
                 ],
