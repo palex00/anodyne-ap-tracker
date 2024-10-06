@@ -37,7 +37,7 @@
 ,{"name": "fields","access_rules": ["$pad_access|fields","@Regions/Regions/beach", "@Regions/Regions/blankwindmill, $post_swap", "@Regions/Regions/forest", "@Regions/Regions/overworld, $greenkey", "@Regions/Regions/terminal, $redkey, $jump", "@Regions/Regions/windmillentrance, $greenkey"]}
 ,{"name": "forest","access_rules": ["$pad_access|deepforest","@Regions/Regions/cliff", "@Regions/Regions/fields"]}
 ,{"name": "gobottom","access_rules": ["$pad_access|go", "@Regions/Regions/terminal, $endgameaccess"]}
-,{"name": "gotop","access_rules": ["@Regions/Regions/blue", "@Regions/Regions/gobottom, $pre_swap, $jump, $combat, $smallkey|Apartment|4, $smallkey|Hotel|6", "@Regions/Regions/gobottom, $pre_swap, opt_puzzle_false", "@Regions/Regions/happy"]}
+,{"name": "gotop","access_rules": ["@Regions/Regions/blue", "@Regions/Regions/gobottom, $pre_swap, $jump, $combat, @Anodyne/Hotel/Boss Chest, @Anodyne/Apartment/Boss Chest, @Anodyne/Circus/Boss Chest", "@Regions/Regions/gobottom, $pre_swap, opt_puzzle_false", "@Regions/Regions/happy"]}
 ,{"name": "happy","access_rules": ["$pad_access|happy","@Regions/Regions/gotop, $jump, $combat"]}
 ,{"name": "hotelfloor1","access_rules": ["@Regions/Regions/hotelfloor2"]}
 ,{"name": "hotelfloor2","access_rules": ["@Regions/Regions/hotelfloor1", "@Regions/Regions/hotelfloor3, [$smallkey|Hotel|4], $smallkey|Hotel|2"]}
