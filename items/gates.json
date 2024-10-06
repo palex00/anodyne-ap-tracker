@@ -1,0 +1,109 @@
+[
+
+    {
+        "name": "Overworld Gauntlet Gate",
+        "img": "images/items/gate_overworldgauntlet.png",
+        "type": "static",
+        "codes": "static_overworldgauntlet"
+    }
+,{"name":"Overworld Fields Gate","img":"images/items/gate_overworldfields.png","type":"static","codes":"static_overworldfields"}
+,{"name":"Fields Terminal Gate","img":"images/items/gate_fieldsterminal.png","type":"static","codes":"static_fieldsterminal"}
+,{"name":"Beach Gauntlet Gate","img":"images/items/gate_beachgauntlet.png","type":"static","codes":"static_beachgauntlet"}
+,{"name":"Windmill Entrance Gate","img":"images/items/gate_windmillentrance.png","type":"static","codes":"static_windmillentrance"}
+,{"name":"Windmill Middle Gate","img":"images/items/gate_windmillmiddle.png","type":"static","codes":"static_windmillmiddle"}
+,{"name":"Windmill Top Gate","img":"images/items/gate_windmilltop.png","type":"static","codes":"static_windmilltop"}
+,{"name":"Suburb Gate","img":"images/items/gate_suburb.png","type":"static","codes":"static_suburb"}
+,{"name":"Cell Gate","img":"images/items/gate_cell.png","type":"static","codes":"static_cell"}
+,{"name":"Terminal Endgame Gate","img":"images/items/gate_terminalendgame.png","type":"static","codes":"static_terminalendgame"}
+,{"name":"Blank Postgame Gate","img":"images/items/gate_blankpostgame.png","type":"static","codes":"static_blankpostgame"}
+,{"name":"Nexus North Final Gate","img":"images/items/gate_nexusnorthfinal.png","type":"static","codes":"static_nexusnorthfinal"}
+
+
+	
+    ,{
+        "name": "Overworld Gauntlet Gate Mode",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "codes": "gate_overworldgauntlet",
+        "stages": [
+            {
+                "name": "Overworld Gauntlet Gate: Unlocked",
+                "img": "images/items/gate_unlocked.png",
+                "codes": "gate_overworldgauntlet,gate_overworldgauntlet_unlocked"
+            },
+            {
+                "name": "Overworld Gauntlet Gate: Cards",
+                "img": "images/items/blankcard.png",
+                "codes": "gate_overworldgauntlet,gate_overworldgauntlet_cards",
+                "inherit_codes": false
+            },
+            {
+                "name": "Overworld Gauntlet Gate: Green Key",
+                "img": "images/items/GreenKey.png",
+                "codes": "gate_overworldgauntlet,gate_overworldgauntlet_green",
+                "inherit_codes": false
+            },
+            {
+                "name": "Overworld Gauntlet Gate: Red Key",
+                "img": "images/items/RedKey.png",
+                "codes": "gate_overworldgauntlet,gate_overworldgauntlet_red",
+                "inherit_codes": false
+            },
+            {
+                "name": "Overworld Gauntlet Gate: Blue Key",
+                "img": "images/items/BlueKey.png",
+                "codes": "gate_overworldgauntlet,gate_overworldgauntlet_blue",
+                "inherit_codes": false
+            },
+            {
+                "name": "Overworld Gauntlet Gate: Bosses Defeated",
+                "img": "images/items/bosses.png",
+                "codes": "gate_overworldgauntlet,gate_overworldgauntlet_bosses",
+                "inherit_codes": false
+            }
+        ]
+    }
+	
+,{"name":"Overworld Fields Gate Mode","type":"progressive","loop":true,"allow_disabled":false,"codes":"gate_overworldfields","stages":[{"name":"Overworld Fields Gate: Unlocked","img":"images/items/gate_unlocked.png","codes":"gate_overworldfields,gate_overworldfields_unlocked"},{"name":"Overworld Fields Gate: Cards","img":"images/items/blankcard.png","codes":"gate_overworldfields,gate_overworldfields_cards","inherit_codes":false},{"name":"Overworld Fields Gate: Green Key","img":"images/items/GreenKey.png","codes":"gate_overworldfields,gate_overworldfields_green","inherit_codes":false},{"name":"Overworld Fields Gate: Red Key","img":"images/items/RedKey.png","codes":"gate_overworldfields,gate_overworldfields_red","inherit_codes":false},{"name":"Overworld Fields Gate: Blue Key","img":"images/items/BlueKey.png","codes":"gate_overworldfields,gate_overworldfields_blue","inherit_codes":false},{"name":"Overworld Fields Gate: Bosses Defeated","img":"images/items/bosses.png","codes":"gate_overworldfields,gate_overworldfields_bosses","inherit_codes":false}]}
+,{"name":"Fields Terminal Gate Mode","type":"progressive","loop":true,"allow_disabled":false,"codes":"gate_fieldsterminal","stages":[{"name":"Fields Terminal Gate: Unlocked","img":"images/items/gate_unlocked.png","codes":"gate_fieldsterminal,gate_fieldsterminal_unlocked"},{"name":"Fields Terminal Gate: Cards","img":"images/items/blankcard.png","codes":"gate_fieldsterminal,gate_fieldsterminal_cards","inherit_codes":false},{"name":"Fields Terminal Gate: Green Key","img":"images/items/GreenKey.png","codes":"gate_fieldsterminal,gate_fieldsterminal_green","inherit_codes":false},{"name":"Fields Terminal Gate: Red Key","img":"images/items/RedKey.png","codes":"gate_fieldsterminal,gate_fieldsterminal_red","inherit_codes":false},{"name":"Fields Terminal Gate: Blue Key","img":"images/items/BlueKey.png","codes":"gate_fieldsterminal,gate_fieldsterminal_blue","inherit_codes":false},{"name":"Fields Terminal Gate: Bosses Defeated","img":"images/items/bosses.png","codes":"gate_fieldsterminal,gate_fieldsterminal_bosses","inherit_codes":false}]}
+,{"name":"Beach Gauntlet Gate Mode","type":"progressive","loop":true,"allow_disabled":false,"codes":"gate_beachgauntlet","stages":[{"name":"Beach Gauntlet Gate: Unlocked","img":"images/items/gate_unlocked.png","codes":"gate_beachgauntlet,gate_beachgauntlet_unlocked"},{"name":"Beach Gauntlet Gate: Cards","img":"images/items/blankcard.png","codes":"gate_beachgauntlet,gate_beachgauntlet_cards","inherit_codes":false},{"name":"Beach Gauntlet Gate: Green Key","img":"images/items/GreenKey.png","codes":"gate_beachgauntlet,gate_beachgauntlet_green","inherit_codes":false},{"name":"Beach Gauntlet Gate: Red Key","img":"images/items/RedKey.png","codes":"gate_beachgauntlet,gate_beachgauntlet_red","inherit_codes":false},{"name":"Beach Gauntlet Gate: Blue Key","img":"images/items/BlueKey.png","codes":"gate_beachgauntlet,gate_beachgauntlet_blue","inherit_codes":false},{"name":"Beach Gauntlet Gate: Bosses Defeated","img":"images/items/bosses.png","codes":"gate_beachgauntlet,gate_beachgauntlet_bosses","inherit_codes":false}]}
+,{"name":"Windmill Entrance Gate Mode","type":"progressive","loop":true,"allow_disabled":false,"codes":"gate_windmillentrance","stages":[{"name":"Windmill Entrance Gate: Unlocked","img":"images/items/gate_unlocked.png","codes":"gate_windmillentrance,gate_windmillentrance_unlocked"},{"name":"Windmill Entrance Gate: Cards","img":"images/items/blankcard.png","codes":"gate_windmillentrance,gate_windmillentrance_cards","inherit_codes":false},{"name":"Windmill Entrance Gate: Green Key","img":"images/items/GreenKey.png","codes":"gate_windmillentrance,gate_windmillentrance_green","inherit_codes":false},{"name":"Windmill Entrance Gate: Red Key","img":"images/items/RedKey.png","codes":"gate_windmillentrance,gate_windmillentrance_red","inherit_codes":false},{"name":"Windmill Entrance Gate: Blue Key","img":"images/items/BlueKey.png","codes":"gate_windmillentrance,gate_windmillentrance_blue","inherit_codes":false},{"name":"Windmill Entrance Gate: Bosses Defeated","img":"images/items/bosses.png","codes":"gate_windmillentrance,gate_windmillentrance_bosses","inherit_codes":false}]}
+,{"name":"Windmill Middle Gate Mode","type":"progressive","loop":true,"allow_disabled":false,"codes":"gate_windmillmiddle","stages":[{"name":"Windmill Middle Gate: Unlocked","img":"images/items/gate_unlocked.png","codes":"gate_windmillmiddle,gate_windmillmiddle_unlocked"},{"name":"Windmill Middle Gate: Cards","img":"images/items/blankcard.png","codes":"gate_windmillmiddle,gate_windmillmiddle_cards","inherit_codes":false},{"name":"Windmill Middle Gate: Green Key","img":"images/items/GreenKey.png","codes":"gate_windmillmiddle,gate_windmillmiddle_green","inherit_codes":false},{"name":"Windmill Middle Gate: Red Key","img":"images/items/RedKey.png","codes":"gate_windmillmiddle,gate_windmillmiddle_red","inherit_codes":false},{"name":"Windmill Middle Gate: Blue Key","img":"images/items/BlueKey.png","codes":"gate_windmillmiddle,gate_windmillmiddle_blue","inherit_codes":false},{"name":"Windmill Middle Gate: Bosses Defeated","img":"images/items/bosses.png","codes":"gate_windmillmiddle,gate_windmillmiddle_bosses","inherit_codes":false}]}
+,{"name":"Windmill Top Gate Mode","type":"progressive","loop":true,"allow_disabled":false,"codes":"gate_windmilltop","stages":[{"name":"Windmill Top Gate: Unlocked","img":"images/items/gate_unlocked.png","codes":"gate_windmilltop,gate_windmilltop_unlocked"},{"name":"Windmill Top Gate: Cards","img":"images/items/blankcard.png","codes":"gate_windmilltop,gate_windmilltop_cards","inherit_codes":false},{"name":"Windmill Top Gate: Green Key","img":"images/items/GreenKey.png","codes":"gate_windmilltop,gate_windmilltop_green","inherit_codes":false},{"name":"Windmill Top Gate: Red Key","img":"images/items/RedKey.png","codes":"gate_windmilltop,gate_windmilltop_red","inherit_codes":false},{"name":"Windmill Top Gate: Blue Key","img":"images/items/BlueKey.png","codes":"gate_windmilltop,gate_windmilltop_blue","inherit_codes":false},{"name":"Windmill Top Gate: Bosses Defeated","img":"images/items/bosses.png","codes":"gate_windmilltop,gate_windmilltop_bosses","inherit_codes":false}]}
+,{"name":"Suburb Gate Mode","type":"progressive","loop":true,"allow_disabled":false,"codes":"gate_suburb","stages":[{"name":"Suburb Gate: Unlocked","img":"images/items/gate_unlocked.png","codes":"gate_suburb,gate_suburb_unlocked"},{"name":"Suburb Gate: Cards","img":"images/items/blankcard.png","codes":"gate_suburb,gate_suburb_cards","inherit_codes":false},{"name":"Suburb Gate: Green Key","img":"images/items/GreenKey.png","codes":"gate_suburb,gate_suburb_green","inherit_codes":false},{"name":"Suburb Gate: Red Key","img":"images/items/RedKey.png","codes":"gate_suburb,gate_suburb_red","inherit_codes":false},{"name":"Suburb Gate: Blue Key","img":"images/items/BlueKey.png","codes":"gate_suburb,gate_suburb_blue","inherit_codes":false},{"name":"Suburb Gate: Bosses Defeated","img":"images/items/bosses.png","codes":"gate_suburb,gate_suburb_bosses","inherit_codes":false}]}
+,{"name":"Cell Gate Mode","type":"progressive","loop":true,"allow_disabled":false,"codes":"gate_cell","stages":[{"name":"Cell Gate: Unlocked","img":"images/items/gate_unlocked.png","codes":"gate_cell,gate_cell_unlocked"},{"name":"Cell Gate: Cards","img":"images/items/blankcard.png","codes":"gate_cell,gate_cell_cards","inherit_codes":false},{"name":"Cell Gate: Green Key","img":"images/items/GreenKey.png","codes":"gate_cell,gate_cell_green","inherit_codes":false},{"name":"Cell Gate: Red Key","img":"images/items/RedKey.png","codes":"gate_cell,gate_cell_red","inherit_codes":false},{"name":"Cell Gate: Blue Key","img":"images/items/BlueKey.png","codes":"gate_cell,gate_cell_blue","inherit_codes":false},{"name":"Cell Gate: Bosses Defeated","img":"images/items/bosses.png","codes":"gate_cell,gate_cell_bosses","inherit_codes":false}]}
+,{"name":"Terminal Endgame Gate Mode","type":"progressive","loop":true,"allow_disabled":false,"codes":"gate_terminalendgame","stages":[{"name":"Terminal Endgame Gate: Unlocked","img":"images/items/gate_unlocked.png","codes":"gate_terminalendgame,gate_terminalendgame_unlocked"},{"name":"Terminal Endgame Gate: Cards","img":"images/items/blankcard.png","codes":"gate_terminalendgame,gate_terminalendgame_cards","inherit_codes":false},{"name":"Terminal Endgame Gate: Green Key","img":"images/items/GreenKey.png","codes":"gate_terminalendgame,gate_terminalendgame_green","inherit_codes":false},{"name":"Terminal Endgame Gate: Red Key","img":"images/items/RedKey.png","codes":"gate_terminalendgame,gate_terminalendgame_red","inherit_codes":false},{"name":"Terminal Endgame Gate: Blue Key","img":"images/items/BlueKey.png","codes":"gate_terminalendgame,gate_terminalendgame_blue","inherit_codes":false},{"name":"Terminal Endgame Gate: Bosses Defeated","img":"images/items/bosses.png","codes":"gate_terminalendgame,gate_terminalendgame_bosses","inherit_codes":false}]}
+,{"name":"Blank Postgame Gate Mode","type":"progressive","loop":true,"allow_disabled":false,"codes":"gate_blankpostgame","stages":[{"name":"Blank Postgame Gate: Unlocked","img":"images/items/gate_unlocked.png","codes":"gate_blankpostgame,gate_blankpostgame_unlocked"},{"name":"Blank Postgame Gate: Cards","img":"images/items/blankcard.png","codes":"gate_blankpostgame,gate_blankpostgame_cards","inherit_codes":false},{"name":"Blank Postgame Gate: Green Key","img":"images/items/GreenKey.png","codes":"gate_blankpostgame,gate_blankpostgame_green","inherit_codes":false},{"name":"Blank Postgame Gate: Red Key","img":"images/items/RedKey.png","codes":"gate_blankpostgame,gate_blankpostgame_red","inherit_codes":false},{"name":"Blank Postgame Gate: Blue Key","img":"images/items/BlueKey.png","codes":"gate_blankpostgame,gate_blankpostgame_blue","inherit_codes":false},{"name":"Blank Postgame Gate: Bosses Defeated","img":"images/items/bosses.png","codes":"gate_blankpostgame,gate_blankpostgame_bosses","inherit_codes":false}]}
+,{"name":"Nexus North Final Gate Mode","type":"progressive","loop":true,"allow_disabled":false,"codes":"gate_nexusnorthfinal","stages":[{"name":"Nexus North Final Gate: Unlocked","img":"images/items/gate_unlocked.png","codes":"gate_nexusnorthfinal,gate_nexusnorthfinal_unlocked"},{"name":"Nexus North Final Gate: Cards","img":"images/items/blankcard.png","codes":"gate_nexusnorthfinal,gate_nexusnorthfinal_cards","inherit_codes":false},{"name":"Nexus North Final Gate: Green Key","img":"images/items/GreenKey.png","codes":"gate_nexusnorthfinal,gate_nexusnorthfinal_green","inherit_codes":false},{"name":"Nexus North Final Gate: Red Key","img":"images/items/RedKey.png","codes":"gate_nexusnorthfinal,gate_nexusnorthfinal_red","inherit_codes":false},{"name":"Nexus North Final Gate: Blue Key","img":"images/items/BlueKey.png","codes":"gate_nexusnorthfinal,gate_nexusnorthfinal_blue","inherit_codes":false},{"name":"Nexus North Final Gate: Bosses Defeated","img":"images/items/bosses.png","codes":"gate_nexusnorthfinal,gate_nexusnorthfinal_bosses","inherit_codes":false}]}
+
+	
+	
+	
+	,
+    {
+        "name": "Count needed for above option",
+        "type": "consumable",
+        "min_quantity": 0,
+        "img": "images/items/count.png",
+        "max_quantity": 49,
+        "overlay_background": "#0000000",
+        "overlay_align": "center",
+        "overlay_font_size": 28,
+		"disabled_img": "images/items/empty.png",
+        "codes": "count_overworldgauntlet"
+    }
+	
+,{"name":"Count needed for above option","type":"consumable","min_quantity":0,"img":"images/items/count.png","max_quantity":49,"disabled_img": "images/items/empty.png","overlay_background":"#0000000","overlay_align":"center","overlay_font_size":28,"codes":"count_overworldfields"}
+,{"name":"Count needed for above option","type":"consumable","min_quantity":0,"img":"images/items/count.png","max_quantity":49,"disabled_img": "images/items/empty.png","overlay_background":"#0000000","overlay_align":"center","overlay_font_size":28,"codes":"count_fieldsterminal"}
+,{"name":"Count needed for above option","type":"consumable","min_quantity":0,"img":"images/items/count.png","max_quantity":49,"disabled_img": "images/items/empty.png","overlay_background":"#0000000","overlay_align":"center","overlay_font_size":28,"codes":"count_beachgauntlet"}
+,{"name":"Count needed for above option","type":"consumable","min_quantity":0,"img":"images/items/count.png","max_quantity":49,"disabled_img": "images/items/empty.png","overlay_background":"#0000000","overlay_align":"center","overlay_font_size":28,"codes":"count_windmillentrance"}
+,{"name":"Count needed for above option","type":"consumable","min_quantity":0,"img":"images/items/count.png","max_quantity":49,"disabled_img": "images/items/empty.png","overlay_background":"#0000000","overlay_align":"center","overlay_font_size":28,"codes":"count_windmillmiddle"}
+,{"name":"Count needed for above option","type":"consumable","min_quantity":0,"img":"images/items/count.png","max_quantity":49,"disabled_img": "images/items/empty.png","overlay_background":"#0000000","overlay_align":"center","overlay_font_size":28,"codes":"count_windmilltop"}
+,{"name":"Count needed for above option","type":"consumable","min_quantity":0,"img":"images/items/count.png","max_quantity":49,"disabled_img": "images/items/empty.png","overlay_background":"#0000000","overlay_align":"center","overlay_font_size":28,"codes":"count_suburb"}
+,{"name":"Count needed for above option","type":"consumable","min_quantity":0,"img":"images/items/count.png","max_quantity":49,"disabled_img": "images/items/empty.png","overlay_background":"#0000000","overlay_align":"center","overlay_font_size":28,"codes":"count_cell"}
+,{"name":"Count needed for above option","type":"consumable","min_quantity":0,"img":"images/items/count.png","max_quantity":49,"disabled_img": "images/items/empty.png","overlay_background":"#0000000","overlay_align":"center","overlay_font_size":28,"codes":"count_terminalendgame"}
+,{"name":"Count needed for above option","type":"consumable","min_quantity":0,"img":"images/items/count.png","max_quantity":49,"disabled_img": "images/items/empty.png","overlay_background":"#0000000","overlay_align":"center","overlay_font_size":28,"codes":"count_blankpostgame"}
+,{"name":"Count needed for above option","type":"consumable","min_quantity":0,"img":"images/items/count.png","max_quantity":49,"disabled_img": "images/items/empty.png","overlay_background":"#0000000","overlay_align":"center","overlay_font_size":28,"codes":"count_nexusnorthfinal"}
+
+]
