@@ -14,6 +14,15 @@
             "type": "layout",
             "key": "setting_grid"
           }
+        },
+        {
+          "type": "group",
+          "header": "Gate Settings",
+          "dock": "Gate Settings",
+          "content": {
+            "type": "layout",
+            "key": "gates_grid"
+          }
         }
       ]
     }

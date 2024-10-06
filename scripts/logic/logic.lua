@@ -82,6 +82,7 @@ function smallkey(WHERE,AMOUNT)
 
 	return Tracker:FindObjectForCode("opt_smallkey").CurrentStage == 1
 	or count >= AMOUNT
+	or (Tracker:FindObjectForCode("opt_smallkey").CurrentStage == 3 and has("keyring("..WHERE..")"))
 end
 
 function redkey()
@@ -122,4 +123,46 @@ end
 
 function MountainCavernStatue()
    return (has("statues") and has("opt_windmill_vanilla")) or has("MountainCavernStatue")
+
+function gate(which)
+    -- Retrieve the gate code and its current stage
+    local gateCode = "gate_" .. which
+    local gateObject = Tracker:FindObjectForCode(gateCode)
+    
+    if not gateObject then
+        return false  -- Return false if the gate object is not found
+    end
+
+    local stage = gateObject.CurrentStage
+    local countCode = "count_" .. which
+    local countValue = Tracker:FindObjectForCode(countCode).AcquiredCount
+    local isGreenKey = greenkey
+    local isRedKey = redkey
+    local isBlueKey = bluekey
+
+    -- Check the conditions based on the stage
+    if stage == 0 then
+        return true
+    elseif stage == 1 then
+        return Tracker:FindObjectForCode("cards").AcquiredCount >= countValue
+    elseif stage == 2 then
+        return isGreenKey
+    elseif stage == 3 then
+        return isRedKey
+    elseif stage == 4 then
+        return isBlueKey
+    elseif stage == 5 then
+        return Tracker:FindObjectForCode("bosses").AcquiredCount >= countValue
+    else
+        return false  -- Return false if the stage is not recognized
+    end
+end
+
+function hiddenpath()
+    if Tracker:FindObjectForCode("opt_hiddenpaths_on").Active or post_swap then
+        return AccessibilityLevel.Normal
+    elseif Tracker:FindObjectForCode("opt_hiddenpaths_off").Active then
+        return AccessibilityLevel.SequenceBreak
+    end
+    return AccessibilityLevel.None  -- Default return if neither option is active
 end
