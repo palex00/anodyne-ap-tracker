@@ -113,6 +113,17 @@ function dummy()
 	return false
 end
 
+function TempleoftheSeeingOneStatue()
+   return (has("statues") and has("opt_windmill_vanilla")) or has("TempleoftheSeeingOneStatue")
+end
+
+function RedCaveStatue()
+   return (has("statues") and has("opt_windmill_vanilla")) or has("RedCaveStatue")
+end
+
+function MountainCavernStatue()
+   return (has("statues") and has("opt_windmill_vanilla")) or has("MountainCavernStatue")
+
 function gate(which)
     -- Retrieve the gate code and its current stage
     local gateCode = "gate_" .. which

@@ -216,20 +216,6 @@ function onBounce(json)
     end
 end
 
-
-function TempleoftheSeeingOneStatue()
-   return (has("statues") and has("opt_windmill_vanilla")) or has("TempleoftheSeeingOneStatue")
-end
-
-function RedCaveStatue()
-   return (has("statues") and has("opt_windmill_vanilla")) or has("RedCaveStatue")
-end
-
-function MountainCavernStatue()
-   return (has("statues") and has("opt_windmill_vanilla")) or has("MountainCavernStatue")
-end
-
-
 local currentCode
 
 function updateMap(mapName, mapIndex)
