@@ -743,9 +743,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "DUMMY",
-                        "x": 227,
-                        "y": 682,
+                        "map": "NEXUS",
+                        "x": 80,
+                        "y": 400,
                         "size": 30
                     }
                 ]

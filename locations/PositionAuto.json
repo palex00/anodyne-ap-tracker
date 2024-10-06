@@ -1934,6 +1934,50 @@
         ]
     }
     , {
+        "name": "Z_TEMPLE-POSITION",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
+        "overlay_background": "#000000",
+        "children": [
+ {"name": "You're here​", "visibility_rules": ["TEMPLE-0"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-0"}], "map_locations": [{"map": "Z_BEDROOM", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​", "visibility_rules": ["TEMPLE-1"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-1"}], "map_locations": [{"map": "Z_BEDROOM", "x": 240, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​", "visibility_rules": ["TEMPLE-2"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-2"}], "map_locations": [{"map": "Z_BEDROOM", "x": 400, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​", "visibility_rules": ["TEMPLE-3"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-3"}], "map_locations": [{"map": "Z_BEDROOM", "x": 560, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​", "visibility_rules": ["TEMPLE-4"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-4"}], "map_locations": [{"map": "Z_BEDROOM", "x": 720, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​", "visibility_rules": ["TEMPLE-5"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-5"}], "map_locations": [{"map": "Z_BEDROOM", "x": 880, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​", "visibility_rules": ["TEMPLE-6"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-6"}], "map_locations": [{"map": "Z_BEDROOM", "x": 1040, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​", "visibility_rules": ["TEMPLE-7"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-7"}], "map_locations": [{"map": "Z_BEDROOM", "x": 80, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​", "visibility_rules": ["TEMPLE-8"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-8"}], "map_locations": [{"map": "Z_BEDROOM", "x": 240, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​", "visibility_rules": ["TEMPLE-9"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-9"}], "map_locations": [{"map": "Z_BEDROOM", "x": 400, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​", "visibility_rules": ["TEMPLE-10"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-10"}], "map_locations": [{"map": "Z_BEDROOM", "x": 560, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-11"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-11"}], "map_locations": [{"map": "Z_BEDROOM", "x": 720, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-12"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-12"}], "map_locations": [{"map": "Z_BEDROOM", "x": 880, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-13"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-13"}], "map_locations": [{"map": "Z_BEDROOM", "x": 1040, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-14"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-14"}], "map_locations": [{"map": "Z_BEDROOM", "x": 80, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-15"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-15"}], "map_locations": [{"map": "Z_BEDROOM", "x": 240, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-16"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-16"}], "map_locations": [{"map": "Z_BEDROOM", "x": 400, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-17"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-17"}], "map_locations": [{"map": "Z_BEDROOM", "x": 560, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-18"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-18"}], "map_locations": [{"map": "Z_BEDROOM", "x": 720, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-19"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-19"}], "map_locations": [{"map": "Z_BEDROOM", "x": 880, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-20"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-20"}], "map_locations": [{"map": "Z_BEDROOM", "x": 1040, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-21"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-21"}], "map_locations": [{"map": "Z_BEDROOM", "x": 80, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-22"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-22"}], "map_locations": [{"map": "Z_BEDROOM", "x": 240, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-23"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-23"}], "map_locations": [{"map": "Z_BEDROOM", "x": 400, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-24"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-24"}], "map_locations": [{"map": "Z_BEDROOM", "x": 560, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-25"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-25"}], "map_locations": [{"map": "Z_BEDROOM", "x": 720, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-26"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-26"}], "map_locations": [{"map": "Z_BEDROOM", "x": 880, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-27"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-27"}], "map_locations": [{"map": "Z_BEDROOM", "x": 1040, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-28"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-28"}], "map_locations": [{"map": "Z_BEDROOM", "x": 80, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-29"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-29"}], "map_locations": [{"map": "Z_BEDROOM", "x": 240, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-30"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-30"}], "map_locations": [{"map": "Z_BEDROOM", "x": 400, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-31"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-31"}], "map_locations": [{"map": "Z_BEDROOM", "x": 560, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-32"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-32"}], "map_locations": [{"map": "Z_BEDROOM", "x": 720, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-33"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-33"}], "map_locations": [{"map": "Z_BEDROOM", "x": 880, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+, {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["TEMPLE-34"], "access_rules": ["{}"], "sections": [{"name": "TEMPLE-34"}], "map_locations": [{"map": "Z_BEDROOM", "x": 1040, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+
+        ]
+    }
+    , {
         "name": "Z_CELL-POSITION",
         "chest_unopened_img": "/images/items/young.png",
         "chest_opened_img": "/images/items/young.png",
