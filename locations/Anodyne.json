@@ -858,10 +858,10 @@
                         "name": "Extend Upgrade Chest",
                         "item_count": 1,
                         "visibility_rules": [
-                            "@Regions/Regions/crowdjumpchallenge"
+                            ""
                         ],
                         "access_rules": [
-                            "$jump, $combat"
+                            "$jump, $combat, @Regions/Regions/crowdjumpchallenge"
                         ]
                     },
                     {
