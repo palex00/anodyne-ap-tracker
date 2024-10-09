@@ -1784,7 +1784,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Regions/Regions/fields"
+                    ""
                 ],
                 "sections": [
                     {
@@ -1794,7 +1794,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$jump, $post_swap"
+                            "$jump, $post_swap, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1804,7 +1804,7 @@
                             ""
                         ],
                         "access_rules": [
-                            ""
+                            "@Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1824,7 +1824,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat"
+                            "$combat, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1844,7 +1844,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "BikingShoes"
+                            "BikingShoes, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1874,7 +1874,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$hiddenpath"
+                            "$hiddenpath, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1884,7 +1884,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "CardboardBox"
+                            "CardboardBox, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1894,7 +1894,7 @@
                             "$pad_location|fields"
                         ],
                         "access_rules": [
-                            ""
+                            "@Regions/Regions/fields"
                         ]
                     },
                     {
