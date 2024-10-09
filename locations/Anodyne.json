@@ -1115,10 +1115,10 @@
                         "name": "Warp Pad",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$pad_location|fields, @Regions/Regions/fields"
+                            "$pad_location|fields"
                         ],
                         "access_rules": [
-                            ""
+                            "@Regions/Regions/fields"
                         ]
                     }
                 ],
