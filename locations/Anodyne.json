@@ -1008,7 +1008,7 @@
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "@Regions/Regions/fields"
+                    ""
                 ],
                 "sections": [
                     {
@@ -1018,7 +1018,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$jump, $post_swap"
+                            "$jump, $post_swap, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1028,7 +1028,7 @@
                             ""
                         ],
                         "access_rules": [
-                            ""
+                            "@Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1038,7 +1038,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump"
+                            "$combat, $jump, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1048,7 +1048,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat"
+                            "$combat, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1058,7 +1058,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump"
+                            "$combat, $jump, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1068,7 +1068,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "BikingShoes"
+                            "BikingShoes, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1078,7 +1078,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$post_swap"
+                            "$post_swap, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1098,7 +1098,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$post_swap"
+                            "$post_swap, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -1108,14 +1108,14 @@
                             ""
                         ],
                         "access_rules": [
-                            "CardboardBox"
+                            "CardboardBox, @Regions/Regions/fields"
                         ]
                     },
                     {
                         "name": "Warp Pad",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$pad_location|fields"
+                            "$pad_location|fields, @Regions/Regions/fields"
                         ],
                         "access_rules": [
                             ""
