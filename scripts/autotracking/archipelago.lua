@@ -285,6 +285,15 @@ end
     end
 end
 
+function toggle_keys(code)
+    if has("opt_smallkey_unlocked") then
+        Tracker:AddLayouts("layouts/items_nokey.json")
+    elseif has("opt_smallkey_vanilla") or has("opt_smallkey_shuffle") then
+        Tracker:AddLayouts("layouts/items_key.json")
+    elseif has("opt_smallkey_keyring") then
+        Tracker:AddLayouts("layouts/items_keyring.json")
+    end
+end
 
 
 

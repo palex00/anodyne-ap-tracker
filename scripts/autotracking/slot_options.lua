@@ -86,27 +86,44 @@ function get_slot_options(slot_data)
 		end
 	end
 	
-    if slot_data["shuffle_small_keys"] then
-		local obj = Tracker:FindObjectForCode("opt_smallkey")
-		local stage = slot_data["shuffle_small_keys"]
-		if stage >= 2 then
-			stage = 2
+	if slot_data["shuffle_small_keys"] ~= nil then
+		if slot_data["shuffle_small_keys"] == 0 then
+			Tracker:FindObjectForCode("opt_smallkey").CurrentStage = 0
+		else
+			if slot_data["small_key_mode"] ~= nil then
+				local obj = Tracker:FindObjectForCode("opt_smallkey")
+				local stage = slot_data["small_key_mode"]
+				if stage >= 2 then
+					stage = 2
+				end
+				if obj then
+					obj.CurrentStage = stage + 1
+				end
+			end
 		end
-		if obj then
-			obj.CurrentStage = stage
+	end
+
+    if slot_data["dustsanity"] ~= nil then
+		local obj = Tracker:FindObjectForCode('opt_dustsanity')
+		local setting = slot_data["dustsanity"]
+		if setting == true then
+			obj.CurrentStage = 1
+		else
+			obj.CurrentStage = 0
 		end
 	end
 	
-    if slot_data["unlock_gates"] ~= nil then
-		local obj = Tracker:FindObjectForCode("opt_smallkey")
-		local stage = slot_data["unlock_gates"]
-		if stage == true then
-			obj.CurrentStage = 1
-		end
-		if stage == false then
-			obj.CurrentStage = 2
-		end
-	end
+---- Old Slot Data Compatibility
+--    if slot_data["unlock_gates"] ~= nil then
+--		local obj = Tracker:FindObjectForCode("opt_smallkey")
+--		local stage = slot_data["unlock_gates"]
+--		if stage == true then
+--			obj.CurrentStage = 1
+--		end
+--		if stage == false then
+--			obj.CurrentStage = 2
+--		end
+--	end
 
     if slot_data["postgame_mode"] then
 		local obj = Tracker:FindObjectForCode("opt_postgame")
@@ -188,5 +205,79 @@ if slot_data["nexus_gates_unlocked"] then
         end
     end
 end
+
+
+-- Define the keys to process
+local keysToProcess = {
+    "overworld_gauntlet_gate",
+    "terminal_endgame_gate",
+    "cell_gate",
+    "beach_gauntlet_gate",
+    "windmill_top_gate",
+    "windmill_entrance_gate",
+    "overworld_fields_gate",
+    "windmill_middle_gate",
+    "blank_postgame_gate",
+    "suburb_gate",
+    "nexus_north_final_gate",
+    "fields_terminal_gate"
+}
+
+-- Iterate over the specified keys
+for _, key in ipairs(keysToProcess) do
+    local value = slot_data[key]
+
+    -- Check if the key exists in slot_data
+    if value ~= nil then
+        -- Ensure value is a string for matching
+        local valueStr = tostring(value)
+
+        -- Remove "_gate" from the key and concatenate the parts
+        local codeName = key:gsub("_gate", ""):gsub("_", "")
+        local consumableCode = "count_" .. codeName
+        local gateCode = "gate_" .. codeName
+
+        -- Define valid values for processing
+        local validValues = {
+            ["unlocked"] = 0,
+            ["cards_"] = 1,  -- Default value for cards, will be updated with the number
+            ["green_key"] = 2,
+            ["red_key"] = 3,
+            ["blue_key"] = 4,
+            ["bosses_"] = 5  -- Default value for bosses, will be updated with the number
+        }
+
+        -- Check if the value is valid
+        local baseValue, stage
+
+        -- Handle cases with numbers (cards_XX, bosses_XX)
+        if valueStr:match("cards_") or valueStr:match("bosses_") then
+            local number = valueStr:match("%d+$")
+            baseValue = valueStr:match("cards_") and "cards_" or "bosses_"
+            stage = validValues[baseValue] -- Base value without number
+            if number then
+                local consumableObject = Tracker:FindObjectForCode(consumableCode)
+                if consumableObject then
+                    consumableObject.AcquiredCount = tonumber(number)
+                end
+            end
+        else
+            baseValue = valueStr
+            stage = validValues[baseValue]
+        end
+
+        -- Update the gate code stage if the base value is valid
+        if stage ~= nil then
+            local gateObject = Tracker:FindObjectForCode(gateCode)
+            if gateObject then
+                gateObject.CurrentStage = stage
+            end
+        else
+            error("Invalid value for " .. key .. ": " .. valueStr)
+        end
+    end
+end
+
+
 
 end
