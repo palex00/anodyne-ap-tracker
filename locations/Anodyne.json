@@ -871,7 +871,7 @@
                             "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/crowdfloor1"
+                            "@Regions/Regions/crowdfloor1, $combat, $jump"
                         ]
                     },
                     {
