@@ -44,7 +44,7 @@
                             "opt_smallkey_shuffle", "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/apartmentfloor1"
+                            "$combat, @Regions/Regions/apartmentfloor1"
                         ]
                     },
                     {
@@ -56,7 +56,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/apartmentfloor1"
+                            "$combat, @Regions/Regions/apartmentfloor1"
                         ]
                     },
                     {
@@ -66,7 +66,7 @@
                             "opt_smallkey_shuffle", "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/apartmentfloor1"
+                            "$combat, @Regions/Regions/apartmentfloor1"
                         ]
                     },
                     {
@@ -1671,7 +1671,7 @@
                             "opt_redcave_shuffle"
                         ],
                         "access_rules": [
-                            "$combat, $smallkey|RedCave|2, [$smallkey|RedCave|6], @Regions/Regions/redcaveleft"
+                            "$smallkey|RedCave|2, [$smallkey|RedCave|6], @Regions/Regions/redcaveleft"
                         ]
                     },
                     {
@@ -1703,7 +1703,7 @@
                             "opt_redcave_shuffle"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/redcavecenter"
+                            "@Regions/Regions/redcavecenter"
                         ]
                     },
                     {
@@ -1745,7 +1745,7 @@
                             "opt_redcave_shuffle"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/redcavecenter"
+                            "@Regions/Regions/redcavecenter"
                         ]
                     },
                     {
@@ -1777,7 +1777,7 @@
                             "opt_smallkey_shuffle", "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/redcaveright"
+                            "@Regions/Regions/redcaveright, $combat"
                         ]
                     },
                     {
@@ -1789,7 +1789,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/redcaveright"
+                            "@Regions/Regions/redcaveright, $combat"
                         ]
                     },
                     {
@@ -1799,7 +1799,7 @@
                             "opt_smallkey_shuffle", "opt_smallkey_unlocked"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/redcaveright"
+                            "@Regions/Regions/redcaveright, $combat"
                         ]
                     },
                     {
@@ -1811,7 +1811,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/redcaveright"
+                            "@Regions/Regions/redcaveright, $combat"
                         ]
                     },
                     {
@@ -1821,7 +1821,7 @@
                             "opt_redcave_shuffle"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/redcaveright, [$smallkey|RedCave|6], $smallkey|RedCave|2"
+                            "@Regions/Regions/redcaveright, [$smallkey|RedCave|6], $smallkey|RedCave|2"
                         ]
                     },
                     {
