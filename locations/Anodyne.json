@@ -1988,7 +1988,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$combat,$post_swap"
+                            "$combat, $jump, $post_swap"
                         ]
                     },
                     {
