@@ -48,7 +48,7 @@
 ,{"name": "nexusbottom","access_rules": ["@Regions/Regions/blankstart", "@Regions/Regions/street"]}
 ,{"name": "nexustop","access_rules": ["@Regions/Regions/blankending, $cards|49", "@Regions/Regions/bossrush", "@Regions/Regions/debug", "@Regions/Regions/drawerdark"]}
 ,{"name": "overworld","access_rules": ["$pad_access|overworld","@Regions/Regions/bedroomdrawer, $post_swap", "@Regions/Regions/bedroom", "@Regions/Regions/fields, $greenkey", "@Regions/Regions/overworldpostwindmill", "@Regions/Regions/street, $combat, $smallkey|Street|1"]}
-,{"name": "overworldpostwindmill","access_rules": ["@Regions/Regions/bedroomexit, $TempleoftheSeeingOneStatue, [$smallkey|TempleoftheSeeingOne|3], $smallkey|TempleoftheSeeingOne|1, $combat", "@Regions/Regions/suburb"]}
+,{"name": "overworldpostwindmill","access_rules": ["@Regions/Regions/bedroomexit, $TempleoftheSeeingOneStatue, [$smallkey|TempleoftheSeeingOne|3], $smallkey|TempleoftheSeeingOne|2, $combat", "@Regions/Regions/suburb"]}
 ,{"name": "redcavebottom","access_rules": ["@Regions/Regions/redsea"]}
 ,{"name": "redcavecenter","access_rules": ["@Regions/Regions/redsea"]}
 ,{"name": "redcaveexit","access_rules": ["$pad_access|redcave","@Regions/Regions/cell, $RedCaveStatue", "@Regions/Regions/redcavetop, $combat"]}
