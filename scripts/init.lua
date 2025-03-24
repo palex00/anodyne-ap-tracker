@@ -1,5 +1,5 @@
-
-            local variant = Tracker.ActiveVariantUID
+Tracker.AllowDeferredLogicUpdate = true
+local variant = Tracker.ActiveVariantUID
 
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/locationobjects.json")
