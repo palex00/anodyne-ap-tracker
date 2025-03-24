@@ -1703,7 +1703,7 @@
                             "opt_redcave_shuffle"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/redcavecenter"
+                            "$combat, @Regions/Regions/redcavecenter"
                         ]
                     },
                     {
