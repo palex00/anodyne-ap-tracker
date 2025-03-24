@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.3.8",
+			"download_url": "https://github.com/palex00/anodyne-ap-tracker/archive/refs/tags/0.3.8.zip",
+			"sha256": "54537f27a984c53789b758c1dfe21fef776150ef606e6b9b3f3a044afe653362",
+			"changelog": ["Massive Performance Increase"]
+		},
+		{
 			"package_version": "0.3.7",
 			"download_url": "https://github.com/palex00/anodyne-ap-tracker/archive/refs/tags/0.3.7.zip",
 			"sha256": "9d1f6cccc372253b17705c8bfb4c91ba2d7de8fd8398358cd08e1589c1ccf9ac",
