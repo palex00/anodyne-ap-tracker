@@ -1874,7 +1874,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$post_swap"
+                            "$hiddenpath, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -3224,7 +3224,7 @@
                             "opt_redcave_shuffle"
                         ],
                         "access_rules": [
-                            "$smallkey|RedCave|2, [$smallkey|RedCave|6], @Regions/Regions/redcaveleft"
+                            "$combat, $smallkey|RedCave|2, [$smallkey|RedCave|6], @Regions/Regions/redcaveleft"
                         ]
                     },
                     {
@@ -3300,7 +3300,7 @@
                             "opt_redcave_shuffle"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/redcavecenter"
+                            "$combat, @Regions/Regions/redcavecenter"
                         ]
                     },
                     {
@@ -3379,7 +3379,7 @@
                             "opt_redcave_shuffle"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/redcaveright, [$smallkey|RedCave|6], $smallkey|RedCave|2"
+                            "$combat, @Regions/Regions/redcaveright, [$smallkey|RedCave|6], $smallkey|RedCave|2"
                         ]
                     },
                     {
