@@ -34,7 +34,7 @@ function onClear(slot_data)
 		"nexus_cell", "nexus_circus", "nexus_cliffs", "nexus_mountaincavern", 
 		"nexus_fields", "nexus_deepforest", "nexus_go", "nexus_happy", "nexus_hotel", 
 		"nexus_overworld", "nexus_redcave", "nexus_redsea", "nexus_youngtown", 
-		"nexus_space", "nexus_terminal", "nexus_windmill"
+		"nexus_space", "nexus_terminal", "nexus_windmill", "statues"
 	}
 	
 	for _, code in ipairs(reset_codes) do

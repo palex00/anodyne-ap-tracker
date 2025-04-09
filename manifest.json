@@ -2,15 +2,15 @@
 {
     "name": "Anodyne Archipelago Tracker",
     "game_name": "Anodyne",
-    "package_version": "0.4.2 The Big Update Special Pack",
+    "package_version": "1.0.0 Beta",
     "package_uid": "anodyne_ap",
     "author": "palex00",
-    "min_poptracker_version": "0.27.1",
+    "min_poptracker_version": "0.30.4",
     "variants": {
         "Map Tracker": {
             "display_name": "Map Tracker",
             "flags": ["ap"]
         }
-    }//,
-    //"versions_url": "https://raw.githubusercontent.com/palex00/anodyne-ap-tracker/versions/versions.json"
+    },
+    "versions_url": "https://raw.githubusercontent.com/palex00/anodyne-ap-tracker/versions/versions.json"
 }

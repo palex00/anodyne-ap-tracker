@@ -1,4 +1,4 @@
--- Idk even what this does
+Tracker.AllowDeferredLogicUpdate = true
 local variant = Tracker.ActiveVariantUID
 
 -- Items

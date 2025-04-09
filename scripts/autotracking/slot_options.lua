@@ -1,6 +1,6 @@
 function get_slot_options(slot_data)
 
-    if slot_data["vanilla_red_cave"] then
+    if slot_data["vanilla_red_cave"] ~= nil then
 		local obj = Tracker:FindObjectForCode('opt_redcave')
 		local setting = slot_data["vanilla_red_cave"]
 		if setting == true then
@@ -30,7 +30,7 @@ function get_slot_options(slot_data)
 		end
 	end
 
-    if slot_data["split_windmill"] then
+    if slot_data["split_windmill"] ~= nil then
 		local obj = Tracker:FindObjectForCode('opt_windmill')
 		local setting = slot_data["split_windmill"]
 		if setting == true then
@@ -40,7 +40,7 @@ function get_slot_options(slot_data)
 		end
 	end
 
-    if slot_data["forest_bunny_chest"] then
+    if slot_data["forest_bunny_chest"] ~= nil then
 		local obj = Tracker:FindObjectForCode('opt_bunny')
 		local setting = slot_data["forest_bunny_chest"]
 		if setting == true then
@@ -50,11 +50,11 @@ function get_slot_options(slot_data)
 		end
 	end
 
-    if slot_data["endgame_card_requirement"] then
+    if slot_data["endgame_card_requirement"] ~= nil then
 		Tracker:FindObjectForCode('opt_endgamecardreq').AcquiredCount = slot_data["endgame_card_requirement"]
 	end
 
-    if slot_data["nexus_gate_shuffle"] then
+    if slot_data["nexus_gate_shuffle"] ~= nil then
 		local obj = Tracker:FindObjectForCode("opt_nexus")
 		local stage = slot_data["nexus_gate_shuffle"]
 		if stage >= 2 then
@@ -65,7 +65,7 @@ function get_slot_options(slot_data)
 		end
 	end
 
-    if slot_data["victory_condition"] then
+    if slot_data["victory_condition"] ~= nil then
 		local obj = Tracker:FindObjectForCode('opt_goal')
 		local setting = slot_data["victory_condition"]
 		if setting == 1 then
@@ -75,7 +75,7 @@ function get_slot_options(slot_data)
 		end
 	end
 
-    if slot_data["shuffle_big_gates"] then
+    if slot_data["shuffle_big_gates"] ~= nil then
 		local obj = Tracker:FindObjectForCode("opt_bigkey")
 		local stage = slot_data["shuffle_big_gates"]
 		if stage >= 2 then
@@ -90,7 +90,7 @@ function get_slot_options(slot_data)
 		if slot_data["shuffle_small_keys"] == 0 then
 			Tracker:FindObjectForCode("opt_smallkey").CurrentStage = 0
 		else
-			if slot_data["small_key_mode"] ~= nil then
+			if slot_data["small_key_mode"] ~= nil ~= nil then
 				local obj = Tracker:FindObjectForCode("opt_smallkey")
 				local stage = slot_data["small_key_mode"]
 				if stage >= 2 then
@@ -112,18 +112,6 @@ function get_slot_options(slot_data)
 			obj.CurrentStage = 0
 		end
 	end
-	
----- Old Slot Data Compatibility
---    if slot_data["unlock_gates"] ~= nil then
---		local obj = Tracker:FindObjectForCode("opt_smallkey")
---		local stage = slot_data["unlock_gates"]
---		if stage == true then
---			obj.CurrentStage = 1
---		end
---		if stage == false then
---			obj.CurrentStage = 2
---		end
---	end
 
     if slot_data["postgame_mode"] then
 		local obj = Tracker:FindObjectForCode("opt_postgame")
@@ -136,7 +124,7 @@ function get_slot_options(slot_data)
 		end
 	end
 	
-if slot_data["nexus_gates_unlocked"] then
+if slot_data["nexus_gates_unlocked"] ~= nil then
     local nexus_gates_mapping = {
         ["Apartment floor 1"] = "nexus_apartment",
         ["Beach"] = "nexus_beach",
@@ -171,7 +159,7 @@ if slot_data["nexus_gates_unlocked"] then
     end
 end
 
-if slot_data["nexus_gates_unlocked"] then
+if slot_data["nexus_gates_unlocked"] ~= nil then
     local nexus_gates_mapping = {
         ["Apartment floor 1"] = "NexusGate(apartment)",
         ["Beach"] = "NexusGate(beach)",
