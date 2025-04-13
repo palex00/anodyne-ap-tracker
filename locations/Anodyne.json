@@ -274,6 +274,16 @@
                         ]
                     },
                     {
+                        "name": "Defeated Watcher",
+                        "hosted_item": "Defeated_Watcher",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/apartmentfloor3"
+                        ]
+                    },
+                    {
                         "name": "Boss Chest",
                         "item_count": 1,
                         "visibility_rules": [
@@ -478,6 +488,16 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/bedroom"
+                        ]
+                    },
+                    {
+                        "name": "Defeated Seer",
+                        "hosted_item": "Defeated_Seer",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/bedroomexit, $combat, $jump"
                         ]
                     },
                     {
@@ -839,6 +859,16 @@
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/circus"
+                        ]
+                    },
+                    {
+                        "name": "Defeated Servants",
+                        "hosted_item": "Defeated_Servants",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/circus4"
                         ]
                     },
                     {
@@ -1388,6 +1418,16 @@
                         ],
                         "access_rules": [
                             "$combat, $jump, [$smallkey|MountainCavern|4], $jump,$smallkey|MountainCavern|3, @Regions/Regions/crowdfloor3"
+                        ]
+                    },
+                    {
+                        "name": "Defeated Wall",
+                        "hosted_item": "Defeated_Wall",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/crowdexit, $combat, $jump"
                         ]
                     },
                     {
@@ -2422,17 +2462,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Defeat Briar",
-                        "hosted_item": "briar",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            ""
-                        ],
-                        "access_rules": [
-                            "$combat, $jump, @Regions/Regions/gotop"
-                        ]
-                    },
-                    {
                         "name": "Secret Color Puzzle Chest",
                         "item_count": 1,
                         "visibility_rules": [
@@ -2460,6 +2489,26 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/gobottom"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Briar",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "opt_goal_cards"
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/gotop"
+                        ]
+                    },
+                    {
+                        "name": "Defeated Briar",
+                        "hosted_item": "Defeated_Briar",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $jump, @Regions/Regions/gotop"
                         ]
                     }
                 ],
@@ -2673,6 +2722,16 @@
                         ]
                     },
                     {
+                        "name": "Defeated Manager",
+                        "hosted_item": "Defeated_Manager",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$combat, $smallkey|Hotel|4, [$smallkey|Hotel|6], @Regions/Regions/hotelfloor1"
+                        ]
+                    },
+                    {
                         "name": "Boss Chest",
                         "item_count": 1,
                         "visibility_rules": [
@@ -2745,7 +2804,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel, $jump, @Regions/Regions/hotelfloor3"
+                            "$combat, $smallkey|Hotel|1, $jump, @Regions/Regions/hotelfloor3"
                         ]
                     },
                     {
@@ -3228,6 +3287,16 @@
                         ]
                     },
                     {
+                        "name": "Left Cave Tentacle (Vanilla)",
+                        "hosted_item": "Tentacle_L",
+                        "visibility_rules": [
+                            "opt_redcave_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, $smallkey|RedCave|2, [$smallkey|RedCave|6], @Regions/Regions/redcaveleft"
+                        ]
+                    },
+                    {
                         "name": "Middle Cave Left Chest",
                         "item_count": 1,
                         "visibility_rules": [
@@ -3255,6 +3324,16 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_redcave_shuffle"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Middle Cave Left Tentacle (Vanilla)",
+                        "hosted_item": "Tentacle_CL",
+                        "visibility_rules": [
+                            "opt_redcave_vanilla"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/redcavecenter"
@@ -3301,6 +3380,26 @@
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Middle Cave Right Tentacle (Vanilla)",
+                        "hosted_item": "Tentacle_CR",
+                        "visibility_rules": [
+                            "opt_redcave_vanilla"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcavecenter"
+                        ]
+                    },
+                    {
+                        "name": "Defeated Rogue",
+                        "hosted_item": "Defeated_Rogue",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "@Regions/Regions/redcaveexit"
                         ]
                     },
                     {
@@ -3377,6 +3476,16 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_redcave_shuffle"
+                        ],
+                        "access_rules": [
+                            "$combat, @Regions/Regions/redcaveright, [$smallkey|RedCave|6], $smallkey|RedCave|2"
+                        ]
+                    },
+                    {
+                        "name": "Right Cave Tentacle (Vanilla)",
+                        "hosted_item": "Tentacle_R",
+                        "visibility_rules": [
+                            "opt_redcave_vanilla"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/redcaveright, [$smallkey|RedCave|6], $smallkey|RedCave|2"
@@ -3929,6 +4038,16 @@
                         "access_rules": [
                             ""
                         ]
+                    },
+                    {
+                        "name": "Defeated Sage",
+                        "hosted_item": "Defeated_Sage",
+                        "visibility_rules": [
+                            "@Regions/Regions/gobottom"
+                        ],
+                        "access_rules": [
+
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -3960,9 +4079,8 @@
                         ]
                     },
                     {
-                        "name": "Activation (Event)",
-                        "item_count": 1,
-                        "hosted_item": "statues",
+                        "name": "Windmill Activated",
+                        "hosted_item": "Opened_Windmill",
                         "visibility_rules": [
                             "opt_windmill_vanilla"
                         ],

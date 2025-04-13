@@ -39,7 +39,7 @@
 ,{"name": "fieldspastgate","access_rules": ["@Regions/Regions/fieldsnorthsecretarea, $hiddenpath", "@Regions/Regions/terminal, $jump", "@Regions/Regions/fields, $gate|fieldsterminal"]}
 ,{"name": "fieldsnorthsecretarea","access_rules": ["@Regions/Regions/fields, $post_swap", "@Regions/Regions/fieldspastgate, $hiddenpath", "@Regions/Regions/fields, $combat, $jump"]}
 ,{"name": "forest","access_rules": ["$pad_access|deepforest","@Regions/Regions/cliff", "@Regions/Regions/fields"]}
-,{"name": "gobottom","access_rules": ["$pad_access|go", "@Regions/Regions/terminal, $endgameaccess"]}
+,{"name": "gobottom","access_rules": ["$pad_access|go", "@Regions/Regions/terminal, $gate|terminalendgame"]}
 ,{"name": "gotop","access_rules": ["@Regions/Regions/blue", "@Regions/Regions/gobottom, $pre_swap, $jump, $combat, @Anodyne/Hotel/Boss Chest, @Anodyne/Apartment/Boss Chest, @Anodyne/Circus/Boss Chest", "@Regions/Regions/gobottom, $pre_swap, opt_puzzle_false", "@Regions/Regions/happy"]}
 ,{"name": "happy","access_rules": ["$pad_access|happy","@Regions/Regions/gotop, $jump, $combat"]}
 ,{"name": "hotelfloor1","access_rules": ["@Regions/Regions/hotelfloor2"]}
@@ -56,16 +56,16 @@
 ,{"name": "redcavecenter","access_rules": ["@Regions/Regions/redsea"]}
 ,{"name": "redcaveexit","access_rules": ["$pad_access|redcave","@Regions/Regions/cell, $RedCaveStatue", "@Regions/Regions/redcavetop, $combat"]}
 ,{"name": "redcaveisaac","access_rules": ["@Regions/Regions/redsea"]}
-,{"name": "redcaveleft","access_rules": ["@Regions/Regions/redsea, ProgressiveRedCave:1, $combat", "@Regions/Regions/redsea, opt_redcave_vanilla, $combat"]}
-,{"name": "redcaveright","access_rules": ["@Regions/Regions/redsea, ProgressiveRedCave:2, $combat", "@Regions/Regions/redsea, opt_redcave_vanilla, $combat, [$smallkey|RedCave|6], $smallkey|RedCave|2"]}
-,{"name": "redcavetop","access_rules": ["@Regions/Regions/redcaveexit", "@Regions/Regions/redsea, ProgressiveRedCave:3", "@Regions/Regions/redsea, opt_redcave_vanilla, $smallkey|RedCave|6"]}
+,{"name": "redcaveleft","access_rules": ["@Regions/Regions/redsea, $redcave|1"]}
+,{"name": "redcaveright","access_rules": ["@Regions/Regions/redsea, $redcave|2, $combat"]} //"@Regions/Regions/redsea, opt_redcave_vanilla, $combat, [$smallkey|RedCave|6], $smallkey|RedCave|2"]} old code if needed
+,{"name": "redcavetop","access_rules": ["@Regions/Regions/redcaveexit", "@Regions/Regions/redsea, $redcave|3"]} // "@Regions/Regions/redsea, opt_redcave_vanilla, $smallkey|RedCave|6"]}
 ,{"name": "redsea","access_rules": ["$pad_access|redsea","@Regions/Regions/beach, $combat", "@Regions/Regions/redcavebottom", "@Regions/Regions/redcavecenter", "@Regions/Regions/redcaveisaac", "@Regions/Regions/redcaveleft", "@Regions/Regions/redcaveright", "@Regions/Regions/redcavetop"]}
 ,{"name": "space","access_rules": ["@Regions/Regions/spacegauntlet, $post_swap","$pad_access|space","@Regions/Regions/cliffpostwindmill", "@Regions/Regions/hotelroof"]}
 ,{"name": "spacegauntlet","access_rules": ["@Regions/Regions/space, $post_swap",]}
 ,{"name": "street","access_rules": ["@Regions/Regions/nexusbottom"]}
 ,{"name": "suburb","access_rules": ["$pad_access|youngtown","@Regions/Regions/apartmentfloor1", "@Regions/Regions/overworldpostwindmill", "@Regions/Regions/suburbcardhouse, $combat"]}
 ,{"name": "suburbcardhouse","access_rules": ["@Regions/Regions/suburb, $combat"]}
-,{"name": "terminal","access_rules": ["@Regions/Regions/fieldspastgate, $jump", "$pad_access|terminal", "@Regions/Regions/gobottom, $endgameaccess"]}
+,{"name": "terminal","access_rules": ["@Regions/Regions/fieldspastgate, $jump", "$pad_access|terminal", "@Regions/Regions/gobottom, $gate|terminalendgame"]}
 ,{"name": "windmill","access_rules": ["@Regions/Regions/windmillentrance, $gate|windmillmiddle, $gate|windmilltop"]}
 ,{"name": "windmillentrance","access_rules": ["$pad_access|windmill","@Regions/Regions/fields, $gate|windmillentrance", "@Regions/Regions/windmill, $gate|windmillmiddle, $gate|windmilltop"]}
                 ]

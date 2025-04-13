@@ -1,475 +1,341 @@
 [
-                    {
-                        "type": "toggle",
-                        "codes": "briar"
-                    },
-                    {
-                        "type": "toggle",
-                        "codes": "swaptoggle"
-                    },
-                    {
-                        "name": "Broom",
-                        "type": "toggle",
-                        "img": "/images/items/Broom.png",
-                        "codes": "Broom"
-                    },
-                    
-                    {
-                        "name": "Jump Shoes",
-                        "type": "toggle",
-                        "img": "/images/items/JumpShoes.png",
-                        "codes": "JumpShoes"
-                    },
-                    
-                    {
-                        "name": "Widen",
-                        "type": "toggle",
-                        "img": "/images/items/Widen.png",
-                        "codes": "Widen"
-                    },
-                    
-                    {
-                        "name": "Extend",
-                        "type": "toggle",
-                        "img": "/images/items/Extend.png",
-                        "codes": "Extend"
-                    },
-                    
-                    {
-                        "name": "Swap",
-                        "type": "toggle",
-                        "img": "/images/items/Swap.png",
-                        "codes": "Swap"
-                    },
-                    
-                    {
-                        "name": "Card Count",
-                        "type": "consumable",
-						"allow_disabled": true,
-						"min_quantity": 0,
-						"max_quantity": 49,
-						"overlay_background": "#000000",
-                        "img": "/images/items/cards.png",
-                        "codes": "cards"
-                    },
-                    {
-                        "name": "Small Key (Apartment)",
-                        "type": "consumable",
-                        "min_quantity": 0,
-                        "max_quantity": 4,
-                        "increment": 1,
-                        "initial_quantity": 0,
-						"allow_disabled": true,
-                        "img": "/images/items/SmallKey.png",
-                        "overlay_background": "#000000",
-                        "codes": "SmallKey(Apartment)"	
-                    },
-                    {
-                        "name": "Small Key (Temple of the Seeing One)",
-                        "type": "consumable",
-                        "min_quantity": 0,
-                        "max_quantity": 3,
-                        "increment": 1,
-                        "initial_quantity": 0,
-						"allow_disabled": true,
-                        "img": "/images/items/SmallKey.png",
-                        "overlay_background": "#000000",
-                        "codes": "SmallKey(TempleoftheSeeingOne)"
-                    },
-                    {
-                        "name": "Small Key (Circus)",
-                        "type": "consumable",
-                        "min_quantity": 0,
-                        "max_quantity": 4,
-                        "increment": 1,
-                        "initial_quantity": 0,
-						"allow_disabled": true,
-                        "img": "/images/items/SmallKey.png",
-                        "overlay_background": "#000000",
-                        "codes": "SmallKey(Circus)"
-                    },
-                    {
-                        "name": "Small Key (Mountain Cavern)",
-                        "type": "consumable",
-                        "min_quantity": 0,
-                        "max_quantity": 4,
-                        "increment": 1,
-                        "initial_quantity": 0,
-						"allow_disabled": true,
-                        "img": "/images/items/SmallKey.png",
-                        "overlay_background": "#000000",
-                        "codes": "SmallKey(MountainCavern)"
-                    },
-                    {
-                        "name": "Small Key (Hotel)",
-                        "type": "consumable",
-                        "min_quantity": 0,
-                        "max_quantity": 7,
-                        "increment": 1,
-                        "initial_quantity": 0,
-						"allow_disabled": true,
-                        "img": "/images/items/SmallKey.png",
-                        "overlay_background": "#000000",
-                        "codes": "SmallKey(Hotel)"
-                    },
-                    {
-                        "name": "Small Key (Red Cave)",
-                        "type": "consumable",
-                        "min_quantity": 0,
-                        "max_quantity": 6,
-                        "increment": 1,
-                        "initial_quantity": 0,
-						"allow_disabled": true,
-                        "img": "/images/items/SmallKey.png",
-                        "overlay_background": "#000000",
-                        "codes": "SmallKey(RedCave)"
-                    },
-                    {
-                        "name": "Small Key (Street)",
-                        "type": "consumable",
-                        "min_quantity": 0,
-                        "max_quantity": 1,
-                        "increment": 1,
-                        "initial_quantity": 0,
-						"allow_disabled": true,
-                        "img": "/images/items/SmallKey.png",
-                        "overlay_background": "#000000",
-                        "codes": "SmallKey(Street)"
-                    },
-                    {
-                        "name": "Key Ring (Apartment)",
-                        "type": "toggle",
-                        "img": "/images/items/keyring.png",
-                        "codes": "keyring(Apartment)"
-                    },
-                    {
-                        "name": "Key Ring (Temple of the Seeing One)",
-                        "type": "toggle",
-                        "img": "/images/items/keyring.png",
-                        "codes": "keyring(TempleoftheSeeingOne)"
-                    },
-                    {
-                        "name": "Key Ring (Circus)",
-                        "type": "toggle",
-                        "img": "/images/items/keyring.png",
-                        "codes": "keyring(Circus)"
-                    },
-                    {
-                        "name": "Key Ring (Mountain Cavern)",
-                        "type": "toggle",
-                        "img": "/images/items/keyring.png",
-                        "codes": "keyring(MountainCavern)"
-                    },
-                    {
-                        "name": "Key Ring (Hotel)",
-                        "type": "toggle",
-                        "img": "/images/items/keyring.png",
-                        "codes": "keyring(Hotel)"
-                    },
-                    {
-                        "name": "Key Ring (Red Cave)",
-                        "type": "toggle",
-                        "img": "/images/items/keyring.png",
-                        "codes": "keyring(RedCave)"
-                    },
-                    {
-                        "name": "Key Ring (Street)",
-                        "type": "toggle",
-                        "img": "/images/items/keyring.png",
-                        "codes": "keyring(Street)"
-                    },
-                    {
-                        "name": "Green Key",
-                        "type": "toggle",
-                        "img": "/images/items/GreenKey.png",
-                        "codes": "GreenKey"
-                    },
-                    
-                    {
-                        "name": "Red Key",
-                        "type": "toggle",
-                        "img": "/images/items/RedKey.png",
-                        "codes": "RedKey"
-                    },
-                    
-                    {
-                        "name": "Blue Key",
-                        "type": "toggle",
-                        "img": "/images/items/BlueKey.png",
-                        "codes": "BlueKey"
-                    },
-                    
-                    {
-                        "name": "Health Cicada",
-                        "type": "consumable",
-                        "allow_disabled": false,
-                        "min_quantity": 0,
-                        "max_quantity": 10,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/items/HealthCicada.png",
-                        "overlay_background": "#000000",
-                        "codes": "HealthCicada"
-                    },
-                    {
-                        "name": "Cardboard Box",
-                        "type": "toggle",
-                        "img": "/images/items/CardboardBox.png",
-                        "codes": "CardboardBox"
-                    },
-                    
-                    {
-                        "name": "Biking Shoes",
-                        "type": "toggle",
-                        "img": "/images/items/BikingShoes.png",
-                        "codes": "BikingShoes"
-                    },
-                    
-                    {
-                        "name": "Progressive Red Cave",
-                        "type": "consumable",
-                        "allow_disabled": false,
-                        "min_quantity": 0,
-                        "max_quantity": 3,
-                        "increment": 1,
-                        "initial_quantity": 0,
-						"allow_disabled": true,
-                        "img": "/images/items/ProgressiveRedCave.png",
-                        "overlay_background": "#000000",
-                        "codes": "ProgressiveRedCave"
-                    },
-                    {
-                        "name": "Temple of the Seeing One Statue",
-                        "type": "toggle",
-                        "img": "/images/items/TempleoftheSeeingOneStatue.png",
-                        "codes": "TempleoftheSeeingOneStatue"
-                    },
-                    
-                    {
-                        "name": "Red Cave Statue",
-                        "type": "toggle",
-                        "img": "/images/items/RedCaveStatue.png",
-                        "codes": "RedCaveStatue"
-                    },
-                    
-                    {
-                        "name": "Mountain Cavern Statue",
-                        "type": "toggle",
-                        "img": "/images/items/MountainCavernStatue.png",
-                        "codes": "MountainCavernStatue"
-                    },
-                    
-                    {
-                        "name": "Progressive Swap",
-                        "type": "progressive",
-                        "loop": false,
-                        "stages": [
-                            {
-								"name": "Progressive Swap - GO State",
-                                "img": "/images/items/ProgressiveSwap.png",
-                                "codes": "ProgressiveSwap"
-                            },
-                            {
-                                "name": "Progressive Swap - Postgame State",
-                                "img": "/images/items/ProgressiveSwap_prog.png",
-                                "codes": "ProgressiveSwap_prog"
-                            }
-                        ],
-                        "codes": "ProgressiveSwap"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Apartment)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Apartment).png",
-                        "codes": "NexusGate(apartment)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Beach)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Beach).png",
-                        "codes": "NexusGate(beach)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Temple of the Seeing One)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(TempleoftheSeeingOne).png",
-                        "codes": "NexusGate(templeoftheseeingone)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Blue)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Blue).png",
-                        "codes": "NexusGate(blue)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Cell)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Cell).png",
-                        "codes": "NexusGate(cell)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Circus)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Circus).png",
-                        "codes": "NexusGate(circus)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Cliffs)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Cliffs).png",
-                        "codes": "NexusGate(cliffs)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Mountain Cavern)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(MountainCavern).png",
-                        "codes": "NexusGate(mountaincavern)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Fields)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Fields).png",
-                        "codes": "NexusGate(fields)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Deep Forest)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(DeepForest).png",
-                        "codes": "NexusGate(deepforest)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (GO)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(GO).png",
-                        "codes": "NexusGate(go)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Happy)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Happy).png",
-                        "codes": "NexusGate(happy)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Hotel)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Hotel).png",
-                        "codes": "NexusGate(hotel)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Overworld)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Overworld).png",
-                        "codes": "NexusGate(overworld)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Red Cave)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(RedCave).png",
-                        "codes": "NexusGate(redcave)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Red Sea)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(RedSea).png",
-                        "codes": "NexusGate(redsea)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Young Town)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(YoungTown).png",
-                        "codes": "NexusGate(youngtown)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Space)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Space).png",
-                        "codes": "NexusGate(space)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Terminal)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Terminal).png",
-                        "codes": "NexusGate(terminal)"
-                    },
-                    
-                    {
-                        "name": "Nexus Gate (Windmill)",
-                        "type": "toggle",
-                        "img": "/images/items/NexusGate(Windmill).png",
-                        "codes": "NexusGate(windmill)"
-                    },
-                    
-                    {
-                        "name": "Location-Tracking",
-                        "type": "progressive",
-						"allow_disabled": false,
-                        "loop": false,
-                        "stages": [
-                            {
-								"name": "Location-Tracking: Enabled",
-                                "img": "/images/items/young.png",
-                                "codes": "tracking, tracking_enabled"
-                            },
-                            {
-                                "name": "Location-Tracking: Disabled",
-                                "img": "/images/items/young.png",
-                                "img_mods": "@disabled",
-                                "codes": "tracking, tracking_disabled",
-								"inherit_codes": false
-                            }
-                        ],
-                        "codes": "tracking"
-                    },
-                    {
-                        "name": "Show Swappable Areas on Maps",
-                        "type": "progressive",
-						"allow_disabled": false,
-                        "loop": false,
-                        "stages": [
-                            {
-								"name": "Show Swappable Areas on Maps: Disabled",
-                                "img": "/images/items/swapareas.png",
-                                "img_mods": "@disabled",
-                                "codes": "swapareas, swapareas_disabled"
-                            },
-                            {
-                                "name": "Show Swappable Areas on Maps: Enabled",
-                                "img": "/images/items/swapareas.png",
-                                "codes": "swapareas, swapareas_enabled",
-								"inherit_codes": false
-                            }
-                        ],
-                        "codes": "swapareas"
-                    },
-					{
-						"name": "statues",
-						"type": "toggle",
-						"img": "/images/items/empty.png",
-						"codes": "statues"
-					},
-					{
-						"name": "bosses",
-						"type": "consumable",
-						"img": "/images/items/empty.png",
-						"codes": "bosses"
-					}
+    {
+        "type": "toggle",
+        "codes": "swaptoggle"
+    },
+    {
+        "name": "Broom",
+        "type": "toggle",
+        "img": "/images/items/Broom.png",
+        "codes": "Broom"
+    },
+    {
+        "name": "Jump Shoes",
+        "type": "toggle",
+        "img": "/images/items/JumpShoes.png",
+        "codes": "JumpShoes"
+    },
+    {
+        "name": "Widen",
+        "type": "toggle",
+        "img": "/images/items/Widen.png",
+        "codes": "Widen"
+    },
+    {
+        "name": "Extend",
+        "type": "toggle",
+        "img": "/images/items/Extend.png",
+        "codes": "Extend"
+    },
+    {
+        "name": "Swap",
+        "type": "toggle",
+        "img": "/images/items/Swap.png",
+        "codes": "Swap"
+    },
+    {
+        "name": "Card Count",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 49,
+        "overlay_background": "#000000",
+        "img": "/images/items/cards.png",
+        "codes": "cards"
+    },
+    {
+        "name": "Small Key (Apartment)",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 4,
+        "increment": 1,
+        "initial_quantity": 0,
+        "allow_disabled": true,
+        "img": "/images/items/SmallKey.png",
+        "overlay_background": "#000000",
+        "codes": "SmallKey(Apartment)"
+    },
+    {
+        "name": "Small Key (Temple of the Seeing One)",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 3,
+        "increment": 1,
+        "initial_quantity": 0,
+        "allow_disabled": true,
+        "img": "/images/items/SmallKey.png",
+        "overlay_background": "#000000",
+        "codes": "SmallKey(TempleoftheSeeingOne)"
+    },
+    {
+        "name": "Small Key (Circus)",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 4,
+        "increment": 1,
+        "initial_quantity": 0,
+        "allow_disabled": true,
+        "img": "/images/items/SmallKey.png",
+        "overlay_background": "#000000",
+        "codes": "SmallKey(Circus)"
+    },
+    {
+        "name": "Small Key (Mountain Cavern)",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 4,
+        "increment": 1,
+        "initial_quantity": 0,
+        "allow_disabled": true,
+        "img": "/images/items/SmallKey.png",
+        "overlay_background": "#000000",
+        "codes": "SmallKey(MountainCavern)"
+    },
+    {
+        "name": "Small Key (Hotel)",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 7,
+        "increment": 1,
+        "initial_quantity": 0,
+        "allow_disabled": true,
+        "img": "/images/items/SmallKey.png",
+        "overlay_background": "#000000",
+        "codes": "SmallKey(Hotel)"
+    },
+    {
+        "name": "Small Key (Red Cave)",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 6,
+        "increment": 1,
+        "initial_quantity": 0,
+        "allow_disabled": true,
+        "img": "/images/items/SmallKey.png",
+        "overlay_background": "#000000",
+        "codes": "SmallKey(RedCave)"
+    },
+    {
+        "name": "Small Key (Street)",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 1,
+        "increment": 1,
+        "initial_quantity": 0,
+        "allow_disabled": true,
+        "img": "/images/items/SmallKey.png",
+        "overlay_background": "#000000",
+        "codes": "SmallKey(Street)"
+    },
+    {
+        "name": "Key Ring (Apartment)",
+        "type": "toggle",
+        "img": "/images/items/keyring.png",
+        "codes": "keyring(Apartment)"
+    },
+    {
+        "name": "Key Ring (Temple of the Seeing One)",
+        "type": "toggle",
+        "img": "/images/items/keyring.png",
+        "codes": "keyring(TempleoftheSeeingOne)"
+    },
+    {
+        "name": "Key Ring (Circus)",
+        "type": "toggle",
+        "img": "/images/items/keyring.png",
+        "codes": "keyring(Circus)"
+    },
+    {
+        "name": "Key Ring (Mountain Cavern)",
+        "type": "toggle",
+        "img": "/images/items/keyring.png",
+        "codes": "keyring(MountainCavern)"
+    },
+    {
+        "name": "Key Ring (Hotel)",
+        "type": "toggle",
+        "img": "/images/items/keyring.png",
+        "codes": "keyring(Hotel)"
+    },
+    {
+        "name": "Key Ring (Red Cave)",
+        "type": "toggle",
+        "img": "/images/items/keyring.png",
+        "codes": "keyring(RedCave)"
+    },
+    {
+        "name": "Key Ring (Street)",
+        "type": "toggle",
+        "img": "/images/items/keyring.png",
+        "codes": "keyring(Street)"
+    },
+    {
+        "name": "Green Key",
+        "type": "toggle",
+        "img": "/images/items/GreenKey.png",
+        "codes": "Green_Key"
+    },
+    {
+        "name": "Red Key",
+        "type": "toggle",
+        "img": "/images/items/RedKey.png",
+        "codes": "Red_Key"
+    },
+    {
+        "name": "Blue Key",
+        "type": "toggle",
+        "img": "/images/items/BlueKey.png",
+        "codes": "Blue_Key"
+    },
+    {
+        "name": "Health Cicada",
+        "type": "consumable",
+        "allow_disabled": false,
+        "min_quantity": 0,
+        "max_quantity": 10,
+        "increment": 1,
+        "initial_quantity": 0,
+        "img": "/images/items/HealthCicada.png",
+        "overlay_background": "#000000",
+        "codes": "HealthCicada"
+    },
+    {
+        "name": "Cardboard Box",
+        "type": "toggle",
+        "img": "/images/items/CardboardBox.png",
+        "codes": "CardboardBox"
+    },
+    {
+        "name": "Biking Shoes",
+        "type": "toggle",
+        "img": "/images/items/BikingShoes.png",
+        "codes": "BikingShoes"
+    },
+    {
+        "name": "Progressive Red Cave",
+        "type": "consumable",
+        "allow_disabled": true,
+        "min_quantity": 0,
+        "max_quantity": 3,
+        "increment": 1,
+        "initial_quantity": 0,
+        "img": "/images/items/ProgressiveRedCave.png",
+        "overlay_background": "#000000",
+        "codes": "ProgressiveRedCave"
+    },
+    {
+        "name": "Temple of the Seeing One Statue",
+        "type": "toggle",
+        "img": "/images/items/TempleoftheSeeingOneStatue.png",
+        "codes": "TempleoftheSeeingOneStatue"
+    },
+    {
+        "name": "Red Cave Statue",
+        "type": "toggle",
+        "img": "/images/items/RedCaveStatue.png",
+        "codes": "RedCaveStatue"
+    },
+    {
+        "name": "Mountain Cavern Statue",
+        "type": "toggle",
+        "img": "/images/items/MountainCavernStatue.png",
+        "codes": "MountainCavernStatue"
+    },
+    {
+        "name": "Progressive Swap",
+        "type": "progressive",
+        "loop": false,
+        "stages": [
+            {
+                "name": "Progressive Swap - GO State",
+                "img": "/images/items/ProgressiveSwap.png",
+                "codes": "ProgressiveSwap"
+            },
+            {
+                "name": "Progressive Swap - Postgame State",
+                "img": "/images/items/ProgressiveSwap_prog.png",
+                "codes": "ProgressiveSwap_prog"
+            }
+        ],
+        "codes": "ProgressiveSwap"
+    }
+    
+,{"name": "Nexus Gate (Temple of the Seeing One)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(templeoftheseeingone).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(templeoftheseeingone).png"}, {"img": "/images/items/NexusGate(templeoftheseeingone).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(templeoftheseeingone)"}
+,{"name": "Nexus Gate (Apartment)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(apartment).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(apartment).png"}, {"img": "/images/items/NexusGate(apartment).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(apartment)"}
+,{"name": "Nexus Gate (Beach)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(beach).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(beach).png"}, {"img": "/images/items/NexusGate(beach).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(beach)"}
+,{"name": "Nexus Gate (Blue)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(blue).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(blue).png"}, {"img": "/images/items/NexusGate(blue).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(blue)"}
+,{"name": "Nexus Gate (Cell)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(cell).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(cell).png"}, {"img": "/images/items/NexusGate(cell).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(cell)"}
+,{"name": "Nexus Gate (Circus)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(circus).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(circus).png"}, {"img": "/images/items/NexusGate(circus).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(circus)"}
+,{"name": "Nexus Gate (Cliffs)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(cliffs).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(cliffs).png"}, {"img": "/images/items/NexusGate(cliffs).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(cliffs)"}
+,{"name": "Nexus Gate (Mountain Cavern)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(mountaincavern).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(mountaincavern).png"}, {"img": "/images/items/NexusGate(mountaincavern).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(mountaincavern)"}
+,{"name": "Nexus Gate (Fields)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(fields).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(fields).png"}, {"img": "/images/items/NexusGate(fields).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(fields)"}
+,{"name": "Nexus Gate (Deep Forest)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(deepforest).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(deepforest).png"}, {"img": "/images/items/NexusGate(deepforest).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(deepforest)"}
+,{"name": "Nexus Gate (GO)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(go).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(go).png"}, {"img": "/images/items/NexusGate(go).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(go)"}
+,{"name": "Nexus Gate (Happy)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(happy).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(happy).png"}, {"img": "/images/items/NexusGate(happy).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(happy)"}
+,{"name": "Nexus Gate (Hotel)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(hotel).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(hotel).png"}, {"img": "/images/items/NexusGate(hotel).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(hotel)"}
+,{"name": "Nexus Gate (Overworld)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(overworld).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(overworld).png"}, {"img": "/images/items/NexusGate(overworld).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(overworld)"}
+,{"name": "Nexus Gate (Red Cave)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(redcave).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(redcave).png"}, {"img": "/images/items/NexusGate(redcave).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(redcave)"}
+,{"name": "Nexus Gate (Red Sea)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(redsea).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(redsea).png"}, {"img": "/images/items/NexusGate(redsea).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(redsea)"}
+,{"name": "Nexus Gate (Young Town)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(youngtown).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(youngtown).png"}, {"img": "/images/items/NexusGate(youngtown).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(youngtown)"}
+,{"name": "Nexus Gate (Space)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(space).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(space).png"}, {"img": "/images/items/NexusGate(space).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(space)"}
+,{"name": "Nexus Gate (Terminal)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(terminal).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(terminal).png"}, {"img": "/images/items/NexusGate(terminal).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(terminal)"}
+,{"name": "Nexus Gate (Windmill)", "type": "progressive_toggle", "stages": [ { "img": "/images/items/NexusGate(windmill).png", "img_mods": "overlay|images/items/overlay_vanilla.png"}, {"img": "/images/items/NexusGate(windmill).png"}, {"img": "/images/items/NexusGate(windmill).png", "img_mods": "overlay|images/items/overlay_item.png" }], "codes": "NexusGate(windmill)"}
+
+    ,{
+        "name": "Location-Tracking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "codes": "tracking",
+        "loop": false,
+        "stages": [
+            {
+                "name": "Location-Tracking: Enabled",
+                "img": "/images/items/young.png",
+                "codes": "tracking, tracking_enabled"
+            },
+            {
+                "name": "Location-Tracking: Disabled",
+                "img": "/images/items/young.png",
+                "img_mods": "@disabled",
+                "codes": "tracking, tracking_disabled",
+                "inherit_codes": false
+            }
         ]
+    },
+    {
+        "name": "Show Swappable Areas on Maps",
+        "type": "progressive",
+        "allow_disabled": false,
+        "codes": "swapareas",
+        "loop": false,
+        "stages": [
+            {
+                "name": "Show Swappable Areas on Maps: Disabled",
+                "img": "/images/items/swapareas.png",
+                "img_mods": "@disabled",
+                "codes": "swapareas, swapareas_disabled"
+            },
+            {
+                "name": "Show Swappable Areas on Maps: Enabled",
+                "img": "/images/items/swapareas.png",
+                "codes": "swapareas, swapareas_enabled",
+                "inherit_codes": false
+            }
+        ]
+    }
+    
+,{"name": "Defeated Seer", "type": "toggle", "img": "images/events/Defeated_Seer.png", "codes": "Defeated_Seer" }
+,{"name": "Defeated Wall", "type": "toggle", "img": "images/events/Defeated_Wall.png", "codes": "Defeated_Wall" }
+,{"name": "Defeated Rogue", "type": "toggle", "img": "images/events/Defeated_Rogue.png", "codes": "Defeated_Rogue" }
+,{"name": "Defeated Manager", "type": "toggle", "img": "images/events/Defeated_Manager.png", "codes": "Defeated_Manager" }
+,{"name": "Defeated Watcher", "type": "toggle", "img": "images/events/Defeated_Watcher.png", "codes": "Defeated_Watcher" }
+,{"name": "Defeated Servants", "type": "toggle", "img": "images/events/Defeated_Servants.png", "codes": "Defeated_Servants" }
+,{"name": "Defeated Sage", "type": "toggle", "img": "images/events/Defeated_Sage.png", "codes": "Defeated_Sage" }
+,{"name": "Defeated Briar", "type": "toggle", "img": "images/events/Defeated_Briar.png", "codes": "Defeated_Briar" }
+,{"name": "Tentacle: Middle-Left", "type": "toggle", "img": "images/events/tentacle.png", "codes": "Tentacle_CL" }
+,{"name": "Tentacle: Middle-Right", "type": "toggle", "img": "images/events/tentacle.png", "codes": "Tentacle_CR" }
+,{"name": "Tentacle: Left", "type": "toggle", "img": "images/events/tentacle.png", "codes": "Tentacle_L" }
+,{"name": "Tentacle: Right", "type": "toggle", "img": "images/events/tentacle.png", "codes": "Tentacle_R" }
+,{"name": "Windmill Activated", "type": "toggle", "img": "images/events/Opened_Windmill.png", "codes": "Opened_Windmill" }
+
+]

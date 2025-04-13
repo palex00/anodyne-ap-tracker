@@ -25,28 +25,28 @@
                         "opt_dustsanity"
                     ],
                     [
-                        "nexus_apartment",
-                        "nexus_beach",
+                        "nexus_fields",
+                        "nexus_overworld",
                         "nexus_templeoftheseeingone",
-                        "nexus_blue",
-                        "nexus_cell",
-                        "nexus_circus",
+                        "nexus_beach",
+                        "nexus_redsea",
+                        "nexus_redcave",
+                        "nexus_deepforest",
                         "nexus_cliffs",
                         "nexus_mountaincavern",
-                        "nexus_fields",
-                        "nexus_deepforest"
+                        "nexus_windmill"
                     ],
                     [
-                        "nexus_go",
-                        "nexus_happy",
-                        "nexus_hotel",
-                        "nexus_overworld",
-                        "nexus_redcave",
-                        "nexus_redsea",
                         "nexus_youngtown",
+                        "nexus_apartment",
+                        "nexus_cell",
+                        "nexus_circus",
                         "nexus_space",
+                        "nexus_hotel",
                         "nexus_terminal",
-                        "nexus_windmill"
+                        "nexus_go",
+                        "nexus_blue",
+                        "nexus_happy"
                     ]
                 ]
             }

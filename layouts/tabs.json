@@ -18,11 +18,38 @@
                     "dock": "top",
                     "tabs": [
                         {
-                            "title": "APARTMENT",
+                            "title": "STREET",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "APARTMENT"
+                                    "STREET"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "FIELDS",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "FIELDS"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "OVERWORLD",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "OVERWORLD"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "TEMPLE",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "BEDROOM"
                                 ]
                             }
                         },
@@ -36,11 +63,38 @@
                             }
                         },
                         {
-                            "title": "BLUE",
+                            "title": "RED SEA",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "BLUE"
+                                    "REDSEA"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "RED CAVE",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "REDCAVE"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "FOREST",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "FOREST"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "CLIFFS",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "CLIFFS"
                                 ]
                             }
                         },
@@ -50,6 +104,33 @@
                                 "type": "map",
                                 "maps": [
                                     "CROWD"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "WINDMILL",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "WINDMILL"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "TOWN",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "SUBURB"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "APARTMENT",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "APARTMENT"
                                 ]
                             }
                         },
@@ -72,47 +153,11 @@
                             }
                         },
                         {
-                            "title": "CLIFFS",
+                            "title": "SPACE",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "CLIFFS"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "FIELDS",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FIELDS"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "FOREST",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "FOREST"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "GO",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "GO"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "HAPPY",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "HAPPY"
+                                    "SPACE"
                                 ]
                             }
                         },
@@ -126,60 +171,6 @@
                             }
                         },
                         {
-                            "title": "OVERWORLD",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "OVERWORLD"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "RED CAVE",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "REDCAVE"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "RED SEA",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "REDSEA"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "SPACE",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "SPACE"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "STREET",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "STREET"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "TEMPLE",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "BEDROOM"
-                                ]
-                            }
-                        },
-                        {
                             "title": "TERMINAL",
                             "content": {
                                 "type": "map",
@@ -189,20 +180,29 @@
                             }
                         },
                         {
-                            "title": "TOWN",
+                            "title": "GO",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "SUBURB"
+                                    "GO"
                                 ]
                             }
                         },
                         {
-                            "title": "WINDMILL",
+                            "title": "BLUE",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "WINDMILL"
+                                    "BLUE"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "HAPPY",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "HAPPY"
                                 ]
                             }
                         }
@@ -216,20 +216,11 @@
                     "dock": "top",
                     "tabs": [
                         {
-                            "title": "BEACH",
+                            "title": "STREET",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "Z_BEACH"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "CELL",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Z_CELL"
+                                    "Z_STREET"
                                 ]
                             }
                         },
@@ -243,56 +234,11 @@
                             }
                         },
                         {
-                            "title": "GO",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Z_GO"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "HOTEL",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Z_HOTEL"
-                                ]
-                            }
-                        },
-                        {
                             "title": "OVERWORLD",
                             "content": {
                                 "type": "map",
                                 "maps": [
                                     "Z_OVERWORLD"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "RED SEA",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Z_REDSEA"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "SPACE",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Z_SPACE"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "STREET",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Z_STREET"
                                 ]
                             }
                         },
@@ -306,11 +252,20 @@
                             }
                         },
                         {
-                            "title": "TOWN",
+                            "title": "BEACH",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "Z_SUBURB"
+                                    "Z_BEACH"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "RED SEA",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_REDSEA"
                                 ]
                             }
                         },
@@ -320,6 +275,51 @@
                                 "type": "map",
                                 "maps": [
                                     "Z_WINDMILL"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "TOWN",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_SUBURB"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "CELL",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_CELL"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "SPACE",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_SPACE"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "HOTEL",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_HOTEL"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "GO",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Z_GO"
                                 ]
                             }
                         }

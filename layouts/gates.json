@@ -1,0 +1,51 @@
+{
+    "gates": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "NexusGate(Fields)",
+                                "NexusGate(Overworld)",
+                                "NexusGate(TempleoftheSeeingOne)",
+                                "NexusGate(Beach)",
+                                "NexusGate(RedSea)",
+                                "NexusGate(RedCave)",
+                                "NexusGate(DeepForest)",
+                                "NexusGate(Cliffs)",
+                                "NexusGate(MountainCavern)",
+                                "NexusGate(Windmill)"
+                            ],
+                            [
+                                "NexusGate(YoungTown)",
+                                "NexusGate(Apartment)",
+                                "NexusGate(Cell)",
+                                "NexusGate(Circus)",
+                                "NexusGate(Space)",
+                                "NexusGate(Hotel)",
+                                "NexusGate(Terminal)",
+                                "NexusGate(GO)",
+                                "NexusGate(Blue)",
+                                "NexusGate(Happy)"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -40,14 +40,50 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
+                            "header": "Core Items",
                             "dock": "left",
                             "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
                                 "h_alignment": "center",
                                 "v_alignment": "center",
-                                "key": "items"
+                                "key": "core_items"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Keys",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "key_items"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Other",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "other_items"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "setting_items"
                             }
                         },
                         {

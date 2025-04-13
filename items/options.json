@@ -28,7 +28,7 @@
                 "img": "images/items/keyring.png",
                 "codes": "opt_smallkey,opt_smallkey_keyring",
                 "inherit_codes": false
-            },
+            }
         ]
     },
     {
