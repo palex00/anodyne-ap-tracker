@@ -54,26 +54,26 @@ function check_nexus_gates()
         for _, code in pairs(NEXUS_MAPPING) do
             Tracker:FindObjectForCode("NexusGate(" .. code .. ")").CurrentStage = 0
         end
-    end
-
-    for _, code in pairs(NEXUS_MAPPING) do
-        if code == "blue" or code == "happy" or code == "go" then
-            if has("opt_nexus_nopost") then
-                Tracker:FindObjectForCode("NexusGate(happy)").CurrentStage = 0
-                Tracker:FindObjectForCode("NexusGate(blue)").CurrentStage = 0
-                Tracker:FindObjectForCode("NexusGate(go)").CurrentStage = 0
-                goto continue
+    else
+        for _, code in pairs(NEXUS_MAPPING) do
+            if code == "blue" or code == "happy" or code == "go" then
+                if has("opt_nexus_nopost") then
+                    Tracker:FindObjectForCode("NexusGate(happy)").CurrentStage = 0
+                    Tracker:FindObjectForCode("NexusGate(blue)").CurrentStage = 0
+                    Tracker:FindObjectForCode("NexusGate(go)").CurrentStage = 0
+                    goto continue
+                end
             end
+    
+            local result = Tracker:FindObjectForCode("nexus_" .. code).Active
+            if result == true then
+                Tracker:FindObjectForCode("NexusGate(" .. code .. ")").CurrentStage = 1
+            else
+                Tracker:FindObjectForCode("NexusGate(" .. code .. ")").CurrentStage = 2
+            end
+    
+            ::continue::
         end
-
-        local result = Tracker:FindObjectForCode("nexus_" .. code).Active
-        if result == true then
-            Tracker:FindObjectForCode("NexusGate(" .. code .. ")").CurrentStage = 1
-        else
-            Tracker:FindObjectForCode("NexusGate(" .. code .. ")").CurrentStage = 2
-        end
-
-        ::continue::
     end
 end
 
