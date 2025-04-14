@@ -2801,13 +2801,61 @@
 
         ]
     }
-	
-	
-	
-	
-	
-	
-	
-	
-	
+    , {
+        "name": "BOSSRUSH-POSITION",
+        "chest_unopened_img": "/images/items/young.png",
+        "chest_opened_img": "/images/items/young.png",
+        "overlay_background": "#000000",
+        "children": [
+ {"name": "You're here​", "visibility_rules": ["BOSSRUSH-0"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-0"}], "map_locations": [{"map": "BOSSRUSH", "x": 80, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​", "visibility_rules": ["BOSSRUSH-1"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-1"}], "map_locations": [{"map": "BOSSRUSH", "x": 240, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​", "visibility_rules": ["BOSSRUSH-2"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-2"}], "map_locations": [{"map": "BOSSRUSH", "x": 400, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​", "visibility_rules": ["BOSSRUSH-3"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-3"}], "map_locations": [{"map": "BOSSRUSH", "x": 560, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​", "visibility_rules": ["BOSSRUSH-4"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-4"}], "map_locations": [{"map": "BOSSRUSH", "x": 720, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​", "visibility_rules": ["BOSSRUSH-5"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-5"}], "map_locations": [{"map": "BOSSRUSH", "x": 880, "y": 80, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​", "visibility_rules": ["BOSSRUSH-6"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-6"}], "map_locations": [{"map": "BOSSRUSH", "x": 80, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​", "visibility_rules": ["BOSSRUSH-7"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-7"}], "map_locations": [{"map": "BOSSRUSH", "x": 240, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​", "visibility_rules": ["BOSSRUSH-8"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-8"}], "map_locations": [{"map": "BOSSRUSH", "x": 400, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-9"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-9"}], "map_locations": [{"map": "BOSSRUSH", "x": 560, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-10"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-10"}], "map_locations": [{"map": "BOSSRUSH", "x": 720, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-11"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-11"}], "map_locations": [{"map": "BOSSRUSH", "x": 880, "y": 240, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-12"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-12"}], "map_locations": [{"map": "BOSSRUSH", "x": 80, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-13"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-13"}], "map_locations": [{"map": "BOSSRUSH", "x": 240, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-14"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-14"}], "map_locations": [{"map": "BOSSRUSH", "x": 400, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-15"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-15"}], "map_locations": [{"map": "BOSSRUSH", "x": 560, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-16"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-16"}], "map_locations": [{"map": "BOSSRUSH", "x": 720, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-17"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-17"}], "map_locations": [{"map": "BOSSRUSH", "x": 880, "y": 400, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-18"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-18"}], "map_locations": [{"map": "BOSSRUSH", "x": 80, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-19"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-19"}], "map_locations": [{"map": "BOSSRUSH", "x": 240, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-20"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-20"}], "map_locations": [{"map": "BOSSRUSH", "x": 400, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-21"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-21"}], "map_locations": [{"map": "BOSSRUSH", "x": 560, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-22"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-22"}], "map_locations": [{"map": "BOSSRUSH", "x": 720, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-23"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-23"}], "map_locations": [{"map": "BOSSRUSH", "x": 880, "y": 560, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-24"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-24"}], "map_locations": [{"map": "BOSSRUSH", "x": 80, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-25"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-25"}], "map_locations": [{"map": "BOSSRUSH", "x": 240, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-26"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-26"}], "map_locations": [{"map": "BOSSRUSH", "x": 400, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-27"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-27"}], "map_locations": [{"map": "BOSSRUSH", "x": 560, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-28"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-28"}], "map_locations": [{"map": "BOSSRUSH", "x": 720, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-29"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-29"}], "map_locations": [{"map": "BOSSRUSH", "x": 880, "y": 720, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-30"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-30"}], "map_locations": [{"map": "BOSSRUSH", "x": 80, "y": 880, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-31"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-31"}], "map_locations": [{"map": "BOSSRUSH", "x": 240, "y": 880, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-32"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-32"}], "map_locations": [{"map": "BOSSRUSH", "x": 400, "y": 880, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-33"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-33"}], "map_locations": [{"map": "BOSSRUSH", "x": 560, "y": 880, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-34"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-34"}], "map_locations": [{"map": "BOSSRUSH", "x": 720, "y": 880, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-35"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-35"}], "map_locations": [{"map": "BOSSRUSH", "x": 880, "y": 880, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-36"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-36"}], "map_locations": [{"map": "BOSSRUSH", "x": 80, "y": 1040, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-37"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-37"}], "map_locations": [{"map": "BOSSRUSH", "x": 240, "y": 1040, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-38"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-38"}], "map_locations": [{"map": "BOSSRUSH", "x": 400, "y": 1040, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-39"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-39"}], "map_locations": [{"map": "BOSSRUSH", "x": 560, "y": 1040, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-40"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-40"}], "map_locations": [{"map": "BOSSRUSH", "x": 720, "y": 1040, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-41"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-41"}], "map_locations": [{"map": "BOSSRUSH", "x": 880, "y": 1040, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-42"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-42"}], "map_locations": [{"map": "BOSSRUSH", "x": 80, "y": 1200, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-43"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-43"}], "map_locations": [{"map": "BOSSRUSH", "x": 240, "y": 1200, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-44"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-44"}], "map_locations": [{"map": "BOSSRUSH", "x": 400, "y": 1200, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-45"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-45"}], "map_locations": [{"map": "BOSSRUSH", "x": 560, "y": 1200, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-46"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-46"}], "map_locations": [{"map": "BOSSRUSH", "x": 720, "y": 1200, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+ {"name": "You're here​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​", "visibility_rules": ["BOSSRUSH-47"], "access_rules": ["{}"], "sections": [{"name": "BOSSRUSH-47"}], "map_locations": [{"map": "BOSSRUSH", "x": 880, "y": 1200, "size": 40, "border_thickness": 10, "shape": "diamond"}]}
+
+        ]
+    }
 ]

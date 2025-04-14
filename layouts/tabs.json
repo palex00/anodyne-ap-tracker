@@ -358,6 +358,15 @@
                                     "DRAWER"
                                 ]
                             }
+                        },
+                        {
+                            "title": "BOSSRUSH",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "BOSSRUSH"
+                                ]
+                            }
                         }
                     ]
                 }

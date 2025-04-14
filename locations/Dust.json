@@ -155,13 +155,13 @@
 ,{"name": "Space​​​", "sections": [{"name": "Challenge Area Lion Dust 2", "ref": "Space/Challenge Area Lion Dust 2"}], "map_locations": [{"map": "SPACE", "x": 1144, "y": 888},{"map": "Z_SPACE", "x": 1144, "y": 888}]}
 ,{"name": "Street", "sections": [{"name": "After Bridge Dust 1", "ref": "Street/After Bridge Dust 1"}], "map_locations": [{"map": "STREET", "x": 442, "y": 216},{"map": "Z_STREET", "x": 442, "y": 216}]}
 ,{"name": "Street​", "sections": [{"name": "After Bridge Dust 2", "ref": "Street/After Bridge Dust 2"}], "map_locations": [{"map": "STREET", "x": 410, "y": 232},{"map": "Z_STREET", "x": 410, "y": 232}]}
-,{"name": "Boss Rush", "sections": [{"name": "Before Red Boss Dust", "ref": "Boss Rush/Before Red Boss Dust"}], "map_locations": [{"map": "BOSS RUSH", "x": 568, "y": 1048}]}
-,{"name": "Boss Rush​", "sections": [{"name": "Red Boss Dust 1", "ref": "Boss Rush/Red Boss Dust 1"}], "map_locations": [{"map": "BOSS RUSH", "x": 664, "y": 984}]}
-,{"name": "Boss Rush​​", "sections": [{"name": "Red Boss Dust 2", "ref": "Boss Rush/Red Boss Dust 2"}], "map_locations": [{"map": "BOSS RUSH", "x": 664, "y": 1096}]}
-,{"name": "Boss Rush​​​", "sections": [{"name": "Red Boss Dust 3", "ref": "Boss Rush/Red Boss Dust 3"}], "map_locations": [{"map": "BOSS RUSH", "x": 776, "y": 1096}]}
-,{"name": "Boss Rush​​​​", "sections": [{"name": "Red Boss Dust 4", "ref": "Boss Rush/Red Boss Dust 4"}], "map_locations": [{"map": "BOSS RUSH", "x": 776, "y": 984}]}
-,{"name": "Boss Rush​​​​​", "sections": [{"name": "Manager Phase 1 Dust", "ref": "Boss Rush/Manager Phase 1 Dust"}], "map_locations": [{"map": "BOSS RUSH", "x": 40, "y": 824}]}
-,{"name": "Boss Rush​​​​​​", "sections": [{"name": "Manager Phase 2 Dust", "ref": "Boss Rush/Manager Phase 2 Dust"}], "map_locations": [{"map": "BOSS RUSH", "x": 40, "y": 1000}]}
+,{"name": "Boss Rush", "sections": [{"name": "Before Red Boss Dust", "ref": "Boss Rush/Before Red Boss Dust"}], "map_locations": [{"map": "BOSSRUSH", "x": 568, "y": 1048}]}
+,{"name": "Boss Rush​", "sections": [{"name": "Red Boss Dust 1", "ref": "Boss Rush/Red Boss Dust 1"}], "map_locations": [{"map": "BOSSRUSH", "x": 664, "y": 984}]}
+,{"name": "Boss Rush​​", "sections": [{"name": "Red Boss Dust 2", "ref": "Boss Rush/Red Boss Dust 2"}], "map_locations": [{"map": "BOSSRUSH", "x": 664, "y": 1096}]}
+,{"name": "Boss Rush​​​", "sections": [{"name": "Red Boss Dust 3", "ref": "Boss Rush/Red Boss Dust 3"}], "map_locations": [{"map": "BOSSRUSH", "x": 776, "y": 1096}]}
+,{"name": "Boss Rush​​​​", "sections": [{"name": "Red Boss Dust 4", "ref": "Boss Rush/Red Boss Dust 4"}], "map_locations": [{"map": "BOSSRUSH", "x": 776, "y": 984}]}
+,{"name": "Boss Rush​​​​​", "sections": [{"name": "Manager Phase 1 Dust", "ref": "Boss Rush/Manager Phase 1 Dust"}], "map_locations": [{"map": "BOSSRUSH", "x": 40, "y": 824}]}
+,{"name": "Boss Rush​​​​​​", "sections": [{"name": "Manager Phase 2 Dust", "ref": "Boss Rush/Manager Phase 2 Dust"}], "map_locations": [{"map": "BOSSRUSH", "x": 40, "y": 1000}]}
         ]
     }
 ]

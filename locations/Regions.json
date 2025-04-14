@@ -18,7 +18,7 @@
 ,{"name": "blankstart","access_rules": [""]}
 ,{"name": "blankwindmill","access_rules": ["@Regions/Regions/drawerdark, $gate|blankpostgame", "@Regions/Regions/fields, $post_swap"]}
 ,{"name": "blue","access_rules": ["$pad_access|blue","@Regions/Regions/gotop"]}
-,{"name": "bossrush","access_rules": ["@Regions/Regions/nexustop"]}
+,{"name": "bossrush","access_rules": ["@Regions/Regions/nexustop, $jump, $combat"]}
 ,{"name": "cell","access_rules": ["$pad_access|cell","@Regions/Regions/circus", "@Regions/Regions/redcaveexit, $RedCaveStatue"]}
 ,{"name": "circus","access_rules": ["$pad_access|circus","@Regions/Regions/cell"]}
 ,{"name": "circus2","access_rules": ["@Regions/Regions/circus, $smallkey|Circus|1, $combat, $jump"]}
