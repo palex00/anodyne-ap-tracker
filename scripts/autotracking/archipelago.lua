@@ -431,7 +431,7 @@ function onNotify(key, value, old_value)
 end
 
 function onNotifyLaunch(key, value)
-    if key == EVENT_ID then
+    if key == EVENT_ID and value ~= nil then
         updateEvents(value)
     end
 end
