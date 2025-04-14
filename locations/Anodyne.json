@@ -497,7 +497,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "@Regions/Regions/bedroomexit, $combat, $jump"
+                            "@Regions/Regions/bedroomexit, $combat"
                         ]
                     },
                     {
