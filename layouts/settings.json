@@ -1,54 +1,112 @@
 {
-  "setting_grid": {
-    "type": "array",
-    "orientation": "vertical",
-    "margin": "0,0",
-    "content": [
-      {
-        "type": "itemgrid",
-        "item_margin": "2,2",
-        "h_alignment": "center",
-        "item_size": "32,40",
-        "rows": [
-          [
-            "opt_smallkey",
-            "opt_cicada",
-            "opt_bigkey",
-            "opt_redcave",
-            "opt_windmill",
-            "opt_nexus",
-			"opt_goal",
-			"opt_endgamecardreq",
-			"opt_postgame",
-			"opt_bunny",
-			"opt_puzzle"
-          ],
-          [
-            "nexus_apartment",
-            "nexus_beach",
-			"nexus_templeoftheseeingone",
-            "nexus_blue",
-            "nexus_cell",
-            "nexus_circus",
-			"nexus_cliffs",
-			"nexus_mountaincavern",
-			"nexus_fields",
-			"nexus_deepforest"
-          ],
-          [
-            "nexus_go",
-            "nexus_happy",
-            "nexus_hotel",
-            "nexus_overworld",
-            "nexus_redcave",
-            "nexus_redsea",
-			"nexus_youngtown",
-			"nexus_space",
-			"nexus_terminal",
-			"nexus_windmill"
-          ]
+    "setting_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "item_size": "50,50",
+                "rows": [
+                    [
+                        "opt_smallkey",
+                        "opt_cicada",
+                        "opt_bigkey",
+                        "opt_redcave",
+                        "opt_windmill",
+                        "opt_nexus",
+                        "opt_goal",
+                        "opt_hiddenpaths",
+                        "opt_postgame",
+                        "opt_bunny",
+                        "opt_puzzle",
+                        "opt_dustsanity"
+                    ],
+                    [
+                        "nexus_fields",
+                        "nexus_overworld",
+                        "nexus_templeoftheseeingone",
+                        "nexus_beach",
+                        "nexus_redsea",
+                        "nexus_redcave",
+                        "nexus_deepforest",
+                        "nexus_cliffs",
+                        "nexus_mountaincavern",
+                        "nexus_windmill"
+                    ],
+                    [
+                        "nexus_youngtown",
+                        "nexus_apartment",
+                        "nexus_cell",
+                        "nexus_circus",
+                        "nexus_space",
+                        "nexus_hotel",
+                        "nexus_terminal",
+                        "nexus_go",
+                        "nexus_blue",
+                        "nexus_happy"
+                    ]
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    "gates_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "item_size": "50,50",
+                "rows": [
+                    [
+                        "static_overworldgauntlet",
+                        "static_overworldfields",
+                        "static_fieldsterminal",
+                        "static_beachgauntlet",
+                        "static_windmillentrance",
+                        "static_windmillmiddle",
+                        "static_windmilltop",
+                        "static_suburb",
+                        "static_cell",
+                        "static_terminalendgame",
+                        "static_blankpostgame",
+                        "static_nexusnorthfinal"
+                    ],
+                    [
+                        "gate_overworldgauntlet",
+                        "gate_overworldfields",
+                        "gate_fieldsterminal",
+                        "gate_beachgauntlet",
+                        "gate_windmillentrance",
+                        "gate_windmillmiddle",
+                        "gate_windmilltop",
+                        "gate_suburb",
+                        "gate_cell",
+                        "gate_terminalendgame",
+                        "gate_blankpostgame",
+                        "gate_nexusnorthfinal"
+                    ],
+                    [
+                        "count_overworldgauntlet",
+                        "count_overworldfields",
+                        "count_fieldsterminal",
+                        "count_beachgauntlet",
+                        "count_windmillentrance",
+                        "count_windmillmiddle",
+                        "count_windmilltop",
+                        "count_suburb",
+                        "count_cell",
+                        "count_terminalendgame",
+                        "count_blankpostgame",
+                        "count_nexusnorthfinal"
+                    ]
+                ]
+            }
+        ]
+    }
 }

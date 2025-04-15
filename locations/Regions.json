@@ -12,13 +12,13 @@
 ,{"name": "apartmentfloor3","access_rules": ["@Regions/Regions/apartmentfloor2, [$smallkey|Apartment|3], $smallkey|Apartment|1, $jump"]}
 ,{"name": "beach","access_rules": ["$pad_access|beach","@Regions/Regions/fields", "@Regions/Regions/redsea"]}
 ,{"name": "bedroom","access_rules": ["@Regions/Regions/bedroomexit", "@Regions/Regions/overworld"]}
-,{"name": "bedroomdrawer","access_rules": ["@Regions/Regions/drawer, $post_swap", "@Regions/Regions/overworld, $post_swap, $cards|4, $combat"]}
+,{"name": "bedroomdrawer","access_rules": ["@Regions/Regions/drawer, $post_swap", "@Regions/Regions/overworld, $post_swap, $gate|overworldgauntlet, $combat"]}
 ,{"name": "bedroomexit","access_rules": ["$pad_access|templeoftheseeingone","@Regions/Regions/bedroom, $combat, $smallkey|TempleOfTheSeeingOne|1, [$templebossaccess]", "@Regions/Regions/overworldpostwindmill, $TempleoftheSeeingOneStatue, [$smallkey|TempleoftheSeeingOne|3], $smallkey|TempleoftheSeeingOne|3, $combat"]}
-,{"name": "blankending","access_rules": ["@Regions/Regions/nexustop, $cards|49"]}
+,{"name": "blankending","access_rules": ["@Regions/Regions/nexustop, $gate|nexusnorthfinal"]}
 ,{"name": "blankstart","access_rules": [""]}
-,{"name": "blankwindmill","access_rules": ["@Regions/Regions/drawerdark, $cards|47", "@Regions/Regions/fields, $post_swap"]}
+,{"name": "blankwindmill","access_rules": ["@Regions/Regions/drawerdark, $gate|blankpostgame", "@Regions/Regions/fields, $post_swap"]}
 ,{"name": "blue","access_rules": ["$pad_access|blue","@Regions/Regions/gotop"]}
-,{"name": "bossrush","access_rules": ["@Regions/Regions/nexustop"]}
+,{"name": "bossrush","access_rules": ["@Regions/Regions/nexustop, $jump, $combat"]}
 ,{"name": "cell","access_rules": ["$pad_access|cell","@Regions/Regions/circus", "@Regions/Regions/redcaveexit, $RedCaveStatue"]}
 ,{"name": "circus","access_rules": ["$pad_access|circus","@Regions/Regions/cell"]}
 ,{"name": "circus2","access_rules": ["@Regions/Regions/circus, $smallkey|Circus|1, $combat, $jump"]}
@@ -33,10 +33,13 @@
 ,{"name": "crowdjumpchallenge","access_rules": ["@Regions/Regions/cliff"]}
 ,{"name": "debug","access_rules": ["@Regions/Regions/nexustop"]}
 ,{"name": "drawer","access_rules": ["@Regions/Regions/bedroomdrawer, $post_swap"]}
-,{"name": "drawerdark","access_rules": ["@Regions/Regions/blankwindmill, $cards|47", "@Regions/Regions/nexustop"]}
-,{"name": "fields","access_rules": ["$pad_access|fields","@Regions/Regions/beach", "@Regions/Regions/blankwindmill, $post_swap", "@Regions/Regions/forest", "@Regions/Regions/overworld, $greenkey", "@Regions/Regions/terminal, $redkey, $jump", "@Regions/Regions/windmillentrance, $greenkey"]}
+,{"name": "drawerdark","access_rules": ["@Regions/Regions/blankwindmill, $gate|blankpostgame", "@Regions/Regions/nexustop"]}
+,{"name": "fields","access_rules": ["@Regions/Regions/fieldsnorthsecretarea, $post_swap", "@Regions/Regions/fieldspastgate, $gate|fieldsterminal","@Regions/Regions/fieldslake","$pad_access|fields","@Regions/Regions/beach", "@Regions/Regions/blankwindmill, $post_swap", "@Regions/Regions/forest", "@Regions/Regions/overworld, $gate|overworldfields", "@Regions/Regions/windmillentrance, $gate|windmillentrance"]}
+,{"name": "fieldslake","access_rules": ["@Regions/Regions/fields, $combat, $jump"]}
+,{"name": "fieldspastgate","access_rules": ["@Regions/Regions/fieldsnorthsecretarea, $hiddenpath", "@Regions/Regions/terminal, $jump", "@Regions/Regions/fields, $gate|fieldsterminal"]}
+,{"name": "fieldsnorthsecretarea","access_rules": ["@Regions/Regions/fields, $post_swap", "@Regions/Regions/fieldspastgate, $hiddenpath", "@Regions/Regions/fields, $combat, $jump"]}
 ,{"name": "forest","access_rules": ["$pad_access|deepforest","@Regions/Regions/cliff", "@Regions/Regions/fields"]}
-,{"name": "gobottom","access_rules": ["$pad_access|go", "@Regions/Regions/terminal, $endgameaccess"]}
+,{"name": "gobottom","access_rules": ["$pad_access|go", "@Regions/Regions/terminaltop, $combat, $jump"]}
 ,{"name": "gotop","access_rules": ["@Regions/Regions/blue", "@Regions/Regions/gobottom, $pre_swap, $jump, $combat, @Anodyne/Hotel/Boss Chest, @Anodyne/Apartment/Boss Chest, @Anodyne/Circus/Boss Chest", "@Regions/Regions/gobottom, $pre_swap, opt_puzzle_false", "@Regions/Regions/happy"]}
 ,{"name": "happy","access_rules": ["$pad_access|happy","@Regions/Regions/gotop, $jump, $combat"]}
 ,{"name": "hotelfloor1","access_rules": ["@Regions/Regions/hotelfloor2"]}
@@ -46,24 +49,26 @@
 ,{"name": "hotelfloor4","access_rules": ["$pad_access|hotel","@Regions/Regions/hotelfloor3, $combat, $jump", "@Regions/Regions/hotelroof, $jump"]}
 ,{"name": "hotelroof","access_rules": ["@Regions/Regions/hotelfloor4, $jump", "@Regions/Regions/space"]}
 ,{"name": "nexusbottom","access_rules": ["@Regions/Regions/blankstart", "@Regions/Regions/street"]}
-,{"name": "nexustop","access_rules": ["@Regions/Regions/blankending, $cards|49", "@Regions/Regions/bossrush", "@Regions/Regions/debug", "@Regions/Regions/drawerdark"]}
-,{"name": "overworld","access_rules": ["$pad_access|overworld","@Regions/Regions/bedroomdrawer, $post_swap", "@Regions/Regions/bedroom", "@Regions/Regions/fields, $greenkey", "@Regions/Regions/overworldpostwindmill", "@Regions/Regions/street, $combat, $smallkey|Street|1"]}
+,{"name": "nexustop","access_rules": ["@Regions/Regions/blankending, $gate|nexusnorthfinal", "@Regions/Regions/bossrush", "@Regions/Regions/debug", "@Regions/Regions/drawerdark"]}
+,{"name": "overworld","access_rules": ["$pad_access|overworld","@Regions/Regions/bedroomdrawer, $post_swap", "@Regions/Regions/bedroom", "@Regions/Regions/fields, $gate|overworldfields", "@Regions/Regions/overworldpostwindmill", "@Regions/Regions/street, $combat, $smallkey|Street|1"]}
 ,{"name": "overworldpostwindmill","access_rules": ["@Regions/Regions/bedroomexit, $TempleoftheSeeingOneStatue, [$smallkey|TempleoftheSeeingOne|3], $smallkey|TempleoftheSeeingOne|2, $combat", "@Regions/Regions/suburb"]}
 ,{"name": "redcavebottom","access_rules": ["@Regions/Regions/redsea"]}
 ,{"name": "redcavecenter","access_rules": ["@Regions/Regions/redsea"]}
 ,{"name": "redcaveexit","access_rules": ["$pad_access|redcave","@Regions/Regions/cell, $RedCaveStatue", "@Regions/Regions/redcavetop, $combat"]}
 ,{"name": "redcaveisaac","access_rules": ["@Regions/Regions/redsea"]}
-,{"name": "redcaveleft","access_rules": ["@Regions/Regions/redsea, ProgressiveRedCave:1, $combat", "@Regions/Regions/redsea, opt_redcave_vanilla, $combat"]}
-,{"name": "redcaveright","access_rules": ["@Regions/Regions/redsea, ProgressiveRedCave:2, $combat", "@Regions/Regions/redsea, opt_redcave_vanilla, $combat, [$smallkey|RedCave|6], $smallkey|RedCave|2"]}
-,{"name": "redcavetop","access_rules": ["@Regions/Regions/redcaveexit", "@Regions/Regions/redsea, ProgressiveRedCave:3", "@Regions/Regions/redsea, opt_redcave_vanilla, $smallkey|RedCave|6"]}
+,{"name": "redcaveleft","access_rules": ["@Regions/Regions/redsea, $redcave|1"]}
+,{"name": "redcaveright","access_rules": ["@Regions/Regions/redsea, $redcave|2, $combat"]} //"@Regions/Regions/redsea, opt_redcave_vanilla, $combat, [$smallkey|RedCave|6], $smallkey|RedCave|2"]} old code if needed
+,{"name": "redcavetop","access_rules": ["@Regions/Regions/redcaveexit", "@Regions/Regions/redsea, $redcave|3"]} // "@Regions/Regions/redsea, opt_redcave_vanilla, $smallkey|RedCave|6"]}
 ,{"name": "redsea","access_rules": ["$pad_access|redsea","@Regions/Regions/beach, $combat", "@Regions/Regions/redcavebottom", "@Regions/Regions/redcavecenter", "@Regions/Regions/redcaveisaac", "@Regions/Regions/redcaveleft", "@Regions/Regions/redcaveright", "@Regions/Regions/redcavetop"]}
-,{"name": "space","access_rules": ["$pad_access|space","@Regions/Regions/cliffpostwindmill", "@Regions/Regions/hotelroof"]}
+,{"name": "space","access_rules": ["@Regions/Regions/spacegauntlet, $post_swap","$pad_access|space","@Regions/Regions/cliffpostwindmill", "@Regions/Regions/hotelroof"]}
+,{"name": "spacegauntlet","access_rules": ["@Regions/Regions/space, $post_swap, $combat, $jump"]}
 ,{"name": "street","access_rules": ["@Regions/Regions/nexusbottom"]}
 ,{"name": "suburb","access_rules": ["$pad_access|youngtown","@Regions/Regions/apartmentfloor1", "@Regions/Regions/overworldpostwindmill", "@Regions/Regions/suburbcardhouse, $combat"]}
 ,{"name": "suburbcardhouse","access_rules": ["@Regions/Regions/suburb, $combat"]}
-,{"name": "terminal","access_rules": ["$pad_access|terminal","@Regions/Regions/fields, $redkey, $jump", "@Regions/Regions/gobottom, $endgameaccess"]}
-,{"name": "windmill","access_rules": ["@Regions/Regions/windmillentrance, $redkey, $bluekey"]}
-,{"name": "windmillentrance","access_rules": ["$pad_access|windmill","@Regions/Regions/fields, $greenkey", "@Regions/Regions/windmill, $redkey, $bluekey"]}
+,{"name": "terminal","access_rules": ["@Regions/Regions/fieldspastgate, $jump", "$pad_access|terminal", "@Regions/Regions/terminaltop, $gate|terminalendgame, $combat, $jump"]}
+,{"name": "terminaltop","access_rules": ["@Regions/Regions/terminal, $gate|terminalendgame, $combat, $jump","@Regions/Regions/gobottom"]}
+,{"name": "windmill","access_rules": ["@Regions/Regions/windmillentrance, $gate|windmillmiddle, $gate|windmilltop"]}
+,{"name": "windmillentrance","access_rules": ["$pad_access|windmill","@Regions/Regions/fields, $gate|windmillentrance", "@Regions/Regions/windmill, $gate|windmillmiddle, $gate|windmilltop"]}
                 ]
             }
         ]

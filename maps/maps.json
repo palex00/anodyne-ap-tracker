@@ -13,7 +13,7 @@
     },
     {
         "name": "BEDROOM",
-        "location_size": 30,
+        "location_size": 16,
         "location_border_thickness": 1,
         "img": "images/maps/BEDROOM.png"
     },
@@ -28,6 +28,12 @@
         "location_size": 30,
         "location_border_thickness": 1,
         "img": "images/maps/BLUE.png"
+    },
+    {
+        "name": "BOSSRUSH",
+        "location_size": 30,
+        "location_border_thickness": 1,
+        "img": "images/maps/BOSSRUSH.png"
     },
     {
         "name": "CELL",

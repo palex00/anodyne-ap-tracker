@@ -22,6 +22,12 @@
                 "img": "images/items/SmallKey.png",
                 "codes": "opt_smallkey,opt_smallkey_shuffle",
                 "inherit_codes": false
+            },
+            {
+                "name": "Small Keys are Key Rings",
+                "img": "images/items/keyring.png",
+                "codes": "opt_smallkey,opt_smallkey_keyring",
+                "inherit_codes": false
             }
         ]
     },
@@ -150,24 +156,12 @@
                 "codes": "opt_goal,opt_goal_briar"
             },
             {
-                "name": "Goal: All Cards",
+                "name": "Goal: Final Gate",
                 "img": "images/items/cardgoal.png",
                 "codes": "opt_goal,opt_goal_cards",
                 "inherit_codes": false
             }
         ]
-    },
-    {
-        "name": "Endgame Card Requirement",
-        "type": "consumable",
-        "min_quantity": 0,
-        "max_quantity": 49,
-        "increment": 1,
-        "initial_quantity": 0,
-        "allow_disabled": true,
-        "img": "/images/items/SmallKey.png",
-        "overlay_background": "#000000",
-        "codes": "opt_endgamecardreq"
     },
     {
         "name": "Postgame Mode",
@@ -237,6 +231,46 @@
                 "img": "images/items/gopuzzle.png",
                 "img_mods": "@disabled",
                 "codes": "opt_puzzle,opt_puzzle_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dustsanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Dustsanity: Off",
+                "img": "images/items/dust.png",
+                "img_mods": "@disabled",
+                "codes": "opt_dustsanity,opt_dustsanity_off"
+            },
+            {
+                "name": "Dustsanity: On",
+                "img": "images/items/dust.png",
+                "codes": "opt_dustsanity,opt_dustsanity_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Hidden Paths",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Hidden Paths not in logic",
+                "img": "images/items/open.png",
+                "img_mods": "@disabled",
+                "codes": "opt_hiddenpaths,opt_hiddenpaths_off"
+            },
+            {
+                "name": "Hidden Paths in logic",
+                "img": "images/items/open.png",
+                "codes": "opt_hiddenpaths,opt_hiddenpaths_on",
                 "inherit_codes": false
             }
         ]
