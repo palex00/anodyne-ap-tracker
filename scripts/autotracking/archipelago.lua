@@ -201,8 +201,10 @@ function onClear(slot_data)
         end
     end
     
+    -- 8. Toggle Item Grids
+    toggle_item_grid()
     
-    -- 8. Re-adds the watch codes
+    -- 9. Re-adds the watch codes
     for _, code in ipairs(LAYOUT_MAPPING) do
         ScriptHost:AddWatchForCode(code, code, toggle_item_grid)
     end
