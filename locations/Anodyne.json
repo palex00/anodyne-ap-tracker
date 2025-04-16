@@ -3399,7 +3399,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "@Regions/Regions/redcaveexit"
+                            "@Regions/Regions/redcavetop, $combat"
                         ]
                     },
                     {
