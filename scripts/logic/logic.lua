@@ -79,7 +79,8 @@ end
 
 
 function pad_access(STRING)
-    return Tracker:FindObjectForCode("nexus_" .. STRING).Active or has("NexusGate(" .. STRING .. ")")
+    print(Tracker:FindObjectForCode("NexusGate(" .. STRING .. ")").Active)
+    return Tracker:FindObjectForCode("nexus_" .. STRING).Active or Tracker:FindObjectForCode("NexusGate(" .. STRING .. ")").Active
 end
 
 
