@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.1",
+			"download_url": "https://github.com/palex00/anodyne-ap-tracker/archive/refs/tags/1.0.1.zip",
+			"sha256": "6083a16b5be875f9b109e936a43f4e8731dc40b963c052e3d5b89c39de266076",
+			"changelog": ["Slot Data Fix"]
+		},
+		{
 			"package_version": "1.0.0",
 			"download_url": "https://github.com/palex00/anodyne-ap-tracker/archive/refs/tags/1.0.0.zip",
 			"sha256": "a5f29443f9904ba624389b9f1c050f5c5db55cbe79a9c3ae850affb400a2679e",
