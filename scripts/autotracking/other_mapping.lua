@@ -62,7 +62,7 @@ MAP_KEY = {
     ["vanilla"] = 0,
     ["unlocked"] = 1,
     ["shuffled"] = 2,
-    ["key_ring"] = 3
+    ["key_rings"] = 3
 }
 
 CARDS = {"Card(Edward)","Card(Annoyer)","Card(Seer)","Card(Shieldy)","Card(Slime)","Card(PewLaser)","Card(Suburbian)","Card(Watcher)","Card(Silverfish)","Card(GasGuy)","Card(Mitra)","Card(Miao)","Card(Windmill)","Card(Mushroom)","Card(Dog)","Card(Rock)","Card(Fisherman)","Card(Walker)","Card(Mover)","Card(Slasher)","Card(Rogue)","Card(Chaser)","Card(FirePillar)","Card(Contorts)","Card(Lion)","Card(ArthurandJaviera)","Card(Frog)","Card(Person)","Card(Wall)","Card(BlueCubeKing)","Card(OrangeCubeKing)","Card(DustMaid)","Card(Dasher)","Card(BurstPlant)","Card(Manager)","Card(Sage)","Card(Young)","Card(CarvedRock)","Card(CityMan)","Card(Intra)","Card(Torch)","Card(TriangleNPC)","Card(Killer)","Card(Goldman)","Card(Broom)","Card(Rank)","Card(Follower)","Card(RockCreature)","Card(Null)"}
@@ -82,7 +82,8 @@ OPTION_MAPPING = {
     {slotdata="shuffle_big_gates", codes={"opt_bigkey"}, type="MAP_NUMBER"},
     {slotdata="dustsanity", codes={"opt_dustsanity"}, type="MAP_TOGGLE"},
     {slotdata="postgame_mode", codes={"opt_postgame"}, type="MAP_NUMBER"},
-    {slotdata="small_keys", codes={"opt_smallkey"}, type="MAP_KEY"}
+    {slotdata="small_keys", codes={"opt_smallkey"}, type="MAP_KEY"},
+    {slotdata="fields_secret_paths", codes={"opt_hiddenpaths"}, type="MAP_TOGGLE"},
 }
 
 LAYOUT_MAPPING = {
