@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.2",
+			"download_url": "https://github.com/palex00/anodyne-ap-tracker/archive/refs/tags/1.0.2.zip",
+			"sha256": "6345e1e2fe10c521a583c3c2d710a437d237c4cd6ca6905ef73fa766eb437ea9",
+			"changelog": ["Warp Pad Logic Fix"]
+		},
+		{
 			"package_version": "1.0.1",
 			"download_url": "https://github.com/palex00/anodyne-ap-tracker/archive/refs/tags/1.0.1.zip",
 			"sha256": "6083a16b5be875f9b109e936a43f4e8731dc40b963c052e3d5b89c39de266076",
