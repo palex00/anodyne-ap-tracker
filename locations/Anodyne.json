@@ -2186,7 +2186,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2198,7 +2198,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
