@@ -1904,7 +1904,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$hiddenpath, @Regions/Regions/terminal"
+                            "^$swaporsecret, @Regions/Regions/terminal"
                         ]
                     },
                     {
@@ -1914,7 +1914,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$hiddenpath, @Regions/Regions/fields"
+                            "^$swaporsecret, @Regions/Regions/fields"
                         ]
                     },
                     {

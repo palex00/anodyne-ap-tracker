@@ -79,7 +79,6 @@ end
 
 
 function pad_access(STRING)
-    print(Tracker:FindObjectForCode("NexusGate(" .. STRING .. ")").Active)
     return Tracker:FindObjectForCode("nexus_" .. STRING).Active or Tracker:FindObjectForCode("NexusGate(" .. STRING .. ")").Active
 end
 
@@ -212,13 +211,12 @@ function gate(which)
 end
 
 
-function hiddenpath()
-    if Tracker:FindObjectForCode("opt_hiddenpaths_on").Active or post_swap then
+function swaporsecret()
+    if has("opt_hiddenpaths_on") or post_swap() then
         return AccessibilityLevel.Normal
-    elseif Tracker:FindObjectForCode("opt_hiddenpaths_off").Active then
+    elseif has("opt_hiddenpaths_off") then
         return AccessibilityLevel.SequenceBreak
     end
-    return AccessibilityLevel.None  -- Default return if neither option is active
 end
 
 

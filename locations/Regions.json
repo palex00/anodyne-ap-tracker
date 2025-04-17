@@ -36,8 +36,8 @@
 ,{"name": "drawerdark","access_rules": ["@Regions/Regions/blankwindmill, $gate|blankpostgame", "@Regions/Regions/nexustop"]}
 ,{"name": "fields","access_rules": ["@Regions/Regions/fieldsnorthsecretarea, $post_swap", "@Regions/Regions/fieldspastgate, $gate|fieldsterminal","@Regions/Regions/fieldslake","$pad_access|fields","@Regions/Regions/beach", "@Regions/Regions/blankwindmill, $post_swap", "@Regions/Regions/forest", "@Regions/Regions/overworld, $gate|overworldfields", "@Regions/Regions/windmillentrance, $gate|windmillentrance"]}
 ,{"name": "fieldslake","access_rules": ["@Regions/Regions/fields, $combat, $jump"]}
-,{"name": "fieldspastgate","access_rules": ["@Regions/Regions/fieldsnorthsecretarea, $hiddenpath", "@Regions/Regions/terminal, $jump", "@Regions/Regions/fields, $gate|fieldsterminal"]}
-,{"name": "fieldsnorthsecretarea","access_rules": ["@Regions/Regions/fields, $post_swap", "@Regions/Regions/fieldspastgate, $hiddenpath", "@Regions/Regions/fields, $combat, $jump"]}
+,{"name": "fieldspastgate","access_rules": ["@Regions/Regions/fieldsnorthsecretarea, [opt_hiddenpaths_on]", "@Regions/Regions/terminal, $jump", "@Regions/Regions/fields, $gate|fieldsterminal"]}
+,{"name": "fieldsnorthsecretarea","access_rules": ["@Regions/Regions/fields, $post_swap", "@Regions/Regions/fieldspastgate, [opt_hiddenpaths_on]", "@Regions/Regions/fields, $combat, $jump"]}
 ,{"name": "forest","access_rules": ["$pad_access|deepforest","@Regions/Regions/cliff", "@Regions/Regions/fields"]}
 ,{"name": "gobottom","access_rules": ["$pad_access|go", "@Regions/Regions/terminaltop, $combat, $jump"]}
 ,{"name": "gotop","access_rules": ["@Regions/Regions/blue", "@Regions/Regions/gobottom, $pre_swap, $jump, $combat, @Anodyne/Hotel/Boss Chest, @Anodyne/Apartment/Boss Chest, @Anodyne/Circus/Boss Chest", "@Regions/Regions/gobottom, $pre_swap, opt_puzzle_false", "@Regions/Regions/happy"]}
