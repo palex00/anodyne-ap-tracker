@@ -62,7 +62,7 @@
 ,{"name": "Drawer​", "sections": [{"name": "Game Over Chest", "ref": "Drawer/Game Over Chest"}], "map_locations": [{"map": "DRAWER", "x": 440, "y": 200, "size": 30}]}
 ,{"name": "Fields", "sections": [{"name": "Blocked River Chest", "ref": "Fields/Blocked River Chest"}], "map_locations": [{"map": "FIELDS", "x": 1864, "y": 1512, "size": 30},{"map": "Z_FIELDS", "x": 1864, "y": 1512, "size": 30}]}
 ,{"name": "Fields​", "sections": [{"name": "Cardboard Box", "ref": "Fields/Cardboard Box"}], "map_locations": [{"map": "FIELDS", "x": 1160, "y": 440, "size": 30},{"map": "Z_FIELDS", "x": 1160, "y": 440, "size": 30}]}
-,{"name": "Fields​​", "sections": [{"name": "Gauntlet Chest", "ref": "Fields/Gauntlet Chest"}], "map_locations": [{"map": "FIELDS", "x": 1160, "y": 440, "size": 30},{"map": "Z_FIELDS", "x": 1160, "y": 440, "size": 30}]}
+,{"name": "Fields​​", "sections": [{"name": "Gauntlet Chest", "ref": "Fields/Gauntlet Chest"}], "map_locations": [{"map": "FIELDS", "x": 536, "y": 1352, "size": 30},{"map": "Z_FIELDS", "x": 536, "y": 1352, "size": 30}]}
 ,{"name": "Fields​​​", "sections": [{"name": "Goldman's Cave Chest", "ref": "Fields/Goldman's Cave Chest"}], "map_locations": [{"map": "FIELDS", "x": 1368, "y": 24, "size": 30},{"map": "Z_FIELDS", "x": 1368, "y": 24, "size": 30}]}
 ,{"name": "Fields​​​​", "sections": [{"name": "Island Chest", "ref": "Fields/Island Chest"}], "map_locations": [{"map": "FIELDS", "x": 1032, "y": 1464, "size": 30},{"map": "Z_FIELDS", "x": 1032, "y": 1464, "size": 30}]}
 ,{"name": "Fields​​​​​", "sections": [{"name": "Mitra Trade", "ref": "Fields/Mitra Trade"}], "map_locations": [{"map": "FIELDS", "x": 904, "y": 712, "size": 30},{"map": "Z_FIELDS", "x": 904, "y": 712, "size": 30}]}
