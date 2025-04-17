@@ -311,7 +311,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/apartmentfloor1"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     }
                 ],
                 "map_locations": [
@@ -380,7 +382,9 @@
                         ],
                         "access_rules": [
                             ""
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     }
                 ],
                 "map_locations": [
@@ -561,7 +565,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/bedroomexit"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "Laser Room Dust 1",
@@ -817,7 +823,9 @@
                         ],
                         "access_rules": [
                             ""
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     }
                 ],
                 "map_locations": [
@@ -998,7 +1006,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/circus"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "Dash Trap Dust",
@@ -1287,7 +1297,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/cliff"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     }
                 ],
                 "map_locations": [
@@ -1491,7 +1503,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/crowdexit"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "3F Top Center Moving Platform Dust",
@@ -1935,7 +1949,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/fields"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "Goldman's Cave Dust 1",
@@ -2344,7 +2360,9 @@
                         ],
                         "access_rules": [
                             ""
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "Relaxation Pond Dust",
@@ -2489,7 +2507,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/gobottom"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "Defeat Briar",
@@ -2769,7 +2789,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/hotelfloor4"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "1F Floating Dustmaid Dust",
@@ -3179,7 +3201,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/overworld"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     }
                 ],
                 "map_locations": [
@@ -3509,7 +3533,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/redcaveexit"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "Widen Upgrade Chest",
@@ -3736,7 +3762,9 @@
                         ],
                         "access_rules": [
                             ""
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     }
                 ],
                 "map_locations": [
@@ -3795,7 +3823,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/suburb"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     }
                 ],
                 "map_locations": [
@@ -3864,7 +3894,9 @@
                         ],
                         "access_rules": [
                             ""
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "Challenge Area Dustmaid Dust 1",
@@ -4037,7 +4069,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/terminal"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "Defeated Sage",
@@ -4107,7 +4141,9 @@
                         ],
                         "access_rules": [
                             "@Regions/Regions/windmillentrance"
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     }
                 ],
                 "map_locations": [
@@ -4252,7 +4288,9 @@
                         ],
                         "access_rules": [
                             ""
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "Laser Room Dust",
@@ -4293,7 +4331,9 @@
                         ],
                         "access_rules": [
                             ""
-                        ]
+                        ],
+                        "chest_unopened_img": "images/items/nexus_pad.png",
+                        "chest_opened_img": "images/items/nexus_pad_collected.png"
                     },
                     {
                         "name": "Final Room Dust",
