@@ -96,4 +96,12 @@ ITEM_MAPPING = {
 	[20130309] = {"NexusGate(Space)", "toggle"},
 	[20130310] = {"NexusGate(Terminal)", "toggle"},
 	[20130311] = {"NexusGate(Windmill)", "toggle"},
+    
+    [20130314] = {"keyring(Apartment)}"},
+    [20130315] = {"keyring(TempleoftheSeeingOne)}"},
+    [20130316] = {"keyring(Circus)}"},
+    [20130317] = {"keyring(MountainCavern)}"},
+    [20130318] = {"keyring(Hotel)}"},
+    [20130319] = {"keyring(RedCave)}"},
+    [20130320] = {"keyring(Street)}"},
 }
