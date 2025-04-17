@@ -148,6 +148,7 @@ LOCATION_MAPPING = {
     [20130349] = {"@Anodyne/Apartment/1F Rat Maze Chest Dust 2"},
     [20130350] = {"@Anodyne/Apartment/1F Rat Maze Chest Dust 3"},
     [20130351] = {"@Anodyne/Apartment/1F Entrance Dust"},
+    [20130352] = {"@Anodyne/Apartment/1F Flooded Room Dust"},
     [20130353] = {"@Anodyne/Apartment/1F Flooded Library Dust"},
     [20130354] = {"@Anodyne/Temple of the Seeing One/Laser Room Dust 1"},
     [20130355] = {"@Anodyne/Temple of the Seeing One/Laser Room Dust 2"},
