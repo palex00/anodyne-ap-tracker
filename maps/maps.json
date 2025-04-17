@@ -1,13 +1,13 @@
 [
     {
         "name": "APARTMENT",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/APARTMENT.png"
     },
     {
         "name": "BEACH",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/BEACH.png"
     },
@@ -19,211 +19,211 @@
     },
     {
         "name": "BLANK",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/BLANK.png"
     },
     {
         "name": "BLUE",
-        "location_size": 30,
+        "location_size": 16,
         "location_border_thickness": 1,
         "img": "images/maps/BLUE.png"
     },
     {
         "name": "BOSSRUSH",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/BOSSRUSH.png"
     },
     {
         "name": "CELL",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/CELL.png"
     },
     {
         "name": "CIRCUS",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/CIRCUS.png"
     },
     {
         "name": "CLIFFS",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/CLIFFS.png"
     },
     {
         "name": "CROWD",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/CROWD.png"
     },
     {
         "name": "DEBUG",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/DEBUG.png"
     },
     {
         "name": "DRAWER",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/DRAWER.png"
     },
     {
         "name": "FIELDS",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/FIELDS.png"
     },
     {
         "name": "FOREST",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/FOREST.png"
     },
     {
         "name": "GO",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/GO.png"
     },
     {
         "name": "HAPPY",
-        "location_size": 30,
+        "location_size": 16,
         "location_border_thickness": 1,
         "img": "images/maps/HAPPY.png"
     },
     {
         "name": "HOTEL",
-        "location_size": 30,
+        "location_size": 32,
         "location_border_thickness": 1,
         "img": "images/maps/HOTEL.png"
     },
     {
         "name": "NEXUS",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/NEXUS.png"
     },
     {
         "name": "OVERWORLD",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/OVERWORLD.png"
     },
     {
         "name": "REDCAVE",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/REDCAVE.png"
     },
     {
         "name": "REDSEA",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/REDSEA.png"
     },
     {
         "name": "SPACE",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/SPACE.png"
     },
     {
         "name": "STREET",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/STREET.png"
     },
     {
         "name": "SUBURB",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/SUBURB.png"
     },
     {
         "name": "TERMINAL",
-        "location_size": 30,
+        "location_size": 16,
         "location_border_thickness": 1,
         "img": "images/maps/TERMINAL.png"
     },
     {
         "name": "WINDMILL",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/WINDMILL.png"
     },
     {
         "name": "Z_BEACH",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/Z_BEACH.png"
     },
     {
         "name": "Z_BEDROOM",
-        "location_size": 30,
+        "location_size": 16,
         "location_border_thickness": 1,
         "img": "images/maps/Z_BEDROOM.png"
     },
     {
         "name": "Z_CELL",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/Z_CELL.png"
     },
     {
         "name": "Z_FIELDS",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/Z_FIELDS.png"
     },
     {
         "name": "Z_GO",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/Z_GO.png"
     },
     {
         "name": "Z_HOTEL",
-        "location_size": 30,
+        "location_size": 32,
         "location_border_thickness": 1,
         "img": "images/maps/Z_HOTEL.png"
     },
     {
         "name": "Z_OVERWORLD",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/Z_OVERWORLD.png"
     },
     {
         "name": "Z_REDSEA",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/Z_REDSEA.png"
     },
     {
         "name": "Z_SPACE",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/Z_SPACE.png"
     },
     {
         "name": "Z_STREET",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/Z_STREET.png"
     },
     {
         "name": "Z_SUBURB",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/Z_SUBURB.png"
     },
     {
         "name": "Z_WINDMILL",
-        "location_size": 30,
+        "location_size": 24,
         "location_border_thickness": 1,
         "img": "images/maps/Z_WINDMILL.png"
     }
