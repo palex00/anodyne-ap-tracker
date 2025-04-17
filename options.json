@@ -1,0 +1,398 @@
+[
+    {
+        "name": "Small Key Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Small Keys are Vanilla",
+                "img": "images/items/SmallKey.png",
+                "img_mods": "@disabled",
+                "codes": "opt_smallkey,opt_smallkey_vanilla"
+            },
+            {
+                "name": "Small Key Gates are unlocked",
+                "img": "images/items/SmallKey_unlocked.png",
+                "codes": "opt_smallkey,opt_smallkey_unlocked",
+                "inherit_codes": false
+            },
+            {
+                "name": "Small Keys are Shuffled",
+                "img": "images/items/SmallKey.png",
+                "codes": "opt_smallkey,opt_smallkey_shuffle",
+                "inherit_codes": false
+            },
+            {
+                "name": "Small Keys are Key Rings",
+                "img": "images/items/keyring.png",
+                "codes": "opt_smallkey,opt_smallkey_keyring",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Health Cicada Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+		"codes": "opt_cicada",
+        "stages": [
+            {
+                "name": "Health Cicadas are Vanilla",
+                "img": "images/items/life_cicada.png",
+                "img_mods": "@disabled",
+                "codes": "opt_cicada,opt_cicada_vanilla"
+            },
+            {
+                "name": "Health Cicadas are Shuffled",
+                "img": "images/items/life_cicada.png",
+                "codes": "opt_cicada,opt_cicada_shuffle",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Big Key Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Big Keys are Vanilla",
+                "img": "images/items/RedKey.png",
+                "img_mods": "@disabled",
+                "codes": "opt_bigkey,opt_bigkey_vanilla"
+            },
+            {
+                "name": "Big Key Gates are unlocked",
+                "img": "images/items/RedKey_unlocked.png",
+                "codes": "opt_bigkey,opt_bigkey_unlocked",
+                "inherit_codes": false
+            },
+            {
+                "name": "Big Keys are Shuffled",
+                "img": "images/items/RedKey.png",
+                "codes": "opt_bigkey,opt_bigkey_shuffle",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Red Cave Access",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Red Cave Access through Items",
+                "img": "images/items/ProgressiveRedCave.png",
+                "codes": "opt_redcave,opt_redcave_shuffle"
+            },
+            {
+                "name": "Red Cave Access Vanilla",
+                "img": "images/items/ProgressiveRedCave.png",
+                "img_mods": "@disabled",
+                "codes": "opt_redcave,opt_redcave_vanilla",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Split Windmill",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Windmill is Vanilla",
+                "img": "images/items/windmill.png",
+                "codes": "opt_windmill,opt_windmill_vanilla"
+            },
+            {
+                "name": "Windmill is Split",
+                "img": "images/items/windmill.png",
+                "img_mods": "@disabled",
+                "codes": "opt_windmill,opt_windmill_off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Nexus Gate Shuffle",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Nexus Gates are Vanilla",
+                "img": "images/items/nexusgateshuffle.png",
+                "img_mods": "@disabled",
+                "codes": "opt_nexus,opt_nexus_vanilla"
+            },
+            {
+                "name": "Nexus Gates are Items (except Postgame)",
+                "img": "images/items/nexusgateshuffle.png",
+                "codes": "opt_nexus,opt_nexus_nopost",
+                "inherit_codes": false
+            },
+            {
+                "name": "Nexus Gates are Items",
+                "img": "images/items/nexusgateshuffle.png",
+                "codes": "opt_nexus,opt_nexus_shuffle",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Victory Condition",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Goal: Defeat Briar",
+                "img": "images/items/briar.png",
+                "codes": "opt_goal,opt_goal_briar"
+            },
+            {
+                "name": "Goal: Final Gate",
+                "img": "images/items/cardgoal.png",
+                "codes": "opt_goal,opt_goal_cards",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Postgame Mode",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Postgame disabled",
+                "img": "images/items/postgame.png",
+                "img_mods": "@disabled",
+                "codes": "opt_postgame,opt_postgame_disabled"
+            },
+            {
+                "name": "Postgame Vanilla",
+                "img": "images/items/postgame.png",
+                "codes": "opt_postgame,opt_postgame_vanilla",
+                "inherit_codes": false
+            },
+            {
+                "name": "Postgame Unlocked",
+                "img": "images/items/Swap.png",
+                "codes": "opt_postgame,opt_postgame_unlocked",
+                "inherit_codes": false
+            },
+            {
+                "name": "Postgame Progressive",
+                "img": "images/items/ProgressiveSwap_prog.png",
+                "codes": "opt_postgame,opt_postgame_progressive",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Forest Bunny Chest",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Good.",
+                "img": "images/items/bunny.png",
+                "img_mods": "@disabled",
+                "codes": "opt_bunny,opt_bunny_false"
+            },
+            {
+                "name": "Why would you do this?",
+                "img": "images/items/bunny.png",
+                "codes": "opt_bunny,opt_bunny_true",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "GO Puzzle Randomization",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "GO Puzzle is Randomized",
+                "img": "images/items/gopuzzle.png",
+                "codes": "opt_puzzle,opt_puzzle_true"
+            },
+            {
+                "name": "Why would you do this?",
+                "img": "images/items/gopuzzle.png",
+                "img_mods": "@disabled",
+                "codes": "opt_puzzle,opt_puzzle_false",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dustsanity",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Dustsanity: Off",
+                "img": "images/items/dust.png",
+                "img_mods": "@disabled",
+                "codes": "opt_dustsanity,opt_dustsanity_off"
+            },
+            {
+                "name": "Dustsanity: On",
+                "img": "images/items/dust.png",
+                "codes": "opt_dustsanity,opt_dustsanity_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Hidden Paths",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Hidden Paths not in logic",
+                "img": "images/items/hiddenpath.png", // https://www.flaticon.com/free-icons/where "where icons" created by Aranagraphics - Flaticon
+                "img_mods": "@disabled",
+                "codes": "opt_hiddenpaths,opt_hiddenpaths_off"
+            },
+            {
+                "name": "Hidden Paths in logic",
+                "img": "images/items/hiddenpath.png",
+                "codes": "opt_hiddenpaths,opt_hiddenpaths_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "APARTMENT Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Apartment).png",
+        "codes": "nexus_apartment"
+    },
+    {
+        "name": "BEACH Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Beach).png",
+        "codes": "nexus_beach"
+    },
+    {
+        "name": "TEMPLE Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(TempleoftheSeeingOne).png",
+        "codes": "nexus_templeoftheseeingone"
+    },
+    {
+        "name": "BLUE Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Blue).png",
+        "codes": "nexus_blue"
+    },
+    {
+        "name": "CELL Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Cell).png",
+        "codes": "nexus_cell"
+    },
+    {
+        "name": "CIRCUS Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Circus).png",
+        "codes": "nexus_circus"
+    },
+    {
+        "name": "CLIFFS Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Cliffs).png",
+        "codes": "nexus_cliffs"
+    },
+    {
+        "name": "CAVERN Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(MountainCavern).png",
+        "codes": "nexus_mountaincavern"
+    },
+    {
+        "name": "FIELDS Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Fields).png",
+        "codes": "nexus_fields"
+    },
+    {
+        "name": "FOREST Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(DeepForest).png",
+        "codes": "nexus_deepforest"
+    },
+    {
+        "name": "GO Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(GO).png",
+        "codes": "nexus_go"
+    },
+    {
+        "name": "HAPPY Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Happy).png",
+        "codes": "nexus_happy"
+    },
+    {
+        "name": "HOTEL Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Hotel).png",
+        "codes": "nexus_hotel"
+    },
+    {
+        "name": "OVERWORLD Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Overworld).png",
+        "codes": "nexus_overworld"
+    },
+    {
+        "name": "RED CAVE Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(RedCave).png",
+        "codes": "nexus_redcave"
+    },
+    {
+        "name": "RED SEA Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(RedSea).png",
+        "codes": "nexus_redsea"
+    },
+    {
+        "name": "TOWN Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(YoungTown).png",
+        "codes": "nexus_youngtown"
+    },
+    {
+        "name": "SPACE Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Space).png",
+        "codes": "nexus_space"
+    },
+    {
+        "name": "TERMINAL Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(Terminal).png",
+        "codes": "nexus_terminal"
+    },
+    {
+        "name": "WINDMILL Nexus Gate unlocked from beginning",
+        "type": "toggle",
+		"img": "images/items/NexusGate(WindMill).png",
+        "codes": "nexus_windmill"
+    }
+]
