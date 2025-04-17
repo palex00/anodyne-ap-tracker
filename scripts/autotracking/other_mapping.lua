@@ -141,6 +141,15 @@ EVENT_MAPPING = {
     
     -- Misc
     "Opened_Windmill",
+    
+    ---- These are here so it doesn't crash
+    --"Opened_Redcave_R",
+    --"Opened_Redcave_L",
+    --"Opened_Redcave_N",
+    --"Extended_Swap",
+    --"SeenPuzzleHOTEL",
+    --"SeenPuzzleAPARTMENT",
+    --"SeenPuzzleCIRCUS",
 }
 
 BOSSES = {

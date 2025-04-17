@@ -65,7 +65,6 @@ ITEM_MAPPING = {
     [20130280] = {"Red_Key", "toggle"},
     [20130281] = {"Blue_Key", "toggle"},
     
-    [20130282] = {}, -- "HealthCicada", "consumable"
     [20130283] = {"CardboardBox", "toggle"},
     [20130284] = {"BikingShoes", "toggle"},
     [20130285] = {"ProgressiveRedCave", "consumable"},
@@ -97,11 +96,32 @@ ITEM_MAPPING = {
     [20130310] = {"NexusGate(Terminal)", "toggle"},
     [20130311] = {"NexusGate(Windmill)", "toggle"},
     
-    [20130314] = {"keyring(Apartment)}"},
-    [20130315] = {"keyring(TempleoftheSeeingOne)}"},
-    [20130316] = {"keyring(Circus)}"},
-    [20130317] = {"keyring(MountainCavern)}"},
-    [20130318] = {"keyring(Hotel)}"},
-    [20130319] = {"keyring(RedCave)}"},
-    [20130320] = {"keyring(Street)}"},
+    [20130314] = {"keyring(Apartment)", "toggle"},
+    [20130315] = {"keyring(TempleoftheSeeingOne)", "toggle"},
+    [20130316] = {"keyring(Circus)", "toggle"},
+    [20130317] = {"keyring(MountainCavern)", "toggle"},
+    [20130318] = {"keyring(Hotel)", "toggle"},
+    [20130319] = {"keyring(RedCave)", "toggle"},
+    [20130320] = {"keyring(Street)", "toggle"},
+    
+    
+    [20130282] = {}, -- "HealthCicada", "consumable"
+    [20130258] = {},
+    [20130259] = {},
+    [20130260] = {},
+    [20130261] = {},
+    [20130262] = {},
+    [20130263] = {},
+    [20130264] = {},
+    [20130265] = {},
+    [20130266] = {},
+    [20130267] = {},
+    [20130268] = {},
+    [20130269] = {},
+    [20130270] = {},
+    [20130271] = {},
+    [20130290] = {},
+    [20130291] = {},
+    [20130312] = {},
+    [20130313] = {},
 }

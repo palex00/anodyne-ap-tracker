@@ -444,7 +444,7 @@ function updateEvents(value)
         if (code == "Blue_Key" or code == "Red_Key" or code == "Green_Key") and not has("opt_bigkey_vanilla") then
            goto continue
         end
-           
+        
         Tracker:FindObjectForCode(code).Active = false
         
         ::continue::
@@ -462,7 +462,9 @@ function updateEvents(value)
             end
         else
             local obj = Tracker:FindObjectForCode(v)
-            obj.Active = true
+            if obj ~= nil then
+                obj.Active = true
+            end
         end
     end
 end
