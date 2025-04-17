@@ -175,6 +175,7 @@
 ,{"name": "Temple of the Seeing One​​​​​​​​​​​​​​", "sections": [{"name": "Defeated Seer", "ref": "Temple of the Seeing One/Defeated Seer"}], "map_locations": [{"map": "BEDROOM", "x": 392, "y": 59},{"map": "Z_BEDROOM", "x": 392, "y": 59}]}
 ,{"name": "Terminal", "sections": [{"name": "Broken Bridge Chest", "ref": "Terminal/Broken Bridge Chest"}], "map_locations": [{"map": "TERMINAL", "x": 744, "y": 392}]}
 ,{"name": "Terminal​", "sections": [{"name": "Warp Pad", "ref": "Terminal/Warp Pad"}], "map_locations": [{"map": "TERMINAL", "x": 448, "y": 736}]}
+,{"name": "Terminal​​", "sections": [{"name": "Defeated Sage", "ref": "Terminal/Defeated Sage"}], "map_locations": [{"map": "TERMINAL", "x": 400, "y": 522}]}
 ,{"name": "Windmill", "sections": [{"name": "Activation", "ref": "Windmill/Activation"}], "map_locations": [{"map": "WINDMILL", "x": 216, "y": 376},{"map": "Z_WINDMILL", "x": 216, "y": 376}]}
 ,{"name": "Windmill​", "sections": [{"name": "Windmill Activated", "ref": "Windmill/Windmill Activated"}], "map_locations": [{"map": "WINDMILL", "x": 216, "y": 376},{"map": "Z_WINDMILL", "x": 216, "y": 376}]}
 ,{"name": "Windmill​​​", "sections": [{"name": "Chest", "ref": "Windmill/Chest"}], "map_locations": [{"map": "WINDMILL", "x": 184, "y": 840},{"map": "Z_WINDMILL", "x": 184, "y": 840}]}
