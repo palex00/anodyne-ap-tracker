@@ -257,6 +257,7 @@ LOCATION_MAPPING = {
     [20130459] = {"@Anodyne/Hotel/2F Dustmaid and Steampipe Dust 3"},
     [20130460] = {"@Anodyne/Hotel/2F Dustmaid and Steampipe Dust 1"},
     [20130461] = {"@Anodyne/Hotel/2F Dustmaid and Steampipe Dust 2"},
+    [20130462] = {"@Anodyne/Hotel/2F Dustmaid Hallway Dust"},
     [20130463] = {"@Anodyne/Hotel/3F Stream Dustmaid Dust"},
     [20130464] = {"@Anodyne/Hotel/3F Bedroom Dust"},
     [20130465] = {"@Anodyne/Hotel/4F Slime Dust 2"},
