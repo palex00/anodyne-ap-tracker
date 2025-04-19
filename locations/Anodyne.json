@@ -1567,7 +1567,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor2"
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
                         ]
                     },
                     {
@@ -1579,7 +1579,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor2"
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
                         ]
                     },
                     {
@@ -1591,7 +1591,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor2"
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
                         ]
                     },
                     {
@@ -1603,7 +1603,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor2"
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
                         ]
                     },
                     {
@@ -1615,7 +1615,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor2"
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
                         ]
                     },
                     {
@@ -1627,7 +1627,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor2"
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
                         ]
                     },
                     {
@@ -1639,7 +1639,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor2"
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
                         ]
                     },
                     {
@@ -1651,7 +1651,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor2"
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
                         ]
                     },
                     {
@@ -1663,7 +1663,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor2"
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
                         ]
                     },
                     {
@@ -1675,7 +1675,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor2"
+                            "$combat, $jump, @Regions/Regions/crowdfloor2"
                         ]
                     }
                 ],
