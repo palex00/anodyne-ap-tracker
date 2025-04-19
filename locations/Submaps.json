@@ -149,11 +149,11 @@
 ,{"name": "Red Sea", "sections": [{"name": "Lonely Chest", "ref": "Red Sea/Lonely Chest"}], "map_locations": [{"map": "REDSEA", "x": 392, "y": 440},{"map": "Z_REDSEA", "x": 392, "y": 440}]}
 ,{"name": "Red Sea​", "sections": [{"name": "Out-of-bounds Chest", "ref": "Red Sea/Out-of-bounds Chest"}], "map_locations": [{"map": "REDSEA", "x": 40, "y": 1032},{"map": "Z_REDSEA", "x": 40, "y": 1032}]}
 ,{"name": "Red Sea​​", "sections": [{"name": "Warp Pad", "ref": "Red Sea/Warp Pad"}], "map_locations": [{"map": "REDSEA", "x": 560, "y": 384},{"map": "Z_REDSEA", "x": 560, "y": 384}]}
-,{"name": "Space", "sections": [{"name": "Challenge Area Chest", "ref": "Space/Challenge Area Chest"}], "map_locations": [{"map": "SPACE", "x": 880, "y": 1210},{"map": "SPACE", "x": 880, "y": 1210}]}
-,{"name": "Space​", "sections": [{"name": "Hidden Chest", "ref": "Space/Hidden Chest"}], "map_locations": [{"map": "SPACE", "x": 504, "y": 24},{"map": "SPACE", "x": 504, "y": 24}]}
-,{"name": "Space​​", "sections": [{"name": "Left Chest", "ref": "Space/Left Chest"}], "map_locations": [{"map": "SPACE", "x": 88, "y": 56},{"map": "SPACE", "x": 88, "y": 56}]}
-,{"name": "Space​​​", "sections": [{"name": "Right Chest", "ref": "Space/Right Chest"}], "map_locations": [{"map": "SPACE", "x": 1528, "y": 40},{"map": "SPACE", "x": 1528, "y": 40}]}
-,{"name": "Space​​​​", "sections": [{"name": "Warp Pad", "ref": "Space/Warp Pad"}], "map_locations": [{"map": "SPACE", "x": 880, "y": 400},{"map": "SPACE", "x": 880, "y": 400}]}
+,{"name": "Space", "sections": [{"name": "Challenge Area Chest", "ref": "Space/Challenge Area Chest"}], "map_locations": [{"map": "SPACE", "x": 880, "y": 1210},{"map": "Z_SPACE", "x": 880, "y": 1210}]}
+,{"name": "Space​", "sections": [{"name": "Hidden Chest", "ref": "Space/Hidden Chest"}], "map_locations": [{"map": "SPACE", "x": 504, "y": 24},{"map": "Z_SPACE", "x": 504, "y": 24}]}
+,{"name": "Space​​", "sections": [{"name": "Left Chest", "ref": "Space/Left Chest"}], "map_locations": [{"map": "SPACE", "x": 88, "y": 56},{"map": "Z_SPACE", "x": 88, "y": 56}]}
+,{"name": "Space​​​", "sections": [{"name": "Right Chest", "ref": "Space/Right Chest"}], "map_locations": [{"map": "SPACE", "x": 1528, "y": 40},{"map": "Z_SPACE", "x": 1528, "y": 40}]}
+,{"name": "Space​​​​", "sections": [{"name": "Warp Pad", "ref": "Space/Warp Pad"}], "map_locations": [{"map": "SPACE", "x": 880, "y": 400},{"map": "Z_SPACE", "x": 880, "y": 400}]}
 ,{"name": "Street", "sections": [{"name": "Broom Chest", "ref": "Street/Broom Chest"}], "map_locations": [{"map": "STREET", "x": 776, "y": 680},{"map": "Z_STREET", "x": 776, "y": 680}]}
 ,{"name": "Street​", "sections": [{"name": "Key Chest (Vanilla)", "ref": "Street/Key Chest (Vanilla)"}], "map_locations": [{"map": "STREET", "x": 24, "y": 664},{"map": "Z_STREET", "x": 24, "y": 664}]}
 ,{"name": "Street​​", "sections": [{"name": "Key Chest", "ref": "Street/Key Chest"}], "map_locations": [{"map": "STREET", "x": 24, "y": 664},{"map": "Z_STREET", "x": 24, "y": 664}]}
