@@ -42,7 +42,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/apartmentfloor1"
@@ -65,7 +66,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/apartmentfloor1"
@@ -196,7 +198,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/apartmentfloor2"
@@ -255,7 +258,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/apartmentfloor3"
@@ -410,7 +414,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat,$TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
@@ -453,7 +458,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/bedroom"
@@ -476,7 +482,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "@Regions/Regions/bedroom"
@@ -851,7 +858,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/circus"
@@ -934,7 +942,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/circus2"
@@ -957,7 +966,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/circus3"
@@ -980,7 +990,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/circus"
@@ -1335,7 +1346,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/crowdfloor2"
@@ -1358,7 +1370,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/crowdfloor2"
@@ -1381,7 +1394,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/crowdfloor2"
@@ -1404,7 +1418,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/crowdfloor2"
@@ -2555,7 +2570,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "@Regions/Regions/hotelfloor1, $smallkey|Hotel|3"
@@ -2578,7 +2594,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/hotelfloor2"
@@ -2601,7 +2618,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$jump, @Regions/Regions/hotelfloor2"
@@ -2624,7 +2642,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "@Regions/Regions/hotelfloor2right"
@@ -2667,7 +2686,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/hotelfloor3"
@@ -2690,7 +2710,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/hotelfloor3"
@@ -2713,7 +2734,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/hotelfloor4"
@@ -3259,7 +3281,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/redcaveleft"
@@ -3282,7 +3305,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/redcaveleft"
@@ -3325,7 +3349,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat, @Regions/Regions/redcavecenter"
@@ -3378,7 +3403,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "@Regions/Regions/redcavecenter"
@@ -3454,7 +3480,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "@Regions/Regions/redcaveright, $combat"
@@ -3477,7 +3504,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "@Regions/Regions/redcaveright, $combat"
@@ -3980,7 +4008,8 @@
                         "item_count": 1,
                         "visibility_rules": [
                             "opt_smallkey_shuffle",
-                            "opt_smallkey_unlocked"
+                            "opt_smallkey_unlocked",
+                            "opt_smallkey_keyring"
                         ],
                         "access_rules": [
                             "$combat"
@@ -4047,9 +4076,7 @@
                 "chest_unopened_img": "/images/items/close.png",
                 "chest_opened_img": "/images/items/open.png",
                 "overlay_background": "#000000",
-                "access_rules": [
-                    
-                ],
+                "access_rules": [],
                 "sections": [
                     {
                         "name": "Broken Bridge Chest",
@@ -4076,8 +4103,7 @@
                     {
                         "name": "Defeated Sage",
                         "hosted_item": "Defeated_Sage",
-                        "visibility_rules": [
-                        ],
+                        "visibility_rules": [],
                         "access_rules": [
                             "$combat, $jump, @Regions/Regions/terminaltop"
                         ]
