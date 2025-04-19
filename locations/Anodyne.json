@@ -94,7 +94,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/apartmentfloor1"
+                            "$combat, $jump, @Regions/Regions/apartmentfloor1"
                         ]
                     },
                     {
@@ -106,7 +106,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/apartmentfloor1topleft"
+                            "$combat, $jump, @Regions/Regions/apartmentfloor1topleft"
                         ]
                     },
                     {
@@ -226,7 +226,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/apartmentfloor2"
+                            "$combat, $jump, @Regions/Regions/apartmentfloor2"
                         ]
                     },
                     {
@@ -238,7 +238,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/apartmentfloor2"
+                            "$combat, $jump, @Regions/Regions/apartmentfloor2"
                         ]
                     },
                     {
@@ -250,7 +250,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/apartmentfloor2"
+                            "$combat, $jump, @Regions/Regions/apartmentfloor2"
                         ]
                     },
                     {
@@ -304,7 +304,7 @@
                             "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            "$combat,[$smallkey|Apartment|4],$smallkey|Apartment|2, @Regions/Regions/apartmentfloor3"
+                            "$combat,[$smallkey|Apartment|4], $smallkey|Apartment|2, @Regions/Regions/apartmentfloor3"
                         ]
                     },
                     {
@@ -561,7 +561,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|TempleoftheSeeingOne|1,[$smallkey|TempleoftheSeeingOne|3], @Regions/Regions/bedroom"
+                            "$combat, $smallkey|TempleoftheSeeingOne|1,[$smallkey|TempleoftheSeeingOne|3], @Regions/Regions/bedroom"
                         ]
                     },
                     {
@@ -585,7 +585,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, $jump, @Regions/Regions/bedroom"
                         ]
                     },
                     {
@@ -914,7 +914,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump,$smallkey|Circus|4, @Regions/Regions/circus4"
+                            "$combat, $jump, $smallkey|Circus|4, @Regions/Regions/circus4"
                         ]
                     },
                     {
@@ -934,7 +934,7 @@
                             "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/circus4"
+                            "$combat, $jump, @Regions/Regions/circus4"
                         ]
                     },
                     {
@@ -1444,7 +1444,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump, [$smallkey|MountainCavern|4], $jump,$smallkey|MountainCavern|3, @Regions/Regions/crowdfloor3"
+                            "$combat, $jump, [$smallkey|MountainCavern|4], $jump, $smallkey|MountainCavern|3, @Regions/Regions/crowdfloor3"
                         ]
                     },
                     {
@@ -1543,7 +1543,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor3"
+                            "$combat, $jump, @Regions/Regions/crowdfloor3"
                         ]
                     },
                     {
@@ -2085,7 +2085,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2109,7 +2109,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2121,7 +2121,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2133,7 +2133,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2157,7 +2157,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2253,7 +2253,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2265,7 +2265,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2277,7 +2277,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2289,7 +2289,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2301,7 +2301,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2313,7 +2313,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     },
                     {
@@ -2325,7 +2325,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fieldslake"
                         ]
                     }
                 ],
@@ -2760,7 +2760,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump,$smallkey|Hotel|1, @Regions/Regions/hotelfloor4"
+                            "$combat, $jump, $smallkey|Hotel|1, @Regions/Regions/hotelfloor4"
                         ]
                     },
                     {
@@ -2824,7 +2824,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor1"
+                            "$combat, $smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor1"
                         ]
                     },
                     {
@@ -2836,7 +2836,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|1, $jump, @Regions/Regions/hotelfloor3"
+                            "$combat, $smallkey|Hotel|1, $jump, @Regions/Regions/hotelfloor3"
                         ]
                     },
                     {
@@ -2860,7 +2860,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                            "$combat, $jump, @Regions/Regions/hotelfloor4"
                         ]
                     },
                     {
@@ -2872,7 +2872,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                            "$combat, $smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
                         ]
                     },
                     {
@@ -2884,7 +2884,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                            "$combat, $smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
                         ]
                     },
                     {
@@ -2896,7 +2896,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                            "$combat, $smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
                         ]
                     },
                     {
@@ -2908,7 +2908,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                            "$combat, $smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
                         ]
                     },
                     {
@@ -2920,7 +2920,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                            "$combat, $smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
                         ]
                     },
                     {
@@ -2932,7 +2932,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
+                            "$combat, $smallkey|Hotel|6, $jump, @Regions/Regions/hotelfloor1"
                         ]
                     },
                     {
@@ -2944,7 +2944,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/hotelfloor2"
+                            "$combat, $jump, @Regions/Regions/hotelfloor2"
                         ]
                     },
                     {
@@ -2956,7 +2956,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/hotelfloor2"
+                            "$combat, $jump, @Regions/Regions/hotelfloor2"
                         ]
                     },
                     {
@@ -2968,7 +2968,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|6, @Regions/Regions/hotelfloor1"
+                            "$combat, $jump, $smallkey|Hotel|6, @Regions/Regions/hotelfloor1"
                         ]
                     },
                     {
@@ -2980,7 +2980,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
+                            "$combat, $smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
                         ]
                     },
                     {
@@ -2992,7 +2992,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
+                            "$combat, $smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
                         ]
                     },
                     {
@@ -3004,7 +3004,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
+                            "$combat, $smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
                         ]
                     },
                     {
@@ -3016,7 +3016,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
+                            "$combat, $smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor2"
                         ]
                     },
                     {
@@ -3028,7 +3028,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor3"
+                            "$combat, $smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor3"
                         ]
                     },
                     {
@@ -3040,7 +3040,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor3"
+                            "$combat, $smallkey|Hotel|4, $jump, @Regions/Regions/hotelfloor3"
                         ]
                     },
                     {
@@ -3052,7 +3052,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                            "$combat, $jump, @Regions/Regions/hotelfloor4"
                         ]
                     },
                     {
@@ -3064,7 +3064,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                            "$combat, $jump, @Regions/Regions/hotelfloor4"
                         ]
                     },
                     {
@@ -3076,7 +3076,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                            "$combat, $jump, @Regions/Regions/hotelfloor4"
                         ]
                     },
                     {
@@ -3088,7 +3088,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                            "$combat, $jump, @Regions/Regions/hotelfloor4"
                         ]
                     },
                     {
@@ -3100,7 +3100,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$jump, @Regions/Regions/hotelfloor4"
+                            "$combat, $jump, @Regions/Regions/hotelfloor4"
                         ]
                     },
                     {
@@ -3112,7 +3112,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|1, $jump, @Regions/Regions/hotelfloor4"
+                            "$combat, $smallkey|Hotel|1, $jump, @Regions/Regions/hotelfloor4"
                         ]
                     },
                     {
@@ -3124,7 +3124,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Hotel|1, $jump, @Regions/Regions/hotelfloor4"
+                            "$combat, $smallkey|Hotel|1, $jump, @Regions/Regions/hotelfloor4"
                         ]
                     }
                 ],
@@ -4046,7 +4046,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Street|1, $combat, @Regions/Regions/street"
+                            "$combat, $smallkey|Street|1, $combat, @Regions/Regions/street"
                         ]
                     },
                     {
@@ -4058,7 +4058,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat,$smallkey|Street|1, $combat, @Regions/Regions/street"
+                            "$combat, $smallkey|Street|1, $combat, @Regions/Regions/street"
                         ]
                     }
                 ],
