@@ -585,7 +585,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroom"
                         ]
                     },
                     {
@@ -4327,7 +4327,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/blue"
+                            "$combat, $jump, @Regions/Regions/blue"
                         ]
                     }
                 ],
