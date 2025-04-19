@@ -181,9 +181,9 @@ function gate(which)
     local stage = gateObject.CurrentStage
     local countCode = "count_" .. which
     local countValue = Tracker:FindObjectForCode(countCode).AcquiredCount
-    local isGreenKey = greenkey
-    local isRedKey = redkey
-    local isBlueKey = bluekey
+    local isGreenKey = has("Green_Key")
+    local isRedKey = has("Red_Key")
+    local isBlueKey = has("Blue_Key")
     local defeated_bosses = 0
 
     -- Check the conditions based on the stage
