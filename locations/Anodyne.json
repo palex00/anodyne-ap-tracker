@@ -2800,7 +2800,7 @@
                             "$postgame_visibility"
                         ],
                         "access_rules": [
-                            "$post_swap, @Regions/Regions/hotelroof"
+                            "$combat, $post_swap, @Regions/Regions/hotelroof"
                         ]
                     },
                     {
