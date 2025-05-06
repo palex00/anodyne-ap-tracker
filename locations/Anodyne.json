@@ -226,7 +226,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/apartmentfloor2"
+                            "$combat, $jump, @Regions/Regions/apartmentfloor2, [$smallkey|Apartment|3], $smallkey|Apartment|1"
                         ]
                     },
                     {
@@ -238,7 +238,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/apartmentfloor2"
+                            "$combat, $jump, @Regions/Regions/apartmentfloor2, [$smallkey|Apartment|3], $smallkey|Apartment|1"
                         ]
                     },
                     {
@@ -418,7 +418,7 @@
                             "opt_smallkey_keyring"
                         ],
                         "access_rules": [
-                            "$combat,$TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
+                            "@Regions/Regions/bedroomafterstatue"
                         ]
                     },
                     {
@@ -430,7 +430,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat,$TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
+                            "@Regions/Regions/bedroomafterstatue"
                         ]
                     },
                     {
@@ -440,7 +440,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat,$TempleoftheSeeingOneStatue, @Regions/Regions/bedroomexit"
+                            "@Regions/Regions/bedroomafterstatue"
                         ]
                     },
                     {
@@ -462,7 +462,7 @@
                             "opt_smallkey_keyring"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "@Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -474,7 +474,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "@Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -486,7 +486,7 @@
                             "opt_smallkey_keyring"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/bedroom"
+                            "@Regions/Regions/bedroomentrance"
                         ]
                     },
                     {
@@ -498,7 +498,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/bedroom"
+                            "@Regions/Regions/bedroomentrance"
                         ]
                     },
                     {
@@ -551,7 +551,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "@Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -561,7 +561,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $smallkey|TempleoftheSeeingOne|1,[$smallkey|TempleoftheSeeingOne|3], @Regions/Regions/bedroom"
+                            "@Regions/Regions/bedroomshieldyroom"
                         ]
                     },
                     {
@@ -585,7 +585,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -597,7 +597,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -609,7 +609,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -621,7 +621,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -633,7 +633,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -645,7 +645,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -657,7 +657,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -669,7 +669,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomshieldyroom"
                         ]
                     },
                     {
@@ -681,7 +681,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomshieldyroom"
                         ]
                     },
                     {
@@ -693,7 +693,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -705,7 +705,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomentrance"
                         ]
                     },
                     {
@@ -717,7 +717,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomentrance"
                         ]
                     },
                     {
@@ -729,7 +729,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomcore"
                         ]
                     },
                     {
@@ -741,7 +741,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/bedroom"
+                            "$combat, @Regions/Regions/bedroomcore"
                         ]
                     }
                 ],
@@ -862,7 +862,7 @@
                             "opt_smallkey_keyring"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus"
+                            "@Regions/Regions/circusentrygauntlets"
                         ]
                     },
                     {
@@ -874,7 +874,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus"
+                            "@Regions/Regions/circusentrygauntlets"
                         ]
                     },
                     {
@@ -884,7 +884,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus4"
+                            "@Regions/Regions/circusbossgauntlet"
                         ]
                     },
                     {
@@ -894,7 +894,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus4"
+                            "@Regions/Regions/circusbossgauntlet"
                         ]
                     },
                     {
@@ -904,7 +904,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus"
+                            "@Regions/Regions/circusentrygauntlets"
                         ]
                     },
                     {
@@ -914,7 +914,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump, $smallkey|Circus|4, @Regions/Regions/circus4"
+                            "@Regions/Regions/circusnorthgauntlet"
                         ]
                     },
                     {
@@ -924,7 +924,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus2"
+                            "@Regions/Regions/circuscirclejumpgauntlets"
                         ]
                     },
                     {
@@ -934,7 +934,7 @@
                             "opt_cicada_shuffle"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus4"
+                            "@Regions/Regions/circusbossgauntlet"
                         ]
                     },
                     {
@@ -946,7 +946,7 @@
                             "opt_smallkey_keyring"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus2"
+                            "@Regions/Regions/circuscirclejumpgauntlets"
                         ]
                     },
                     {
@@ -958,7 +958,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus2"
+                            "@Regions/Regions/circuscirclejumpgauntlets"
                         ]
                     },
                     {
@@ -970,7 +970,7 @@
                             "opt_smallkey_keyring"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus3"
+                            "@Regions/Regions/circusthirdkeygauntlet"
                         ]
                     },
                     {
@@ -982,7 +982,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus3"
+                            "@Regions/Regions/circusthirdkeygauntlet"
                         ]
                     },
                     {
@@ -994,7 +994,7 @@
                             "opt_smallkey_keyring"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus"
+                            "@Regions/Regions/circusentrygauntlets"
                         ]
                     },
                     {
@@ -1006,7 +1006,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/circus"
+                            "@Regions/Regions/circus"
                         ]
                     },
                     {
@@ -1030,7 +1030,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus"
+                            "$combat, @Regions/Regions/circusentrygauntlets"
                         ]
                     },
                     {
@@ -1042,7 +1042,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus3"
+                            "$combat, @Regions/Regions/circusthirdkeygauntlet"
                         ]
                     },
                     {
@@ -1054,7 +1054,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus3"
+                            "$combat, @Regions/Regions/circusthirdkeygauntlet"
                         ]
                     },
                     {
@@ -1066,7 +1066,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus3"
+                            "$combat, @Regions/Regions/circusthirdkeygauntlet"
                         ]
                     },
                     {
@@ -1078,7 +1078,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus3"
+                            "$combat, @Regions/Regions/circusthirdkeygauntlet"
                         ]
                     },
                     {
@@ -1090,7 +1090,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus3"
+                            "$combat, @Regions/Regions/circusthirdkeygauntlet"
                         ]
                     },
                     {
@@ -1102,7 +1102,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus3"
+                            "$combat, @Regions/Regions/circusthirdkeygauntlet"
                         ]
                     },
                     {
@@ -1114,7 +1114,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus"
+                            "$combat, @Regions/Regions/circusbossgauntlet"
                         ]
                     },
                     {
@@ -1126,7 +1126,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus2"
+                            "$combat, @Regions/Regions/circuscirclejumpgauntlets"
                         ]
                     },
                     {
@@ -1138,7 +1138,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus2"
+                            "$combat, @Regions/Regions/circuscirclejumpgauntlets"
                         ]
                     },
                     {
@@ -1150,7 +1150,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus2"
+                            "$combat, @Regions/Regions/circuspastentrancelake"
                         ]
                     },
                     {
@@ -1162,7 +1162,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus3"
+                            "$combat, @Regions/Regions/circusthirdkeygauntlet"
                         ]
                     },
                     {
@@ -1174,7 +1174,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus3"
+                            "$combat, @Regions/Regions/circusthirdkeygauntlet"
                         ]
                     },
                     {
@@ -1186,7 +1186,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus"
+                            "$combat, @Regions/Regions/circusentrygauntlets"
                         ]
                     },
                     {
@@ -1198,7 +1198,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus"
+                            "$combat, @Regions/Regions/circusentrygauntlets"
                         ]
                     },
                     {
@@ -1210,7 +1210,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus"
+                            "$combat, @Regions/Regions/circusbossgauntlet"
                         ]
                     },
                     {
@@ -1222,7 +1222,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus"
+                            "$combat, @Regions/Regions/circusentrancelake"
                         ]
                     },
                     {
@@ -1234,7 +1234,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus"
+                            "$combat, @Regions/Regions/circuspastentrancelake"
                         ]
                     },
                     {
@@ -1246,7 +1246,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/circus"
+                            "$combat, @Regions/Regions/circusentrancelake"
                         ]
                     },
                     {
@@ -1338,7 +1338,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump, [$smallkey|MountainCavern|4], $smallkey|MountainCavern|1, @Regions/Regions/crowdfloor2"
+                            "[$smallkey|MountainCavern|4], $smallkey|MountainCavern|1, @Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1350,7 +1350,7 @@
                             "opt_smallkey_keyring"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "@Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1362,7 +1362,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "@Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1398,7 +1398,7 @@
                             "opt_smallkey_keyring"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "@Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1410,7 +1410,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "@Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1422,7 +1422,7 @@
                             "opt_smallkey_keyring"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "@Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1434,7 +1434,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "@Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1444,7 +1444,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$combat, $jump, [$smallkey|MountainCavern|4], $jump, $smallkey|MountainCavern|3, @Regions/Regions/crowdfloor3"
+                            "@Regions/Regions/crowdfloor3center"
                         ]
                     },
                     {
@@ -1555,7 +1555,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/crowdfloor3"
+                            "$combat, @Regions/Regions/crowdfloor3center"
                         ]
                     },
                     {
@@ -1567,7 +1567,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "$combat, @Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1579,7 +1579,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "$combat, @Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1591,7 +1591,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "$combat, @Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1603,7 +1603,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "$combat, @Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1615,7 +1615,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "$combat, @Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1627,7 +1627,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "$combat, @Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1639,7 +1639,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "$combat, @Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1651,7 +1651,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "$combat, @Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1663,7 +1663,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "$combat, @Regions/Regions/crowdfloor2gauntlets"
                         ]
                     },
                     {
@@ -1675,7 +1675,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/crowdfloor2"
+                            "$combat, @Regions/Regions/crowdfloor2gauntlets"
                         ]
                     }
                 ],
@@ -2157,7 +2157,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/fieldslake"
+                            "$combat, $jump, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -2217,7 +2217,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/fieldslake"
+                            "$combat, @Regions/Regions/fieldspastgate"
                         ]
                     },
                     {
@@ -2229,7 +2229,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/fieldslake"
+                            "$combat, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -2241,7 +2241,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/fieldslake"
+                            "$combat, @Regions/Regions/fields"
                         ]
                     },
                     {
@@ -3932,7 +3932,7 @@
                         "chest_unopened_img": "/images/items/dust.png",
                         "chest_opened_img": "/images/items/dust_collected.png",
                         "visibility_rules": [
-                            "opt_dustsanity_on"
+                            "opt_dustsanity_on, $postgame_visibility"
                         ],
                         "access_rules": [
                             "@Regions/Regions/spacegauntlet"
@@ -3944,7 +3944,7 @@
                         "chest_unopened_img": "/images/items/dust.png",
                         "chest_opened_img": "/images/items/dust_collected.png",
                         "visibility_rules": [
-                            "opt_dustsanity_on"
+                            "opt_dustsanity_on, $postgame_visibility"
                         ],
                         "access_rules": [
                             "@Regions/Regions/spacegauntlet"
@@ -3956,7 +3956,7 @@
                         "chest_unopened_img": "/images/items/dust.png",
                         "chest_opened_img": "/images/items/dust_collected.png",
                         "visibility_rules": [
-                            "opt_dustsanity_on"
+                            "opt_dustsanity_on, $postgame_visibility"
                         ],
                         "access_rules": [
                             "@Regions/Regions/spacegauntlet"
@@ -3968,7 +3968,7 @@
                         "chest_unopened_img": "/images/items/dust.png",
                         "chest_opened_img": "/images/items/dust_collected.png",
                         "visibility_rules": [
-                            "opt_dustsanity_on"
+                            "opt_dustsanity_on, $postgame_visibility"
                         ],
                         "access_rules": [
                             "@Regions/Regions/spacegauntlet"
@@ -4370,7 +4370,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/happy"
+                            "$combat, @Regions/Regions/happygauntlet"
                         ]
                     },
                     {
@@ -4382,7 +4382,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/happy"
+                            "$combat, @Regions/Regions/happygauntlet"
                         ]
                     }
                 ],
