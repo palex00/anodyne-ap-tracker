@@ -11,16 +11,12 @@
 ,{"name": "apartmentfloor2topleft","access_rules": ["@Regions/Regions/apartmentfloor1topleft, $combat", "@Regions/Regions/apartmentfloor1, [$smallkey|Apartment|4], $smallkey|Apartment|1"]}
 ,{"name": "apartmentfloor3","access_rules": ["@Regions/Regions/apartmentfloor2, [$smallkey|Apartment|3], $smallkey|Apartment|1, $jump"]}
 ,{"name": "beach","access_rules": ["$pad_access|beach","@Regions/Regions/fields", "@Regions/Regions/redsea"]}
-
 ,{"name": "bedroomentrance","access_rules": ["@Regions/Regions/overworld", "@Regions/Regions/bedroomcore, $combat", "@Regions/Regions/bedroomexit", "@Regions/Regions/overworldpostwindmill"]}
 ,{"name": "bedroomcore","access_rules": ["@Regions/Regions/bedroomentrance, $combat", "@Regions/Regions/bedroomexit, $combat"]}
 ,{"name": "bedroomshieldyroom","access_rules": ["@Regions/Regions/bedroomcore, [$smallkey|TempleoftheSeeingOne|3], $smallkey|TempleoftheSeeingOne|1"]}
 ,{"name": "bedroomafterstatue","access_rules": ["@Regions/Regions/bedroomexit, $TempleoftheSeeingOneStatue, $combat"]}
-
-
 ,{"name": "bedroomdrawer","access_rules": ["@Regions/Regions/drawer, $post_swap", "@Regions/Regions/overworld, $post_swap, $gate|overworldgauntlet, $combat"]}
 ,{"name": "bedroomexit","access_rules": ["$pad_access|templeoftheseeingone","@Regions/Regions/bedroomcore, $combat, $smallkey|TempleOfTheSeeingOne|1, [$templebossaccess]", "@Regions/Regions/overworldpostwindmill, $TempleoftheSeeingOneStatue, $smallkey|TempleoftheSeeingOne|3, $combat"]}
-
 ,{"name": "blankending","access_rules": ["@Regions/Regions/nexustop, $gate|nexusnorthfinal"]}
 ,{"name": "blankstart","access_rules": [""]}
 ,{"name": "blankwindmill","access_rules": ["@Regions/Regions/drawerdark, $gate|blankpostgame", "@Regions/Regions/fields, $post_swap"]}
