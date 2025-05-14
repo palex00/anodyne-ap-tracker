@@ -142,8 +142,8 @@
 ,{"name": "Red Cave​​​​", "sections": [{"name": "Top Cave Before Slasher Dust", "ref": "Red Cave/Top Cave Before Slasher Dust"}], "map_locations": [{"map": "REDCAVE", "x": 344, "y": 72}]}
 ,{"name": "Red Cave​​​​​", "sections": [{"name": "Top Cave Boss Dust 3", "ref": "Red Cave/Top Cave Boss Dust 3"}], "map_locations": [{"map": "REDCAVE", "x": 1096, "y": 136}]}
 ,{"name": "Red Cave​​​​​​", "sections": [{"name": "Top Cave Boss Dust 4", "ref": "Red Cave/Top Cave Boss Dust 4"}], "map_locations": [{"map": "REDCAVE", "x": 984, "y": 136}]}
-,{"name": "Red Cave​​​​​​​", "sections": [{"name": "Middle Cave Left Dust 1", "ref": "Red Cave/Middle Cave Left Dust 1"}], "map_locations": [{"map": "REDCAVE", "x": 40, "y": 568}]}
-,{"name": "Red Cave​​​​​​​​", "sections": [{"name": "Middle Cave Left Dust 2", "ref": "Red Cave/Middle Cave Left Dust 2"}], "map_locations": [{"map": "REDCAVE", "x": 40, "y": 616}]}
+,{"name": "Red Cave​​​​​​​", "sections": [{"name": "Left Cave Rapids Dust 1", "ref": "Red Cave/Left Cave Rapids Dust 1"}], "map_locations": [{"map": "REDCAVE", "x": 40, "y": 568}]}
+,{"name": "Red Cave​​​​​​​​", "sections": [{"name": "Left Cave Rapids Dust 2", "ref": "Red Cave/Left Cave Rapids Dust 2"}], "map_locations": [{"map": "REDCAVE", "x": 40, "y": 616}]}
 ,{"name": "Red Cave​​​​​​​​​", "sections": [{"name": "Right Cave Before Slasher Dust", "ref": "Red Cave/Right Cave Before Slasher Dust"}], "map_locations": [{"map": "REDCAVE", "x": 1032, "y": 712}]}
 ,{"name": "Red Cave​​​​​​​​​​", "sections": [{"name": "Right Cave Whirlpool Dust 1", "ref": "Red Cave/Right Cave Whirlpool Dust 1"}], "map_locations": [{"map": "REDCAVE", "x": 1080, "y": 808}]}
 ,{"name": "Red Cave​​​​​​​​​​​", "sections": [{"name": "Left Cave Whirlpool Dust 1", "ref": "Red Cave/Left Cave Whirlpool Dust 1"}], "map_locations": [{"map": "REDCAVE", "x": 392, "y": 856}]}
