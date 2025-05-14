@@ -3660,7 +3660,7 @@
                         ]
                     },
                     {
-                        "name": "Middle Cave Left Dust 1",
+                        "name": "Left Cave Rapids Dust 1",
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/dust.png",
                         "chest_opened_img": "/images/items/dust_collected.png",
@@ -3668,11 +3668,11 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/redcavecenter"
+                            "$combat, @Regions/Regions/redcaveleft"
                         ]
                     },
                     {
-                        "name": "Middle Cave Left Dust 2",
+                        "name": "Left Cave Rapids Dust 2",
                         "item_count": 1,
                         "chest_unopened_img": "/images/items/dust.png",
                         "chest_opened_img": "/images/items/dust_collected.png",
@@ -3680,7 +3680,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/redcavecenter"
+                            "$combat, @Regions/Regions/redcaveleft"
                         ]
                     },
                     {
