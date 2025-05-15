@@ -1006,7 +1006,7 @@
                             "opt_smallkey_vanilla"
                         ],
                         "access_rules": [
-                            "@Regions/Regions/circus"
+                            "@Regions/Regions/circusentrygauntlets"
                         ]
                     },
                     {
