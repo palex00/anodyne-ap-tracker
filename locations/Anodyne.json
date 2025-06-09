@@ -2217,7 +2217,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, @Regions/Regions/fieldspastgate"
+                            "$combat, @Regions/Regions/terminal"
                         ]
                     },
                     {
