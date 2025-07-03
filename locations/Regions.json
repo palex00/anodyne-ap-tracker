@@ -47,7 +47,7 @@
 ,{"name": "fieldslake","access_rules": ["@Regions/Regions/fields, $combat, $jump"]}
 ,{"name": "fieldspastgate","access_rules": ["@Regions/Regions/fieldsnorthsecretarea, [opt_hiddenpaths_on]", "@Regions/Regions/terminal, $jump", "@Regions/Regions/fields, $gate|fieldsterminal"]}
 ,{"name": "fieldsnorthsecretarea","access_rules": ["@Regions/Regions/fields, $post_swap", "@Regions/Regions/fieldspastgate, [opt_hiddenpaths_on]"]}
-,{"name": "fieldsgoldmanscave","access_rules": ["@Regions/Regions/fields, $miao"]}
+,{"name": "fieldsgoldmanscave","access_rules": ["@Regions/Regions/fields, miao"]}
 ,{"name": "fieldseast","access_rules": ["@Regions/Regions/fieldsgoldmanscave", "@Regions/Regions/fields", "@Regions/Regions/forest, $combat"]}
 ,{"name": "forest","access_rules": ["$pad_access|deepforest","@Regions/Regions/cliff", "@Regions/Regions/fields, $combat"]}
 ,{"name": "gobottom","access_rules": ["$pad_access|go", "@Regions/Regions/terminaltop, $combat, $jump"]}
