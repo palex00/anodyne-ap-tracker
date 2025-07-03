@@ -35,7 +35,7 @@
 ,{"name": "Circus", "sections": [{"name": "Arthur Chest (Vanilla)", "ref": "Circus/Arthur Chest (Vanilla)"}], "map_locations": [{"map": "CIRCUS", "x": 1208, "y": 824}]}
 ,{"name": "Circus​", "sections": [{"name": "Arthur Chest", "ref": "Circus/Arthur Chest"}], "map_locations": [{"map": "CIRCUS", "x": 1208, "y": 824}]}
 ,{"name": "Circus​​", "sections": [{"name": "Boss Chest", "ref": "Circus/Boss Chest"}], "map_locations": [{"map": "CIRCUS", "x": 1192, "y": 24}]}
-,{"name": "Circus​​​", "sections": [{"name": "Defeated Servants", "ref": "Circus/Defeated Servants"}], "map_locations": [{"map": "CIRCUS", "x": 1192, "y": 24}]}
+,{"name": "Circus​​​", "sections": [{"name": "Defeated Servants", "ref": "Circus/Defeated Servants"}], "map_locations": [{"map": "CIRCUS", "x": 728, "y": 184}]}
 ,{"name": "Circus​​​​", "sections": [{"name": "Clowns Chest", "ref": "Circus/Clowns Chest"}], "map_locations": [{"map": "CIRCUS", "x": 88, "y": 504}]}
 ,{"name": "Circus​​​​​", "sections": [{"name": "Double Clowns Chest", "ref": "Circus/Double Clowns Chest"}], "map_locations": [{"map": "CIRCUS", "x": 616, "y": 424}]}
 ,{"name": "Circus​​​​​​", "sections": [{"name": "Fire Pillar Chest", "ref": "Circus/Fire Pillar Chest"}], "map_locations": [{"map": "CIRCUS", "x": 536, "y": 1080}]}
