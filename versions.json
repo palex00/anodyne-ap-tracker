@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.0",
+			"download_url": "https://github.com/palex00/anodyne-ap-tracker/archive/refs/tags/1.1.0.zip",
+			"sha256": "6658002d77709487ab4e1242f102cb5ae12ef0408e489af2efd373ab40673346",
+			"changelog": ["Miao Compatibility Update"]
+		},
+		{
 			"package_version": "1.0.9",
 			"download_url": "https://github.com/palex00/anodyne-ap-tracker/archive/refs/tags/1.0.9.zip",
 			"sha256": "3e7f5b035ea157e9d21f0a8357bdfe9c690fa41f3e9151eb8ad4612179576ee7",
