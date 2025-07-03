@@ -34,6 +34,12 @@
         "codes": "Swap"
     },
     {
+        "name": "Miao",
+        "type": "toggle",
+        "img": "/images/items/Miao.png",
+        "codes": "Miao"
+    },
+    {
         "name": "Card Count",
         "type": "consumable",
         "allow_disabled": true,

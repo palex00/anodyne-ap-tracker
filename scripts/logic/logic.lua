@@ -109,6 +109,10 @@ function combat()
 	return has("Broom") or has("Widen") or has("Extend")
 end
 
+function miao()
+	return has("Miao") or Tracker:FindObjectForCode("opt_miao_logic").CurrentStage == 0
+end
+
 
 function smallkey(WHERE,AMOUNT)
     AMOUNT = tonumber(AMOUNT)

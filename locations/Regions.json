@@ -47,6 +47,8 @@
 ,{"name": "fieldslake","access_rules": ["@Regions/Regions/fields, $combat, $jump"]}
 ,{"name": "fieldspastgate","access_rules": ["@Regions/Regions/fieldsnorthsecretarea, [opt_hiddenpaths_on]", "@Regions/Regions/terminal, $jump", "@Regions/Regions/fields, $gate|fieldsterminal"]}
 ,{"name": "fieldsnorthsecretarea","access_rules": ["@Regions/Regions/fields, $post_swap", "@Regions/Regions/fieldspastgate, [opt_hiddenpaths_on]"]}
+,{"name": "fieldsgoldmanscave","access_rules": ["@Regions/Regions/fields, $miao"]}
+,{"name": "fieldseast","access_rules": ["@Regions/Regions/fieldsgoldmanscave", "@Regions/Regions/fields", "@Regions/Regions/forest, $combat"]}
 ,{"name": "forest","access_rules": ["$pad_access|deepforest","@Regions/Regions/cliff", "@Regions/Regions/fields, $combat"]}
 ,{"name": "gobottom","access_rules": ["$pad_access|go", "@Regions/Regions/terminaltop, $combat, $jump"]}
 ,{"name": "gotop","access_rules": ["@Regions/Regions/blue", "@Regions/Regions/gobottom, $pre_swap, $jump, $combat, @Anodyne/Hotel/Boss Chest, @Anodyne/Apartment/Boss Chest, @Anodyne/Circus/Boss Chest", "@Regions/Regions/gobottom, $pre_swap, opt_puzzle_false", "@Regions/Regions/happy"]}
@@ -61,7 +63,7 @@
 ,{"name": "nexusbottom","access_rules": ["@Regions/Regions/blankstart", "@Regions/Regions/street"]}
 ,{"name": "nexustop","access_rules": ["@Regions/Regions/blankending, $gate|nexusnorthfinal", "@Regions/Regions/bossrush", "@Regions/Regions/debug", "@Regions/Regions/drawerdark"]}
 ,{"name": "overworld","access_rules": ["@Regions/Regions/overworldwest, $combat", "$pad_access|overworld","@Regions/Regions/bedroomdrawer, $post_swap", "@Regions/Regions/bedroomentrance", "@Regions/Regions/overworldpostwindmill", "@Regions/Regions/street, $combat, $smallkey|Street|1"]}
-,{"name": "overworldwest","access_rules": ["@Regions/Regions/overworld, $combat", "@Regions/Regions/fields, $gate|overworldfields", ]}
+,{"name": "overworldwest","access_rules": ["@Regions/Regions/overworld, $combat", "@Regions/Regions/fields, $gate|overworldfields" ]}
 ,{"name": "overworldpostwindmill","access_rules": ["@Regions/Regions/bedroomexit, $TempleoftheSeeingOneStatue, [$smallkey|TempleoftheSeeingOne|3], $smallkey|TempleoftheSeeingOne|2, $combat", "@Regions/Regions/suburb"]}
 ,{"name": "redcavebottom","access_rules": ["@Regions/Regions/redsea"]}
 ,{"name": "redcavecenter","access_rules": ["@Regions/Regions/redsea"]}
