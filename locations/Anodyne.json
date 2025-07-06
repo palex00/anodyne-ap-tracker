@@ -2157,7 +2157,7 @@
                             "opt_dustsanity_on"
                         ],
                         "access_rules": [
-                            "$combat, $jump, @Regions/Regions/fields"
+                            "$combat, @Regions/Regions/fields"
                         ]
                     },
                     {
