@@ -1,7 +1,7 @@
 {
     "name": "Anodyne Archipelago Tracker",
     "game_name": "Anodyne",
-    "package_version": "1.1.0",
+    "package_version": "1.1.1",
     "package_uid": "anodyne_ap",
     "author": "palex00",
     "min_poptracker_version": "0.30.4",
