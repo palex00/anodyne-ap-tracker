@@ -58,7 +58,7 @@
 ,{"name": "hotelfloor2","access_rules": ["@Regions/Regions/hotelfloor1", "@Regions/Regions/hotelfloor3, [$smallkey|Hotel|4], $smallkey|Hotel|2"]}
 ,{"name": "hotelfloor2right","access_rules": ["@Regions/Regions/hotelfloor3, [$smallkey|Hotel|6], $smallkey|Hotel|2"]}
 ,{"name": "hotelfloor3","access_rules": ["@Regions/Regions/hotelfloor2right", "@Regions/Regions/hotelfloor2", "@Regions/Regions/hotelfloor4, $combat, $jump, $smallkey|Hotel|1"]}
-,{"name": "hotelfloor4","access_rules": ["$pad_access|hotel","@Regions/Regions/hotelfloor3, $combat, $jump", "@Regions/Regions/hotelroof"]}
+,{"name": "hotelfloor4","access_rules": ["$pad_access|hotel","@Regions/Regions/hotelfloor3, $combat, $jump", "@Regions/Regions/hotelroof, $jump"]}
 ,{"name": "hotelroof","access_rules": ["@Regions/Regions/hotelfloor4", "@Regions/Regions/space"]}
 ,{"name": "nexusbottom","access_rules": ["@Regions/Regions/blankstart", "@Regions/Regions/street"]}
 ,{"name": "nexustop","access_rules": ["@Regions/Regions/blankending, $gate|nexusnorthfinal", "@Regions/Regions/bossrush", "@Regions/Regions/debug", "@Regions/Regions/drawerdark"]}
